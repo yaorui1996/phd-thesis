@@ -1,0 +1,95 @@
+% !TeX root = ../thuthesis-example.tex
+
+\chapter{Experimental Setup}
+
+\section{Introduction}
+
+中文论文的数学符号默认遵循 GB/T 3102.11—1993《物理科学和技术中使用的数学符号》
+\footnote{原 GB 3102.11—1993，自 2017 年 3 月 23 日起，该标准转为推荐性标准。}。
+该标准参照采纳 ISO 31-11:1992 \footnote{目前已更新为 ISO 80000-2:2019。}，
+但是与 \TeX{} 默认的美国数学学会（AMS）的符号习惯有所区别。
+具体地来说主要有以下差异：
+\begin{enumerate}
+  \item 大写希腊字母默认为斜体，如
+        \begin{equation*}
+          \Gamma \Delta \Theta \Lambda \Xi \Pi \Sigma \Upsilon \Phi \Psi \Omega.
+        \end{equation*}
+        注意有限增量符号 $\increment$ 固定使用正体，模板提供了 \cs{increment} 命令。
+  \item 小于等于号和大于等于号使用倾斜的字形 $\le$、$\ge$。
+  \item 积分号使用正体，比如 $\int$、$\oint$。
+  \item
+        偏微分符号 $\partial$ 使用正体。
+  \item
+        省略号 \cs{dots} 按照中文的习惯固定居中，比如
+        \begin{equation*}
+          1, 2, \dots, n \quad 1 + 2 + \dots + n.
+        \end{equation*}
+  \item
+        实部 $\Re$ 和虚部 $\Im$ 的字体使用罗马体。
+\end{enumerate}
+
+以上数学符号样式的差异可以在模板中统一设置。
+另外国标还有一些与 AMS 不同的符号使用习惯，需要用户在写作时进行处理：
+\begin{enumerate}
+  \item 数学常数和特殊函数名用正体，如
+        \begin{equation*}
+          \uppi = 3.14\dots; \quad
+          \symup{i}^2 = -1; \quad
+          \symup{e} = \lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n.
+        \end{equation*}
+  \item 微分号使用正体，比如 $\dif y / \dif x$。
+  \item 向量、矩阵和张量用粗斜体（\cs{symbf}），如 $\symbf{x}$、$\symbf{\Sigma}$、$\symbfsf{T}$。
+  \item 自然对数用 $\ln x$ 不用 $\log x$。
+\end{enumerate}
+
+
+英文论文的数学符号使用 \TeX{} 默认的样式。
+如果有必要，也可以通过设置 \verb|math-style| 选择数学符号样式。
+
+关于量和单位推荐使用
+\href{http://mirrors.ctan.org/macros/latex/contrib/siunitx/siunitx.pdf}{\pkg{siunitx}}
+宏包，
+可以方便地处理希腊字母以及数字与单位之间的空白，
+比如：
+\SI{6.4e6}{m}，
+\SI{9}{\micro\meter}，
+\si{kg.m.s^{-1}}，
+\SIrange{10}{20}{\degreeCelsius}。
+
+
+
+\section{The Cryostat}
+
+The cryostat is the key equipment of the cryogenic trapped ion system. We need to pay attention to some key technical indicators when choosing the model of the cryostat, designing the internal support structure and the assembly structure of the trap-related components. The most critical technical indicators are cooling capacity and vibration. Low temperature is the advantage of the cryogenic trap over the room-temperature trap. We can achieve low pressure by cryo-pumping to reduce the collision rate of trapped ions with residual background gas, thereby increasing the lifetime of trapped ions. The price of cryo-pumping is additional vibration, however, the vibration can be reduced to a degree that does not affect Quantum Gate Fidelity. In experiments, we often use these two parameters to characterize the cooling capacity. One is the lowest temperature that the system can reach when the cryogenic trap is not temperature stabilized, and the other is the heating power at the sample stage when the temperature of the cryogenic trap is stabilized above the liquid helium temperature zone and the vibration caused by liquid helium is reduced to a certain range. Another key technical indicator of the cryostat is the long-term stability at the sample, including changes in displacement and background electric field. This will affect the calibration period of the ion trap experiment. Calibration that is too frequent indicates a lack of robustness in the experiment system.
+There are several different types of cryostats on the market. One of these is the flow cryostat, which has lower cryocooler vibration noise but requires constant replenishment of cold liquid coolant, which is expensive and time-consuming. In contrast, the cryogenic trapped ion system in our lab uses a closed-loop Gifford-McMahon cryostat. This type of cryostat uses closed-cycle helium gas as operation material in cooling cycle and does not require constant refilling of the coolant. It is very convenient to use and cheap to maintain as it only needs external electric supply.
+One of the advantages of this closed-loop cryostat is that it has a Vibration Isolation System (VIS). The vibrating cold finger is mechanically separated from the main vacuum by a helium-filled exchange gas region at a pressure 0.03 bar above atmospheric. The VIS is the only mechanical coupling between the cold head and the main vacuum apparatus which is mounted on an optical breadboard. In the VIS region, it is sealed with a helium-confined rubber bellows. The helium gas serves as the thermal link between the cold finger and the sample stage where the ion trap is mounted.
+Another advantage of this closed-cycle cryostat is that its structure is relatively simple, and we can increase cooling capacity and reduce vibration through optimized design, because it is difficult to optimize each parameter independently in a complex system.
+The cryostat is model SHI-4XG-15-UHV, designed and manufactured by Janis Inc. In order to reduce vibration, we provide some design suggestions. The cryostat consists of a cold head, an exchange gas chamber and a vacuum chamber.
+The cold head is powered by a helium compressor. The models of cold head and helium compressor are RDK-415D2 and F70-H produced by Sumitomo Corporation of Japan. The cold head features two stages with different cooling powers: the 40 K stage has XX W, and the 4 K stage has XX W. The cold head must be fixed near the vacuum chamber, but there are only three interfaces of the cold head: the power supply, the supply high-pressure helium tube and the return high-pressure helium tube. Therefore, we placed the helium compressor and water cooler in the grey room of the laboratory to further isolate the source of vibration noise. The single continuous running time of the cold head can exceed 10,000 hours, which is enough for us to carry out long-term experiments.
+The exchange gas chamber is mainly composed of rubber bellow, helium pressure gauge and some helium valves, the top and bottom are respectively connected to the cold head and the vacuum chamber. The role of bellow is to reduce the vibration generated by the cold head and directly transmitted to the vacuum chamber, because rubber is more elastic than stainless steel. I think it is worth trying to replace the rubber bellow with a stainless-steel sheet that has been bent many times, because using a rubber bellow may cause leakage in the long-term operation of the system. Leakage of rubber bellow may come from three aspects. Firstly, the rubber material will deteriorate after a long-time use, our system has a leakage problem after about 2 years of operation, which is manifested as water inside the exchange gas chamber after the process of cooling down and warming up. Secondly, the rubber bellow is prone to defects during machining, we contacted our supplier to process a new rubber bellow after we found the leakage problem, and found that some of the rubber bellow had defects on the surface during many attempts. Finally, the sealing method of rubber bellow is worse than that of stainless steel, our cryostat uses o-ring to seal rubber bellow. We tried to have the supplier process different rubber bellow to test the leakage, such as testing different materials and thickness of rubber bellow, in some poor cases after a single cooling and reheating process will appear leakage, we finally used silicone rubber bellow and the thickness is twice the original and no leakage has been found so far.
+
+
+
+
+\section{Low Temperature and UHV System}
+
+The vacuum chamber resembles a cylinder with a diameter of about XX and a height of about XX. Externally, the upper part of the vacuum chamber has some feedthroughs connecting the electrical equipment to the vacuum equipment, and the lower part is a spherical octagon. The top of the vacuum chamber is in contact with the exchange gas chamber, and the bottom is the re-entrant window. In our experiments, we used a total of three electrical feedthroughs, one DC feedthrough to drive the voltage signal to the electrodes of the trap, another DC feedthrough to drive the thermometer and heater in the vacuum chamber, and an RF feedthrough to drive the RF signal to the resonator. Below them, there are a total of three Vacuum feedthroughs, one connected to an ion gauge (Agilent UHV-24P) to monitor the vacuum level in the vacuum chamber, one connected to a NEG-Ion pump (SAES NextTorr Z100) to pump out hydrogen, since hydrogen is the least efficiently cryo-pumped gas, and an angle valve to pump out vacuum during system maintenance. A spherical octagon holds eight XX diameter windows to provide optical access in the horizontal plane, the windows are made of UVFS and have different wavelength optical coatings according to the optical path design. We replaced one of the windows along the trap axis with an oven feedthrough, and installed both enriched 171Yb oven and enriched 174Yb oven on it, and finally tested them to work. However, assembly errors during installation may cause the Yb flux cannot enter the trap during ion loading, we can increase the translation degrees of freedom when designing the part to solve this problem. According to our experience, because of the large divergence angle of Yb flux, we just need to be able to see the trap and oven through the opposite window. The re-entrant window located at the bottom of the vacuum chamber has a diameter of XX, below which is the imaging system. The maximum numerical aperture allowed for imaging ions along the vertical direction is XX. The Re-entrant window is surrounded by a cake-shaped aluminum base placed on an optical breadboard, and the base carries the full weight of the vacuum chamber. We tried to fasten between the upper part of the vacuum chamber and the optical breadboard with an aluminum sloped beam, but it did not reduce the vibration of the trap, indicating that the current support structure is solid enough.
+The main components inside the vacuum chamber are the 40K shield, the 4K shield and the sample stage. These two shields are used to shield the ion trap from room temperature blackbody radiation, their material is aluminum, but copper may be a better choice because copper material has a higher thermal conductivity. The bottom of the two shields are eight 1" UVFS windows, which correspond to the spherical octagon and have the same optical coating. The glass is fixed in the groove by the Teflon holder in order to keep the windows from being crushed during the cooling procedure, however, because of the elasticity of Teflon, the positioning accuracy of the windows is poor, which may be the main source of optical aberration. The top of the 40K shield is in contact with the 40K stage of the cold head through the helium gas in the exchange gas chamber, which is usually higher than 40K, we named it that way just because it is intuitive. The top of the 4K shield is fixed to the sample stage, which is made of oxygen-free copper with a gold-plated surface to obtain a high thermal conductivity and to prevent oxidation during system maintenance. The sample stage and the 4K stage of the cold head are separated by a heat exchanger and cryogenic helium gas. The 4K stage can reach temperatures below 4K, and the heat exchanger is composed of a series of concentric circular oxygen-free copper sheets, which are designed to increase the cooling capacity at the sample stage. However, if the position between a pair of heat exchangers is shifted during operation and touches each other, it can introduce large vibrations to the sample stage, for example when floating the optical table.
+Although the cooling power of the 4K stage in the cold head reaches XX W, the cooling capacity of the sample stage in the vacuum chamber, which is directly available to the user, is much lower. The reduction of the cooling capacity comes from the heat conduction between the 4K stage and the sample stage and the heat leakage from the environment. In order to improve the heat transfer between the 4K stage and the sample stage, we can increase the surface area of the heat exchanger, we can also fill the exchange gas chamber with sufficient helium gas, and it is necessary to use oxygen-free copper to produce thermally conductive parts. In our experiments, we use auto gas charging system to stabilize the helium pressure in the exchange gas chamber at a fixed positive pressure. It is worth noting that the rubber bellow loses its vibration isolation function under negative pressure, and the life of the rubber bellow is reduced. The auto gas charging system was designed by PHYSIK and is based on the principle of using a PLC to read the helium pressure gauge and control the opening and closing moments of the helium valves, which will eventually stabilize the helium pressure gauge at 1.03 bar. There are two helium valves to control the helium inlet and outlet, and one safety value to allow excess helium to escape, preventing the bellow from bursting when the auto gas charging system is not working. The temperature stabilize system is a kit we purchased from Janis Inc. and consists of a thermometer, heater and temperature controller. The thermometer (DT-670-CU-HT-1.4H) is located inside the sample stage in the vacuum chamber and has a measurement range of 1.4K-500K, covering the cryostat operating range of approximately 4K-300K. The heater is a 25 Ohm resistor very close to the thermometer. The DC lines of the heater and the thermometer are connected to the temperature controller (Model 26 from CryoCon) on the instrument rack via a DC feedthrough on the vacuum chamber. In low temperature operation, the temperature of the Sample Stage can be stabilized at 6K±XXmK for a long time by setting the appropriate PID parameters. The output power of the heater is about 350mW, which means that the cooling power of the sample stage has a margin of 350mW.
+The auto gas charging system and The temperature stabilize system are the key systems for the long-term stability of the cryostat. Although the temperature of This cryostat has almost no drift, we can observe that the trap can shift ±1 μm during the experiment. The operation to avoid the effects of such position shifts by frequent calibration of the system parameters is very complicated, so this instability can be fatal for an experimental system. The long drift of the sample stage comes from the mechanical structure of the cryostat. The auto gas charging system can only stabilize the helium pressure near the rubber bellow, and the 40K stage and 4K stage of the cold head are not stabilized. Therefore, the pressure and temperature in the contact part of the vacuum chamber and the exchange gas chamber cannot be stabilized for a long time. However, this part is the support point of the sample stage, so the sample stage will be disturbed by these external environmental changes. We can consider fixing the sample stage to the room temperature area of the vacuum chamber, which will not move if the laboratory environment is stable, but this will inevitably increase the heat leakage from the room temperature area. In our experiments, we first pumped the vacuum chamber to 1E-6 mBar at room temperature using the Turbo Pump, then activated the NEG-Ion Pump for about 2 hours, and at the end of the operation the vacuum chamber vacuum level dropped to 1E-8 mBar. The vacuum chamber can reach a vacuum level of 3E-10 mBar with the effect of the cryo-pump.
+
+
+
+\section{Helical Resonator and Segmented Blade Trap}
+
+
+
+\section{Mechanics Frame}
+
+
+
+\section{Optics and Imaging System}
+
+
+
+\section{Electronic Devices}
