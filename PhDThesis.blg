@@ -1,7 +1,8 @@
 This is BibTeX, Version 0.99d (TeX Live 2022)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: thuthesis-example.aux
+The top-level auxiliary file: PhDThesis.aux
 The style file: thuthesis-numeric.bst
+I found no \citation commands---while reading file PhDThesis.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 150 items from 100.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
@@ -15,44 +16,45 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ref/refs.bib
-You've used 34 entries,
+You've used 0 entries,
             5374 wiz_defined-function locations,
-            1273 strings with 12573 characters,
-and the built_in function-call counts, 164487 in all, are:
-= -- 4536
-> -- 16529
-< -- 22794
-+ -- 7526
-- -- 1603
-* -- 1204
-:= -- 23699
-add.period$ -- 118
-call.type$ -- 34
-change.case$ -- 62
-chr.to.int$ -- 6253
-cite$ -- 34
-duplicate$ -- 837
-empty$ -- 2225
-format.name$ -- 677
-if$ -- 42476
+            1042 strings with 7656 characters,
+and the built_in function-call counts, 85 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 2
+:= -- 48
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 2
 int.to.chr$ -- 1
-int.to.str$ -- 35
+int.to.str$ -- 1
 missing$ -- 0
-newline$ -- 203
-num.names$ -- 108
-pop$ -- 6277
+newline$ -- 14
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 34
+purify$ -- 0
 quote$ -- 0
-skip$ -- 16257
+skip$ -- 2
 stack$ -- 0
-substring$ -- 8770
-swap$ -- 35
-text.length$ -- 622
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 351
+type$ -- 0
 warning$ -- 0
-while$ -- 698
+while$ -- 0
 width$ -- 0
-write$ -- 488
+write$ -- 13
+(There was 1 error message)

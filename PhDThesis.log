@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  9 FEB 2023 14:59
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  13 FEB 2023 09:52
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/thuthesis-v7.3.1/thuthesis-example.tex"
-(d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/thuthesis-v7.3.1/thuthesis-example.tex
+**"d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex"
+(d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-07> (./thuthesis.cls
 Document Class: thuthesis 2022/10/05 7.3.1 Tsinghua University Thesis Template
@@ -980,8 +980,8 @@ Package hyperref Info: Option `plainpages' set `false' on input line 18.
 Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 18.
 \c@thu@bookmark=\count382
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 21.
- (./thuthesis-example.aux)
-\openout1 = `thuthesis-example.aux'.
+ (./PhDThesis.aux)
+\openout1 = `PhDThesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -1075,9 +1075,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 21.
 Package hyperref Info: Link coloring OFF on input line 21.
- (./thuthesis-example.out) (./thuthesis-example.out)
+ (./PhDThesis.out) (./PhDThesis.out)
 \@outlinefile=\write3
-\openout3 = `thuthesis-example.out'.
+\openout3 = `PhDThesis.out'.
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -1266,23 +1266,23 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 ]) [2
 
 
-] (./thuthesis-example.toc [3
+] (./PhDThesis.toc [3
 
 
 ])
 \tf@toc=\write4
-\openout4 = `thuthesis-example.toc'.
+\openout4 = `PhDThesis.toc'.
 
- [4] (./thuthesis-example.lof)
+ [4] (./PhDThesis.lof)
 \tf@lof=\write5
-\openout5 = `thuthesis-example.lof'.
+\openout5 = `PhDThesis.lof'.
 
  [5
 
 
-] (./thuthesis-example.lot)
+] (./PhDThesis.lot)
 \tf@lot=\write6
-\openout6 = `thuthesis-example.lot'.
+\openout6 = `PhDThesis.lot'.
 
  (./data/denotation.tex [6
 
@@ -1337,18 +1337,17 @@ Chapter 3
 
 ] [8] [9] [10] [11]) (./data/chap04.tex [12]
 Chapter 4
+[13
 
-Overfull \hbox (33.27388pt too wide) in paragraph at lines 50--57
-[][] 
- []
+]) [14] (./PhDThesis.bbl
 
-) [13
+Package natbib Warning: Empty `thebibliography' environment on input line 14.
 
-] (./thuthesis-example.bbl [14
-
+) (./data/appendix.tex [15
 
 
-]) (./data/appendix.tex [15]
+
+]
 Appendix A
 File: example-image-a.pdf Graphic file (type pdf)
 <use example-image-a.pdf>
@@ -1368,17 +1367,17 @@ File: example-image-a.pdf Graphic file (type pdf)
 ]) (./data/resolution.tex [22
 
 
-]) (./thuthesis-example.aux)
-Package rerunfilecheck Info: File `thuthesis-example.out' has not changed.
-(rerunfilecheck)             Checksum: 2525FD60BB71FDE6E04E8BE48E3FCCF2;6472.
+]) (./PhDThesis.aux)
+Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
+(rerunfilecheck)             Checksum: FF3FC66C7C6D95F997D096DA75D2D0DD;7092.
  ) 
 Here is how much of TeX's memory you used:
- 31614 strings out of 476688
- 691025 string characters out of 5807700
+ 31487 strings out of 476688
+ 686537 string characters out of 5807700
  1881001 words of memory out of 5000000
- 51286 multiletter control sequences out of 15000+600000
- 523419 words of font info for 207 fonts, out of 8000000 for 9000
+ 51160 multiletter control sequences out of 15000+600000
+ 523411 words of font info for 206 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 102i,16n,129p,2543b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,16n,129p,2528b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on thuthesis-example.xdv (38 pages, 548356 bytes).
+Output written on PhDThesis.xdv (38 pages, 546956 bytes).
