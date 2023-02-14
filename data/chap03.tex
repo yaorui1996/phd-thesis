@@ -4,58 +4,6 @@
 
 \section{Introduction}
 
-中文论文的数学符号默认遵循 GB/T 3102.11—1993《物理科学和技术中使用的数学符号》
-\footnote{原 GB 3102.11—1993，自 2017 年 3 月 23 日起，该标准转为推荐性标准。}。
-该标准参照采纳 ISO 31-11:1992 \footnote{目前已更新为 ISO 80000-2:2019。}，
-但是与 \TeX{} 默认的美国数学学会（AMS）的符号习惯有所区别。
-具体地来说主要有以下差异：
-\begin{enumerate}
-  \item 大写希腊字母默认为斜体，如
-        \begin{equation*}
-          \Gamma \Delta \Theta \Lambda \Xi \Pi \Sigma \Upsilon \Phi \Psi \Omega.
-        \end{equation*}
-        注意有限增量符号 $\increment$ 固定使用正体，模板提供了 \cs{increment} 命令。
-  \item 小于等于号和大于等于号使用倾斜的字形 $\le$、$\ge$。
-  \item 积分号使用正体，比如 $\int$、$\oint$。
-  \item
-        偏微分符号 $\partial$ 使用正体。
-  \item
-        省略号 \cs{dots} 按照中文的习惯固定居中，比如
-        \begin{equation*}
-          1, 2, \dots, n \quad 1 + 2 + \dots + n.
-        \end{equation*}
-  \item
-        实部 $\Re$ 和虚部 $\Im$ 的字体使用罗马体。
-\end{enumerate}
-
-以上数学符号样式的差异可以在模板中统一设置。
-另外国标还有一些与 AMS 不同的符号使用习惯，需要用户在写作时进行处理：
-\begin{enumerate}
-  \item 数学常数和特殊函数名用正体，如
-        \begin{equation*}
-          \uppi = 3.14\dots; \quad
-          \symup{i}^2 = -1; \quad
-          \symup{e} = \lim_{n \to \infty} \left( 1 + \frac{1}{n} \right)^n.
-        \end{equation*}
-  \item 微分号使用正体，比如 $\dif y / \dif x$。
-  \item 向量、矩阵和张量用粗斜体（\cs{symbf}），如 $\symbf{x}$、$\symbf{\Sigma}$、$\symbfsf{T}$。
-  \item 自然对数用 $\ln x$ 不用 $\log x$。
-\end{enumerate}
-
-
-英文论文的数学符号使用 \TeX{} 默认的样式。
-如果有必要，也可以通过设置 \verb|math-style| 选择数学符号样式。
-
-关于量和单位推荐使用
-\href{http://mirrors.ctan.org/macros/latex/contrib/siunitx/siunitx.pdf}{\pkg{siunitx}}
-宏包，
-可以方便地处理希腊字母以及数字与单位之间的空白，
-比如：
-\SI{6.4e6}{m}，
-\SI{9}{\micro\meter}，
-\si{kg.m.s^{-1}}，
-\SIrange{10}{20}{\degreeCelsius}。
-
 
 
 \section{The Cryostat}
@@ -70,7 +18,6 @@ The exchange gas chamber is mainly composed of rubber bellow, helium pressure ga
 
 
 
-
 \section{Low Temperature and UHV System}
 
 The vacuum chamber resembles a cylinder with a diameter of about XX and a height of about XX. Externally, the upper part of the vacuum chamber has some feedthroughs connecting the electrical equipment to the vacuum equipment, and the lower part is a spherical octagon. The top of the vacuum chamber is in contact with the exchange gas chamber, and the bottom is the re-entrant window. In our experiments, we used a total of three electrical feedthroughs, one DC feedthrough to drive the voltage signal to the electrodes of the trap, another DC feedthrough to drive the thermometer and heater in the vacuum chamber, and an RF feedthrough to drive the RF signal to the resonator. Below them, there are a total of three Vacuum feedthroughs, one connected to an ion gauge (Agilent UHV-24P) to monitor the vacuum level in the vacuum chamber, one connected to a NEG-Ion pump (SAES NextTorr Z100) to pump out hydrogen, since hydrogen is the least efficiently cryo-pumped gas, and an angle valve to pump out vacuum during system maintenance. A spherical octagon holds eight XX diameter windows to provide optical access in the horizontal plane, the windows are made of UVFS and have different wavelength optical coatings according to the optical path design. We replaced one of the windows along the trap axis with an oven feedthrough, and installed both enriched 171Yb oven and enriched 174Yb oven on it, and finally tested them to work. However, assembly errors during installation may cause the Yb flux cannot enter the trap during ion loading, we can increase the translation degrees of freedom when designing the part to solve this problem. According to our experience, because of the large divergence angle of Yb flux, we just need to be able to see the trap and oven through the opposite window. The re-entrant window located at the bottom of the vacuum chamber has a diameter of XX, below which is the imaging system. The maximum numerical aperture allowed for imaging ions along the vertical direction is XX. The Re-entrant window is surrounded by a cake-shaped aluminum base placed on an optical breadboard, and the base carries the full weight of the vacuum chamber. We tried to fasten between the upper part of the vacuum chamber and the optical breadboard with an aluminum sloped beam, but it did not reduce the vibration of the trap, indicating that the current support structure is solid enough.
@@ -81,6 +28,18 @@ The auto gas charging system and The temperature stabilize system are the key sy
 
 
 \section{Helical Resonator and Segmented Blade Trap}
+
+
+
+\section{Yb Oven}
+
+In order to generate the atomic beams of Yb, we built two separate ovens from two stainless steel tubes, but integrated into a single feedthrough and both able to be used to load ions. The 171Yb oven has an abundance of 90\% and The 174Yb oven has an abundance of 98\%. As the Yb source is in block form, we need to cut it into small pieces and insert it into the stainless steel tube.
+
+In order to achieve UHV compatibility we chose to use copper, stainless steel and Macor when machining the parts of the oven. Before assembly and testing, we cleaned all the parts inside the ultrasound machine using acetone and ethanol as solvents. All the parts were assembled according to the drawings and the copper wires on the feedthrough were attached to the stainless steel base, which was all screwed in place. We then used a spot welder and welded the stainless steel tube to the stainless steel wire, and the stainless steel wire to the stainless steel base, respectively. As the stainless steel tube has the smallest cross-sectional area, the highest resistance in the whole circuit is at the stainless steel tube, about 0.5 Ohm, so the temperature is highest here too. I would recommend having some extra spare parts and testing the parameters of the spot welder in advance, as the stainless steel tube can easily break under unsuitable parameters. Finally the two Yb sources are filled into the corresponding stainless steel tubes.
+
+Each oven is mounted in such a way that the outgoing atomic beam is directed towards the trapping area. The oven feedthrough replaces an XX inch window in the axial direction of the trap. the glass in the corresponding position of the 40K shield and 4K shield is also replaced with a round aluminium plate, the centre of which is a square hole with a 5mm side to pass through the Yb flux. As the cryostat has assembly errors, I would recommend preparing round aluminium plates with different opening positions in advance. Ultimately we need to be able to see the trap through the opposite window, with the square hole and the oven in the same line.
+
+In the process of loading ions, when this stainless steel tube is heated resistively by an electric current, a spray of atomic Yb is produced. The temperature reached depends on the current and the time of operation. If either of these two factors is too high or too long, this can lead to rapid evaporation of the Yb and thus the formation of a spray dense enough to cover its surface (e.g. ion trap electrodes or vacuum windows). To prevent this, each oven is tested in advance. A stainless steel sheet is placed in front of the oven and then the oven is placed in a transparent vacuum chamber and the vacuum is reduced to approximately 4E-6 mbar using a turbo-molecular pump, so that a test system can be set up. We tested each oven in turn, starting at 0 A and increasing the current by 0.1 A every 10 seconds, observing the change in vacuum level and the colour of the stainless steel sheet. We can observe both the darkening of the stainless steel sheet and the rapid rise in pressure, at which point the current value is the threshold current for the corresponding oven. 171Yb oven has a threshold current of 4.2A and 174Yb oven has a threshold current of 3.9A, but the current values we use in practice will be lower than this threshold, the exact values need to be measured in the corresponding experiments. The exact values need to be measured in corresponding experiments, such as observing the fluorescence of Yb atoms and loading Yb ion.
 
 
 
