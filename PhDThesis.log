@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  13 FEB 2023 17:42
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  21 FEB 2023 18:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1303,15 +1303,24 @@ Chapter 2
 Chapter 3
 [3
 
-] [4] [5] [6] [7] [8]) (./data/chap04.tex [9]
+] [4] [5] [6] [7]
+Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+[8] [9] [10] [11]) (./data/chap04.tex [12]
 Chapter 4
-[10
+[13
 
-]) [11] (./PhDThesis.bbl
+]) [14] (./PhDThesis.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 14.
 
-) (./data/appendix.tex [12
+) (./data/appendix.tex [15
 
 
 
@@ -1332,33 +1341,33 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 7.728pt on input line 29.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 5.52002pt on input line 29.
-[13
+[16
 
-]) (./data/acknowledgements.tex [14]) [15
-
-
-] (./data/resume.tex [16
+]) (./data/acknowledgements.tex [17]) [18
 
 
-]) (./data/comments.tex [17
+] (./data/resume.tex [19
 
 
-] [18
+]) (./data/comments.tex [20
 
-]) (./data/resolution.tex [19
+
+] [21
+
+]) (./data/resolution.tex [22
 
 
 ]) (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 031642868A1D45D82891644D236B64D1;6414.
+(rerunfilecheck)             Checksum: D974E7981DDC18E229A6FCCFBB1134FD;7116.
  ) 
 Here is how much of TeX's memory you used:
- 31257 strings out of 476688
- 676540 string characters out of 5807700
+ 31258 strings out of 476688
+ 676553 string characters out of 5807700
  1871001 words of memory out of 5000000
- 50950 multiletter control sequences out of 15000+600000
+ 50951 multiletter control sequences out of 15000+600000
  522803 words of font info for 187 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  102i,12n,129p,2528b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (35 pages, 470688 bytes).
+Output written on PhDThesis.xdv (38 pages, 556320 bytes).

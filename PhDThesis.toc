@@ -13,27 +13,30 @@
 \contentsline {section}{\numberline {3.2}The Cryostat}{3}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Low Temperature and UHV System}{5}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Helical Resonator and Segmented Blade Trap}{8}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Yb Oven}{8}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Mechanics Frame}{9}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Optics and Imaging System}{9}{section.3.7}%
-\contentsline {section}{\numberline {3.8}Electronic Devices}{9}{section.3.8}%
-\contentsline {chapter}{\numberline {Chapter 4}Experimental Procedure}{10}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Start CryoServer}{10}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Cooling-down and warm-up}{10}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Maintenance of the exchange gas chamber}{10}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Cooling-down}{11}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Warm-up}{11}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {3.4.1}Design of Helical Resonator}{8}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Assembly of Helical Resonator}{9}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Assembly of Blade Trap}{9}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Yb Oven}{10}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Mechanics Frame}{12}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Optics and Imaging System}{12}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Electronic Devices}{12}{section.3.8}%
+\contentsline {chapter}{\numberline {Chapter 4}Experimental Procedure}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Start CryoServer}{13}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Cooling-down and warm-up}{13}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Maintenance of the exchange gas chamber}{13}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Cooling-down}{14}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Warm-up}{14}{subsection.4.2.3}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{References}{12}{section*.21}%
+\contentsline {chapter}{References}{15}{section*.21}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\numberline {Appendix A}补充内容}{13}{appendix.A}%
-\contentsline {section}{\numberline {A.1}图表示例}{13}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}图}{13}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}表格}{13}{subsection.A.1.2}%
-\contentsline {section}{\numberline {A.2}数学公式}{14}{section.A.2}%
-\contentsline {chapter}{Acknowledgements}{15}{section*.25}%
-\contentsline {chapter}{声\hspace {1em}明}{16}{section*.27}%
-\contentsline {chapter}{Resume}{17}{section*.29}%
-\contentsline {chapter}{Comments from Thesis Supervisor}{18}{appendix*.35}%
-\contentsline {chapter}{Resolution of Thesis Defense Committee}{19}{appendix*.36}%
+\contentsline {chapter}{\numberline {Appendix A}补充内容}{16}{appendix.A}%
+\contentsline {section}{\numberline {A.1}图表示例}{16}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}图}{16}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}表格}{16}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}数学公式}{17}{section.A.2}%
+\contentsline {chapter}{Acknowledgements}{18}{section*.25}%
+\contentsline {chapter}{声\hspace {1em}明}{19}{section*.27}%
+\contentsline {chapter}{Resume}{20}{section*.29}%
+\contentsline {chapter}{Comments from Thesis Supervisor}{21}{appendix*.35}%
+\contentsline {chapter}{Resolution of Thesis Defense Committee}{22}{appendix*.36}%
 \contentsfinish 
