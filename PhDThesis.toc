@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {3.4.3}Assembly of Blade Trap}{9}{subsection.3.4.3}%
 \contentsline {section}{\numberline {3.5}Yb Oven}{10}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Mechanics Frame}{12}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Optics and Imaging System}{12}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Optical and Imaging System}{12}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Electronic Devices}{12}{section.3.8}%
 \contentsline {chapter}{\numberline {Chapter 4}Experimental Procedure}{13}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Start CryoServer}{13}{section.4.1}%
