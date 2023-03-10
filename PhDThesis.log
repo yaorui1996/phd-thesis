@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  10 MAR 2023 15:34
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  10 MAR 2023 15:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1312,15 +1312,15 @@ Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=
 Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-[8] [9] [10] [11] [12] [13] [14] [15]) (./data/chap04.tex [16]
+[8] [9] [10] [11] [12] [13] [14] [15] [16]) (./data/chap04.tex [17]
 Chapter 4
-[17
+[18
 
-]) [18] (./PhDThesis.bbl
+]) [19] (./PhDThesis.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 14.
 
-) (./data/appendix.tex [19
+) (./data/appendix.tex [20
 
 
 
@@ -1341,20 +1341,20 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 7.728pt on input line 29.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 5.52002pt on input line 29.
-[20
+[21
 
-]) (./data/acknowledgements.tex [21]) [22
-
-
-] (./data/resume.tex [23
+]) (./data/acknowledgements.tex [22]) [23
 
 
-]) (./data/comments.tex [24
+] (./data/resume.tex [24
 
 
-] [25
+]) (./data/comments.tex [25
 
-]) (./data/resolution.tex [26
+
+] [26
+
+]) (./data/resolution.tex [27
 
 
 ]) (./PhDThesis.aux)
@@ -1370,4 +1370,4 @@ Here is how much of TeX's memory you used:
  1349 hyphenation exceptions out of 8191
  102i,12n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (42 pages, 688692 bytes).
+Output written on PhDThesis.xdv (43 pages, 713048 bytes).
