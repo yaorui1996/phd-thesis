@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  27 FEB 2023 14:52
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  10 MAR 2023 15:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1312,15 +1312,15 @@ Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=
 Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-[8] [9] [10] [11]) (./data/chap04.tex [12]
+[8] [9] [10] [11] [12] [13] [14] [15]) (./data/chap04.tex [16]
 Chapter 4
-[13
+[17
 
-]) [14] (./PhDThesis.bbl
+]) [18] (./PhDThesis.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 14.
 
-) (./data/appendix.tex [15
+) (./data/appendix.tex [19
 
 
 
@@ -1341,33 +1341,33 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 7.728pt on input line 29.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 5.52002pt on input line 29.
-[16
+[20
 
-]) (./data/acknowledgements.tex [17]) [18
-
-
-] (./data/resume.tex [19
+]) (./data/acknowledgements.tex [21]) [22
 
 
-]) (./data/comments.tex [20
+] (./data/resume.tex [23
 
 
-] [21
+]) (./data/comments.tex [24
 
-]) (./data/resolution.tex [22
+
+] [25
+
+]) (./data/resolution.tex [26
 
 
 ]) (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 997F76126E31522E61CD24285717AA77;7121.
+(rerunfilecheck)             Checksum: 1C771E47D5F613004AADCDCF6EEB109F;8114.
  ) 
 Here is how much of TeX's memory you used:
- 31258 strings out of 476688
- 676553 string characters out of 5807700
+ 31259 strings out of 476688
+ 676566 string characters out of 5807700
  1871001 words of memory out of 5000000
- 50951 multiletter control sequences out of 15000+600000
+ 50952 multiletter control sequences out of 15000+600000
  522803 words of font info for 187 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 102i,12n,129p,2528b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (38 pages, 556292 bytes).
+Output written on PhDThesis.xdv (42 pages, 688692 bytes).
