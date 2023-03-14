@@ -1,15 +1,25 @@
 # Fdb version 4
-["xdvipdfmx"] 0 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 0 -1
-  "PhDThesis.xdv" 1678769821 254580 48651d9e05e70a20cd4e5b1574a2ac94 "xelatex"
+["bibtex PhDThesis"] 1678770200 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1678770204 0
+  "./ref/refs.bib" 1664959156 10001 41cdddcd0d3c3155a2cc69ca952ced96 ""
+  "./thuthesis-numeric.bst" 1664959156 46116 cd3bc71ff82c01699bd493d2be7a78bd ""
+  "PhDThesis.aux" 1678770203 9201 c07092c30790db9fd6d3166c741759f9 "xelatex"
+  (generated)
+  "PhDThesis.bbl"
+  "PhDThesis.blg"
+  (rewritten before read)
+["xdvipdfmx"] 1678770204 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1678770204 0
+  "PhDThesis.xdv" 1678770203 963824 83ed56065e8a669d53a0a18ac4b4baec "xelatex"
   (generated)
   "PhDThesis.pdf"
   (rewritten before read)
-["xelatex"] 1678769819 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1678769821 2
-  "PhDThesis.aux" 1678769821 4042 c1d2e3293b4aa884ec361865a09ede92 "xelatex"
-  "PhDThesis.lof" 1678769821 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "PhDThesis.lot" 1678769821 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+["xelatex"] 1678770201 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1678770204 0
+  "PhDThesis.aux" 1678770203 9201 c07092c30790db9fd6d3166c741759f9 "xelatex"
+  "PhDThesis.bbl" 1678770201 380 df8c4f4f41d6dc077f9019104a98461e "bibtex PhDThesis"
+  "PhDThesis.lof" 1678770203 606 d092e54ac8de6d9ed7989e4f9deee6e9 "xelatex"
+  "PhDThesis.lot" 1678770203 185 3e0ab7c7013bc34ad32c14c8afbcdac5 "xelatex"
+  "PhDThesis.out" 1678770203 9517 e87eb722bbb206d25a35a8ea4cd68fc1 "xelatex"
   "PhDThesis.tex" 1676003608 2580 f09eb50cfe32b6169260e18e28ceac13 ""
-  "PhDThesis.toc" 1678769821 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "PhDThesis.toc" 1678770203 4141 36c438da3d5b2f1e71a06f6e5030b974 "xelatex"
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1675865316 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1675867395 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1675864802 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -111,6 +121,7 @@
   "c:/texlive/2022/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty" 1675865722 49781 fc3b70ac7ed10b5696546be4bd28ddd0 ""
   "c:/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1675865806 5766 13a9e8766c47f30327caf893ece86ac8 ""
   "c:/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty" 1675866120 6149 2398eec4faa1ee24ff761581e580ecf1 ""
+  "c:/texlive/2022/texmf-dist/tex/latex/mwe/example-image-a.pdf" 1675866130 12160 f5a33a472bc2acb8800c3e00764d8ad1 ""
   "c:/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty" 1675866147 45456 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "c:/texlive/2022/texmf-dist/tex/latex/notoccite/notoccite.sty" 1675866225 1670 c3db86ff5e2cf2c709ba2199f37dd265 ""
   "c:/texlive/2022/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty" 1675866335 6572 ea530fbbe537629fd97736d33babc07d ""
@@ -143,16 +154,23 @@
   "c:/texlive/2022/texmf.cnf" 1675867412 713 e69b156964470283e0530f5060668171 ""
   "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" 1676003608 2580 f09eb50cfe32b6169260e18e28ceac13 ""
   "data/abstract.tex" 1675954430 2273 528fcf2ecf7ac28f080f2f60dfe1d978 ""
+  "data/acknowledgements.tex" 1675954430 539 ee27e5873474b56db0f22949b8cf1367 ""
+  "data/appendix.tex" 1675954430 1456 6fa171fd6daf5b8dcfee44f6d2968563 ""
   "data/chap01.tex" 1676281337 1421 df7198032fd4793618b1d2af9b1e37ef ""
-  "data/chap02.tex" 1678769820 32432 0a21de223f4881b4552e7dda2a2cca54 ""
+  "data/chap02.tex" 1678770196 32408 6edd60d863e6f74648964f25846b7dd4 ""
+  "data/chap03.tex" 1678440855 38658 074534a0c8a9779439e049fa875f7bbc ""
+  "data/chap04.tex" 1676253174 4770 a7d0a7fee4b94cde4f97539e339b244e ""
+  "data/comments.tex" 1675954430 276 f199f94d4914a4e688b413c16104b1bf ""
   "data/committee.tex" 1675954430 1631 99bc59fdcaaa3e60b7e5c117f0bcf5c5 ""
   "data/denotation.tex" 1675954430 5429 b972dc834702dc10f103b4ca85a92de8 ""
+  "data/resolution.tex" 1675954430 453 a12d3f4543384669a32bc1a6e21c13a6 ""
+  "data/resume.tex" 1675954430 1443 fbeb965761182ca54c9271eae92e27fd ""
   "figures//fig_2_370_transitions_cooling.pdf" 1648209582 46910 ca59d6862fd552c052d8e4d9edb971d7 ""
   "figures//fig_2_370_transitions_pumping.pdf" 1648209538 46421 c2a99bcf5e2e23ffbdbc717b6b80377d ""
   "figures//fig_2_energy_level.pdf" 1678690932 116784 db8503cdc38872f929218faf63a07592 ""
   "figures//fig_2_photo_ionization.pdf" 1645946134 76830 fc5ad8282f012a6667ae17c1356e6944 ""
   "thusetup.tex" 1675954288 4805 00b2e5e167024538e2d1a5115c1d3974 ""
-  "thuthesis.cls" 1678769816 112463 72705b84252c4f64a294fb60487d981d ""
+  "thuthesis.cls" 1678770197 112463 72705b84252c4f64a294fb60487d981d ""
   (generated)
   "PhDThesis.aux"
   "PhDThesis.lof"

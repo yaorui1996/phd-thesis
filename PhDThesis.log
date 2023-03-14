@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  14 MAR 2023 12:57
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  14 MAR 2023 13:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1075,12 +1075,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 21.
 Package hyperref Info: Link coloring OFF on input line 21.
+ (./PhDThesis.out) (./PhDThesis.out)
 \@outlinefile=\write3
 \openout3 = `PhDThesis.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -1183,7 +1180,7 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 14.05098pt on input line 25.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 10.53824pt on input line 25.
-[1
+ [1
 
 
 
@@ -1269,38 +1266,34 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 ]) [2
 
 
-]
-No file PhDThesis.toc.
+] (./PhDThesis.toc [3
+
+
+])
 \tf@toc=\write4
 \openout4 = `PhDThesis.toc'.
 
-[3
-
-
-]
-No file PhDThesis.lof.
+ [4] (./PhDThesis.lof)
 \tf@lof=\write5
 \openout5 = `PhDThesis.lof'.
 
-[4
+ [5
 
 
-]
-No file PhDThesis.lot.
+] (./PhDThesis.lot)
 \tf@lot=\write6
 \openout6 = `PhDThesis.lot'.
 
-(./data/denotation.tex [5
+ (./data/denotation.tex [6
 
 
-] [6
+] [7
 
 
-]) [7] [8
-
-] (./data/chap01.tex
+]) [8] (./data/chap01.tex
 Chapter 1
 ) (./data/chap02.tex [1
+
 
 ]
 Chapter 2
@@ -1335,40 +1328,62 @@ File: figures//fig_2_370_transitions_pumping.pdf Graphic file (type pdf)
 <use figures//fig_2_370_transitions_pumping.pdf>
 File: figures//fig_2_370_transitions_pumping.pdf Graphic file (type pdf)
 <use figures//fig_2_370_transitions_pumping.pdf>
- [5] [6]
+ [5] [6] [7] [8] [9] [10]) (./data/chap03.tex [11]
+Chapter 3
+[12
 
-LaTeX Warning: Reference `eq:minima' on page 7 undefined on input line 76.
+] [13] [14] [15] [16]
+Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
+[17] [18] [19] [20] [21] [22] [23] [24] [25]) (./data/chap04.tex [26]
+Chapter 4
+[27
 
-[7]
+]) [28] (./PhDThesis.bbl
 
-LaTeX Warning: Reference `eq:motion' on page 8 undefined on input line 104.
+Package natbib Warning: Empty `thebibliography' environment on input line 14.
 
-[8] [9]
-
-LaTeX Warning: Reference `eq:linear_chain' on page 10 undefined on input line 167.
-
-[10]
-
-LaTeX Warning: Reference `eq:rfpotential' on page 11 undefined on input line 177.
+) (./data/appendix.tex [29
 
 
-LaTeX Warning: Reference `eq:linear_chain' on page 11 undefined on input line 177.
+
+]
+Appendix A
+File: example-image-a.pdf Graphic file (type pdf)
+<use example-image-a.pdf>
+[30
+
+]) (./data/acknowledgements.tex [31]) [32
 
 
-./data/chap02.tex:185: Package siunitx Error: Invalid number '('.
+] (./data/resume.tex [33
 
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.185 ...efine the length unit known as \(l=\qty(e
-                                                  ^2/4\pi\epsilon_0\alpha)^{... 
+
+]) (./data/comments.tex [34
+
+
+] [35
+
+]) (./data/resolution.tex [36
+
+
+]) (./PhDThesis.aux)
+Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
+(rerunfilecheck)             Checksum: E87EB722BBB206D25A35A8EA4CD68FC1;9517.
+ ) 
 Here is how much of TeX's memory you used:
- 31187 strings out of 476688
- 674647 string characters out of 5807700
- 1865001 words of memory out of 5000000
- 50900 multiletter control sequences out of 15000+600000
- 523446 words of font info for 195 fonts, out of 8000000 for 9000
+ 31348 strings out of 476688
+ 679913 string characters out of 5807700
+ 1874001 words of memory out of 5000000
+ 51021 multiletter control sequences out of 15000+600000
+ 523502 words of font info for 202 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 102i,12n,129p,1680b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (26 pages, 254580 bytes).
+Output written on PhDThesis.xdv (52 pages, 963824 bytes).
