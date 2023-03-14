@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  10 MAR 2023 15:57
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  14 MAR 2023 12:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1075,9 +1075,12 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 21.
 Package hyperref Info: Link coloring OFF on input line 21.
- (./PhDThesis.out) (./PhDThesis.out)
 \@outlinefile=\write3
 \openout3 = `PhDThesis.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -1180,7 +1183,7 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 14.05098pt on input line 25.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 10.53824pt on input line 25.
- [1
+[1
 
 
 
@@ -1266,108 +1269,106 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 ]) [2
 
 
-] (./PhDThesis.toc [3
-
-
-])
+]
+No file PhDThesis.toc.
 \tf@toc=\write4
 \openout4 = `PhDThesis.toc'.
 
- [4] (./PhDThesis.lof)
+[3
+
+
+]
+No file PhDThesis.lof.
 \tf@lof=\write5
 \openout5 = `PhDThesis.lof'.
 
- [5
+[4
 
 
-] (./PhDThesis.lot)
+]
+No file PhDThesis.lot.
 \tf@lot=\write6
 \openout6 = `PhDThesis.lot'.
 
- (./data/denotation.tex [6
+(./data/denotation.tex [5
 
 
-] [7
+] [6
 
 
-]) [8] (./data/chap01.tex
+]) [7] [8
+
+] (./data/chap01.tex
 Chapter 1
 ) (./data/chap02.tex [1
 
-
 ]
 Chapter 2
-) (./data/chap03.tex [2
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 7.52892pt on input line 5.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 7.52731pt on input line 5.
+File: figures//fig_2_photo_ionization.pdf Graphic file (type pdf)
+<use figures//fig_2_photo_ionization.pdf>
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 16.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 11.04242pt on input line 16.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 7.72966pt on input line 16.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 5.5212pt on input line 16.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 11.04005pt on input line 16.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 7.728pt on input line 16.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 5.52002pt on input line 16.
+[2
 
 ]
-Chapter 3
-[3
+File: figures//fig_2_energy_level.pdf Graphic file (type pdf)
+<use figures//fig_2_energy_level.pdf>
+ [3] [4]
+File: figures//fig_2_370_transitions_cooling.pdf Graphic file (type pdf)
+<use figures//fig_2_370_transitions_cooling.pdf>
+File: figures//fig_2_370_transitions_pumping.pdf Graphic file (type pdf)
+<use figures//fig_2_370_transitions_pumping.pdf>
+File: figures//fig_2_370_transitions_pumping.pdf Graphic file (type pdf)
+<use figures//fig_2_370_transitions_pumping.pdf>
+ [5] [6]
 
-] [4] [5] [6] [7]
-Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-[8] [9] [10] [11] [12] [13] [14] [15] [16]) (./data/chap04.tex [17]
-Chapter 4
-[18
+LaTeX Warning: Reference `eq:minima' on page 7 undefined on input line 76.
 
-]) [19] (./PhDThesis.bbl
+[7]
 
-Package natbib Warning: Empty `thebibliography' environment on input line 14.
+LaTeX Warning: Reference `eq:motion' on page 8 undefined on input line 104.
 
-) (./data/appendix.tex [20
+[8] [9]
 
+LaTeX Warning: Reference `eq:linear_chain' on page 10 undefined on input line 167.
 
+[10]
 
-]
-Appendix A
-File: example-image-a.pdf Graphic file (type pdf)
-<use example-image-a.pdf>
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 29.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 11.04242pt on input line 29.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.72966pt on input line 29.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 5.5212pt on input line 29.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 11.04005pt on input line 29.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 7.728pt on input line 29.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 5.52002pt on input line 29.
-[21
-
-]) (./data/acknowledgements.tex [22]) [23
+LaTeX Warning: Reference `eq:rfpotential' on page 11 undefined on input line 177.
 
 
-] (./data/resume.tex [24
+LaTeX Warning: Reference `eq:linear_chain' on page 11 undefined on input line 177.
 
 
-]) (./data/comments.tex [25
+./data/chap02.tex:185: Package siunitx Error: Invalid number '('.
 
-
-] [26
-
-]) (./data/resolution.tex [27
-
-
-]) (./PhDThesis.aux)
-Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1C771E47D5F613004AADCDCF6EEB109F;8114.
- ) 
+For immediate help type H <return>.
+ ...                                              
+                                                  
+l.185 ...efine the length unit known as \(l=\qty(e
+                                                  ^2/4\pi\epsilon_0\alpha)^{... 
 Here is how much of TeX's memory you used:
- 31259 strings out of 476688
- 676566 string characters out of 5807700
- 1871001 words of memory out of 5000000
- 50952 multiletter control sequences out of 15000+600000
- 522803 words of font info for 187 fonts, out of 8000000 for 9000
+ 31187 strings out of 476688
+ 674647 string characters out of 5807700
+ 1865001 words of memory out of 5000000
+ 50900 multiletter control sequences out of 15000+600000
+ 523446 words of font info for 195 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 102i,12n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,129p,1680b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (43 pages, 713048 bytes).
+Output written on PhDThesis.xdv (26 pages, 254580 bytes).
