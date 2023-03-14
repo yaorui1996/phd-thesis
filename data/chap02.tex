@@ -188,87 +188,116 @@ Here, we will define the length unit known as $l=\left(e^2 / 4 \pi \epsilon_0 \a
     U^{\prime}=\sum_i\left(\frac{1}{2} u_i^2+\frac{\beta l^2}{4 \alpha} u_i^4\right)+\sum_{i \neq j} \frac{\operatorname{sgn}(\alpha)}{2\left|u_i-u_j\right|}
 \end{equation}
 
-% Once we have determined the ion number and the potential configuration \(\frac{\beta l^2}{\alpha}\), we can minimize the energy to find the equilibrium positions. Alternatively, we can solve the equations of gradient at equilibrium
-% \begin{equation}\label{eq:gradient}
-%     0=\pdv{U'}{u_i}=u_i+\frac{\beta l^2}{\alpha}u_i^3-sgn(\alpha)\sum_{i\ne j}\frac{u_i-u_j}{\abs{u_i-u_j}^3}
+When we have ascertained the total number of ions and the potential configuration \(\frac{\beta l^2}{\alpha}\), we will be able to locate the equilibrium locations by minimizing the energy required to do so. Instead, we might try to solve the gradient equations when the system is at equilibrium.
+
+\begin{equation}
+    0=\frac{\partial U^{\prime}}{\partial u_i}=u_i+\frac{\beta l^2}{\alpha} u_i^3-\operatorname{sgn}(\alpha) \sum_{i \neq j} \frac{u_i-u_j}{\left|u_i-u_j\right|^3}
+\end{equation}
+
+We can further reduce the problem to find the solutions of the gradient equations, which is something that can be easily accomplished by some built-in functions of Wolfram Mathematica such as FindRoot or NSolve. As an alternative to performing the optimization with multiple variables, we can use this method.
+
+When the equilibrium locations have been determined, the Hessian matrix may be used to calculate the axial motional modes
+
+\begin{equation}
+    \frac{\partial^2 U^{\prime}}{\partial u_i \partial u_j}= \begin{cases}1+\frac{3 \beta l^2}{\alpha} u_i^2+\sum_{k \neq i} \frac{2 \operatorname{sgn}(\alpha)}{\left|u_i-u_k\right|^3}, & i=j \\ -\frac{2 \operatorname{sgn}(\alpha)}{\left|u_i-u_j\right|^3}, & i \neq j\end{cases}
+\end{equation}
+
+Things would turn out differently with regard to the transverse modes. The COM mode has the maximum frequency, and its bandwidth is quite close to that of the axial COM mode; hence, the transverse modes have a significantly higher population density. Moreover, we are able to include the transverse words into the general form.
+
+\begin{equation}
+    U=\sum_i\left(\frac{\alpha}{2} z_i^2+\frac{\beta}{4} z_i^4+\frac{1}{2} m \omega_x^2 x_i^2+\frac{1}{2} m \omega_y^2 y_i^2\right)+\sum_{i<j} \frac{e^2}{4 \pi \epsilon_0\left|\mathbf{r}_{\mathbf{i}}-\mathbf{r}_{\mathbf{j}}\right|}
+\end{equation}
+
+For a linear chain configuration, the equilibrium positions for transverse \(x,\, y\) are quite clear that \(x_0=0,\,y_0=0\), and we can use the same dimensionless unit \(l\) to simplify the potential expression using notation \(uz=z/l,\, ux=x/l,\, uy=y/l\),
+
+The equilibrium positions for transverse \(x\) and \(y\) in a linear chain configuration are quite obvious: \(x_0=0,\,y_0=0\). We can use the same dimensionless unit, \(l\), to simplify the potential expression by notating it as follows: \(uz=z/l,\, ux=x/l,\, uy=y/l\). For a linear chain configuration, the equilibrium positions for transverse \(x\) and \(y\) are quite obvious.
+
+\begin{equation}
+    \begin{aligned}
+        U^{\prime} & =\sum_i\left(\frac{1}{2} u z_i^2+\frac{\beta l^2}{4 \alpha} u z_i^4+\frac{m \omega_x^2}{2 \alpha} u x_i^2+\frac{m \omega_y^2}{2 \alpha} u y_i^2\right)+\sum_{i \neq j} \frac{\operatorname{sgn}(\alpha)}{2\left|\mathbf{u}_{\mathbf{i}}-\mathbf{u}_{\mathrm{j}}\right|} \\
+                   & =U_0+\sum_i\left(\frac{m \omega_x^2}{2 \alpha} u x_i^2+\frac{m \omega_y^2}{2 \alpha} u y_i^2\right)-\operatorname{sgn}(\alpha) \sum_{i \neq j} \frac{\left(u x_i-u x_j\right)^2+\left(u y_i-u y_j\right)^2}{4\left|u z_i-u z_j\right|^3}
+    \end{aligned}
+\end{equation}
+
+where \(U_0\) is the one only related to coordinates \(uz_i\)'s. When thinking about the transverse modes, we don't need to take them into account at all since we may ignore them. We may also derive the Hessian matrix for \(x,\, y\), and the results for \(x\) are shown below. As the right hand side of the potential has the same dependency on the sign of \(\alpha\), we can, in practice, use the absolute value instead.
+
+\begin{equation}
+    \frac{\partial^2 U^{\prime}}{\partial u x_i \partial u x_j}= \begin{cases}\frac{m \omega_x^2}{|\alpha|}-\sum_{k \neq i} \frac{1}{\left|u z_i-u z_k\right|^3}, & i=j \\ \frac{1}{\left|u z_i-u z_j\right|^3}, & i \neq j\end{cases}
+\end{equation}
+
+\subsection{Micromotion Minimization}
+
+Ions in Paul's tarp will go through a process known as forced motion, which is driven by the frequency referred to as \(\Omega\). Some of this motion is an intrinsic effect caused by the RF potential, while other motion is caused by forced motion for ions going through a process known as nonzero oscillating force. The force may be created by a residual DC field that moves the ions away from the RF null, and the real-time electric field is not zero. The temporal dependency of the real-time electric field's frequency is characterized by \(\Omega\). The motion of ions may, as a matter of course, be explained by the linear superposition of two portions.
+
+\begin{equation}\label{eq:excess_micromotion}
+    \begin{aligned}
+        \ddot{x} & =-\omega_x^2 x-\frac{E_0\left(x_0\right) e}{m} \cos (\Omega t)                    \\
+        x(t)     & =A \cos \left(\omega_x t\right)+B\left(E_0\left(x_0\right)\right) \cos (\Omega t)
+    \end{aligned}
+\end{equation}
+
+The periodic force will cause the second term of the solution of \(x(t)\), which is given by pseudo potential approximation. The term \(B(E_0(x_0))\) is the amplitude of excess micromotion, and it dependends on the strength of the residual electric field \(E_0(x_0)\) or the equilibrium position from RF null \(x_0\). In addition, the intrinsic micromotion that is solved by the Mathieu equation is characterized by the frequency \(\Omega\pm \omega_x\), and it is related to the transverse secular motion. On the other hand, the excess micromotion are detached from the secular motion. In addition, excess micromotion is degenerate in three directions, and in order to link the micromotion, we require a number of lasers that are not parallel to one another.
+
+In addition to the equation that is described in Eq.~\eqref{eq:excess_micromotion}, we are able to utilize the Mathieu equation to determine the motion of the ions in the presence of a stray field, and this motion may be written as
+
+\begin{equation}
+    \begin{aligned}
+        x(t) & =\left(\frac{e E_R}{m \omega_x^2}+A \cos \left(\omega_x t\right)\right)\left(1+\frac{q_x}{2} \cos (\Omega t)\right)                                                      \\
+             & =A \cos \left(\omega_x t\right)+\frac{e E_R q_x}{2 m \omega_x^2} \cos (\Omega t)+\frac{A q_x}{2} \cos \left(\omega_x t\right) \cos (\Omega t)+\frac{e E_R}{m \omega_x^2}
+    \end{aligned}
+\end{equation}
+
+As can be seen in the figure referenced above, there are four different terms: secular motion, excess micromotion, intrinsic micromotion, and equilibrium position displacement, respectively. Because intrinsic micromotion is born with the RF potential, its amplitude can never be reduced by tinkering with the DC configurations. This is because intrinsic micromotion is only related to the RF potential and the Doppler cooling limit. For secular motion, the amplitude is related to the process of cooling, and \(\omega_x=\sqrt{a_x+\frac{q_x^2}{2}}\frac{\Omega}{2}\) for the intrinsic micromotion. It is obvious that the excess micromoiton is associated with the stray field that is exerted on the ions, the amplitude is proportional to \(a_x<<q_x^2\), in particular for transverse modes in an ion chain, and it can be easily demonstrated that the amplitude will be reduced when increasing the RF level, and in addition to this, the ion position will approach the RF null by factor \(\frac{1}{a_x+\frac{q_x^2}{2}}\).
+
+Expanding the electric field is possible within the context of the rotating frame of the ions' secular motion,
+
+\begin{equation}
+    E(x, t)=E_0 e^{-i\left(\omega_0 t-k_x x(t)\right)}=E_0 e^{i k_x A \cos \left(\omega_x t\right)\left(1+\frac{q_x}{2} \cos (\Omega t)\right)} e^{-i\left(\omega_0 t-\frac{k_x e E_R q_x}{2 m \omega_x^2} \cos (\Omega t)\right)}
+\end{equation}
+
+So, we are able to make use of the modulation information in order to extract the amplitude of excess micromotion, and the RF modulation may also regulate the fluorescence. A cooling laser is used in this technique to detect the modulation, and of course, non-parallel lasers are required in order to reconstruct the full information of excess micromotion. The fluorescence can be demodulated by using a device called a time-arrival-converter, but this method has some drawbacks. Unfortunately, because of the geometry of the chamber, it is not always possible to send lasers in all three directions, and this difficulty might be considerably more severe for surface planar traps, particularly when the cooling laser is operating in the ultraviolet range. A combination of Raman sideband and EMCCD monitoring ion position is another method that may be used to identify excess micromotion.
+
+In this article, we present the parametric excitation approach for the purpose of minimizing excess micromotion because of its ease of use and high degree of accuracy. Although the delivery of laser along the objective might be challenging, the accuracy of micromotion minimization along the objective is completely constrained by the resolution and amplification capabilities of the imaging system. This was covered in the previous section. To be able to detect extra micromotion in any of the three orthogonal directions, parametric excitation just needs a single cooling beam to readily connect to all three directions simultaneously. It is possible to put it into practice by modulating the amplitude of RF fields, using the pseudo potential approximation, the force that is exerted on the ions is
+
+\begin{equation}
+    \frac{\mathrm{d}^2 \bar{x}}{\mathrm{~d} t^2}+\xi \frac{\mathrm{d} \bar{x}}{\mathrm{~d} t} \omega_x^2\left(1+2 h \cos \left(\omega_m t\right)\right) \bar{x}=\frac{e E_R}{m}
+\end{equation}
+
+where \(h\) is the modulation index, \(E(r,t)=E_0(r,t)(1+h\cos(\omega_m t))\), the corresponding pseudo potential is proportional to \(E^2(r,t)=E_0^2(r,t)(1+2h\cos(\omega_m t))\), and \(\xi\) is the damping coefficient of the cooling beam.
+
+The parametric excitation, in contrast to the forced oscillation, will not take place if the initial condition \(\bar{x}(0)=0\), and the parametric excitation will only be excited at the modulation frequency \(\omega_m=\frac{2\omega_x}{n}\), where \(n\) is a positive integer. The forced oscillation will take place regardless of the initial condition. Depending on the experimental regime, the parametric excitation will either induce a decrease in fluorescence or an increase in it. So, the parametric excitation may be utilized to identify excess micromotion if ions are pushed away from the RF null. Nevertheless, once \(\bar{x}\) approaches the equilibrium location of the RF null, the parametric excitation will cease to exist.
+
+In addition, a recent piece of research demonstrates that there is a link between the fluorescence and the amplitude modulation signal. In this example, we will show how parametric excitation may occur when \(\omega_m=\omega_x\). The stable solution may be derived by using Floquet theory even in the absence of explicit derivations, which take into account corrections for secular frequency and modulation depth.
+
+\begin{equation}
+    \bar{x}(t)=\sum_nc_ne^{ic_n\omega_mt}
+\end{equation}
+
+% \(c_n=c_{-n}^*\) for symmetry, and \(c_0\) depends on the first order of modulation, \(c_0=\frac{eE_R}{m\omega_x^2}\). Then we can expand it to the second order, and we can simplify \(\bar{x}(t)=c_0+2\Re{\qty(c_{-1}e^{-i\omega_mt})}\), substitute it back to Eq.~\ref{eq:parametric_excitation}, we can easily get the second-order solution, 
+% \begin{equation}\label{eq:parametric_solution}
+%   \norm{c_{-1}}^2=\frac{2c_0^2h^2}{\qty(f^2-1)+4f^2d^2},\quad \tan(\arg(c_{-1}))=\frac{2fd}{f^2-1}
 % \end{equation}
+% where \(f=\frac{\omega_m}{\omega_x},\, d=\frac{\xi}{\omega_x}\) are normalized frequency and damping factor. The amplitude of \(c_{-1}\) is linearly proportional to \(c_0\), and thus \(E_R\). Obviously, there is a \(\pi\) phase shift when scanning the modulation frequency across \(\omega_x\), which indicate the resonant frequency, and it can be further assisted with the peak value of \(c_{-1}\) during a frequency scan. The sensitivity is determined by two factors, (a) the modulation factor \(h\), (b) the detuning of the modulation frequency to the secular frequency(note that there is a correction of secular frequency due to the modulation which is not shown here, refer to Ref.~\inlinecite{nadlinger2021micromotion} for the details, but the underlying physcis holds the same.). 
 
-% Rather than perform the optimization with multiple variables, we can further reduce the problem to find the solutions of the gradient equations, which can be easily accomplished by some built-in functions of Wolfram Mathematica such as FindRoot or NSolve.
-
-% After obtaining the equilibrium positions, the axial motional modes can be computed by the Hessian matrix
-% \begin{equation}\label{eq:axial_hessian}
-%     \pdv{U'}{u_i}{u_j}=\begin{cases}
-%         1+\frac{3\beta l^2}{\alpha}u_i^2+\sum_{k\ne i}\frac{2sgn(\alpha)}{\abs{u_i-u_k}^3}, & i=j    \\
-%         -\frac{2sgn(\alpha)}{\abs{u_i-u_j}^3},                                              & i\ne j
-%     \end{cases}
-% \end{equation}
-
-% To show a brief picture of the potential, we will give an example based on our BEM simulation of \(5\)-segment blade trap(See Sec.~\ref{sec:idealpotential}). For a harmonic potential \(\alpha> 0\), we can set the voltage of DC segments as \(\qty(1,\,0,\,0,\,0,\,1)\,\unit{V}\), the simulated results of \(60\) \yb{171} ions are shown in Fig.~\ref{fig:harmonic}, the length of the ion chain is about \(200\,\unit{\um}\), the lowest center-of-mass(COM) mode is \(92.76\,\unit{\kHz}\) and the potential depth by \(\pm 150\,\unit{\um}\) is about \(0.0065\,\unit{eV}\), and the inter-ion spacings are increasing from the center to the edge with a relative standard deviation(RSD) \(28.4\%\). For such a configuration, the repulsion among the central ions would be strongest and thus the zigzag transition would first take place in the center, which could be avoided by lowering the axial confinement or increasing the RF confinement.
-
-% \begin{figure}[hbtp]
-%     \centering
-%     \subcaptionbox{}[0.5\linewidth]{\includegraphics[width=\linewidth]{harmonic_potential.pdf}}\hfill
-%     \subcaptionbox{}[0.5\linewidth]{\includegraphics[width=\linewidth]{harmonic_spacing.pdf}}
-%     \caption[Equilibrium positions and ion spacings in the harmonic potential]{\label{fig:harmonic}(a) The equilibrium positions, (b) The inter-ion spacings of \(60\) \yb{171} ions in the harmonic potential, the relative standard deviation(RSD) is \(28.4\%\).}
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=0.6\linewidth]{parametric_excitation.pdf}
+%   \caption[Protocol of parametric excitation]{\label{fig:parametrix_excitation}The schematic protocol to minimize excess micromotion using parametric excitation technique. The yellow indicates the blade-like electrodes, and the black and red arrows indicate the principal axes in radial plane, and the purple arrows show the procedure of minimization starting from \(A\).}
 % \end{figure}
 
-% However, we have two degrees of freedom for the axial confinement so that we can engineer a quartic potential \(\alpha<0,\,\beta>0\), the voltages can be set \(\mqty(10&0&2.4&0&10)\,\unit{V}\) to achieve the same size of \(60\)-ion crystal in length of \(200\,\unit{\um}\), typically the COM mode frequency would be higher than the harmonic one and here it is \(95.57\,\unit{\kHz}\). The potential depth by \(\pm 150\,\unit{\um}\) is about \(0.0125\,\unit{\eV}\) and the inter-ion spacings are much more uniform with RSD \(11.9\%\), which can be further improved if we have more DC electrodes. In addition, the bandwidth of the normal modes can be narrower for quartic potential, as seen in Fig.~\ref{fig:narrow_bandwidth}, this would enable us a better control over the normal modes such as the ground state cooling. The corresponding \(60\) dimensionless normal mode vectors are depicted as in Fig.~\ref{fig:axial_modes}, the mode structure is completely different that modes are distributed more uniformly for quartic potential and the strengths of normal mode vectors represent the contribution for specific normal modes.
-% \begin{figure}[hbtp]
-%     \centering
-%     \subcaptionbox{}[0.5\linewidth]{\includegraphics[width=\linewidth]{quartic_potential.pdf}}\hfill
-%     \subcaptionbox{}[0.5\linewidth]{\includegraphics[width=\linewidth]{quartic_spacing.pdf}}
-%     \caption[Equilibrium positions and ion spacings in the quartic potential]{\label{fig:quartic}(a) The equilibrium positions, (b) The inter-ion spacings of \(60\) \yb{171} ions in the quartic potential, the relative standard deviation(RSD) is \(12.0\%\)}
-% \end{figure}
+% In experiment, the amplitude modulation of RF voltage can be realized by an analog modulation of signal generator or a frequency mixer and RF power splitters, the modulation signal should be synchronized with the fluorescence to demodulate the correlation, in practice it can be realized via a TAC device, e.g., PicoHarp, or otherwise we can record the arrival time of each photons and demodulate the correlation digitally. Suppose \(\vv{AB}\) and \(\vv{BC}\) are two independent non-parallel compensation voltage vectors and we rename them as comp \(1\) and comp \(2\), the main operating procedure shown in Fig.~\ref{fig:parametrix_excitation} can be summarized as below,
+% \begin{enumerate}[(1)]
+%   \item Set appropriate modulation depth, and scan the modulation frequency, we can find the secular frequency for the phase shift or the peak value of correlation, suppose \(\omega_x,\,\omega_y\)
+%   \item Fix the detuning \(\Delta\) to \(\omega_x\)
+%   \item Tweak comp \(1\) and find the minimum of the parametric excitation correlation, here \(B\)
+%   \item Change the modulation frequency to excite \(\omega_y\) with the same detuning \(\Delta\)(The detuning is actually not necessary to hold the same.)
+%   \item Tweak comp \(2\) and find the minimum again, \(C\)
+%   \item Repeat steps for \(\omega_x\) again, and find the minimum \(D\)
+%   \item Now we can obtain the basis vector for \(\omega_y\), and we can combine comp \(1,\,2\) together along \(\vv{cy}=\vv{BD}\) to minimize parametric excitation, \(O\)
+%   \item In principle, if the precision is good enough that we have already reached the optimal position. However, if higher precision is required, then we can iteratively update the compensation voltages, since we can always obtain a finer basis vectors from the last two minimization steps.
+% \end{enumerate}
 
-% \begin{figure}[hbtp]
-%     \centering
-%     \subcaptionbox{Harmonic potential.}[0.5\linewidth]{\includegraphics[width=\linewidth]{harmonic_freq.pdf}}\hfill
-%     \subcaptionbox{Quartic potential.}[0.5\linewidth]{\includegraphics[width=\linewidth]{quartic_freq.pdf}}
-%     \caption[The axial normal mode frequencies]{\label{fig:narrow_bandwidth}The axial normal mode frequencies of \(60\) \yb{171} ions in two kinds of potential form.}
-% \end{figure}
-
-% \begin{figure}[hbtp]
-%     \centering
-%     \subcaptionbox{Harmonic potential.}[0.5\linewidth]{\includegraphics[width=\linewidth]{harmonic_axial_mode.pdf}}\hfill
-%     \subcaptionbox{Quartic potential.}[0.5\linewidth]{\includegraphics[width=\linewidth]{quartic_axial_mode.pdf}}
-%     \caption[The axial normal mode vectors]{\label{fig:axial_modes}The dimensionless normal mode vectors along trap axis of \(60\) \yb{171} ions in two kinds of potential form, the mode index starts from the lowest COM mode and the strengths of mode vectors represent the contribution to specific modes.}
-% \end{figure}
-
-% As for the transverse modes, things would be different. The COM mode is the highest one and the bandwidth is near the axial COM mode\cite{zhu2006trapped}, thus the transverse modes are much more crowded. We can further include the transverse terms in a general form
-% \begin{equation}\label{eq:allpotential}
-%     U=\sum_i\qty(\frac{\alpha}{2}z_i^2+\frac{\beta}{4}z_i^4+\frac{1}{2}m\omega_x^2x_i^2+\frac{1}{2}m\omega_y^2y_i^2)+\sum_{i<j}\frac{e^2}{4\pi\epsilon_0\abs{\vb{r_i}-\vb{r_j}}}
-% \end{equation}
-
-% For a linear chain configuration, the equilibrium positions for transverse \(x,\, y\) are quite clear that \(x_0=0,\,y_0=0\), and we can use the same dimensionless unit \(l\) to simplify the potential expression using notation \(uz=z/l,\, ux=x/l,\, uy=y/l\),
-% \begin{equation}\label{eq:dimensionlesspotential}
-%     \begin{aligned}
-%         U' & =\sum_i\qty(\frac{1}{2}uz_i^2+\frac{\beta l^2}{4\alpha}uz_i^4+\frac{m\omega_x^2}{2\alpha}ux_i^2+\frac{m\omega_y^2}{2\alpha}uy_i^2)+\sum_{i\ne j}\frac{sgn(\alpha)}{2\abs{\vb{u_i}-\vb{u_j}}} \\
-%            & =U_0+\sum_i\qty(\frac{m\omega_x^2}{2\alpha}ux_i^2+\frac{m\omega_y^2}{2\alpha}uy_i^2)-sgn(\alpha)\sum_{i\ne j}\frac{\qty(ux_i-ux_j)^2+\qty(uy_i-uy_j)^2}{4\abs{uz_i-uz_j}^3}
-%     \end{aligned}
-% \end{equation}
-% where \(U_0\) is the one only related to coordinates \(uz_i\)'s, and we can neglect them without loss of generality when considering the transverse modes. We can also obtain the Hessian matrix for \(x,\, y\), and the results for \(x\) is present below, and RHS of the potential has the same dependence on the sign of \(\alpha\), in practice, we can directly use the absolute value,
-
-% \begin{equation}\label{eq:transverse_hessian}
-%     \pdv{U'}{ux_i}{ux_j}=\begin{cases}
-%         \frac{m\omega_x^2}{\abs{\alpha}}-\sum_{k\ne i}\frac{1}{\abs{uz_i-uz_k}^3}, & i=j    \\
-%         \frac{1}{\abs{uz_i-uz_j}^3},                                               & i\ne j
-%     \end{cases}
-% \end{equation}
-
-% Here, we show an example of the above crystal, and set the transverse trap frequency as \(2\pi \times 2.47\,\unit{\MHz}\), clearly the transverse mode bandwidth is narrower for the quartic potential as shown in Fig.~\ref{fig:transverse_freq}, once the zigzag mode frequency is low and then the transition probability to a 2D zigzag pattern would be high.  In particular, the mode vectors are in a way the inverse of the axial one, as we can see in Fig.~\ref{fig:axial_modes} and Fig.~\ref{fig:transverse_modes}.
-% \begin{figure}[hbtp]
-%     \centering
-%     \subcaptionbox{Harmonic potential.}[0.5\linewidth]{\includegraphics[width=\linewidth]{transverse_harmonic_freq.pdf}}\hfill
-%     \subcaptionbox{Quartic potential.}[0.5\linewidth]{\includegraphics[width=\linewidth]{transverse_quartic_freq.pdf}}
-%     \caption[The transverse normal mode frequencies]{\label{fig:transverse_freq}The transverse normal mode frequencies of \(60\) \yb{171} ions in two kinds of potential form.}
-% \end{figure}
-
-% \begin{figure}[hbtp]
-%     \centering
-%     \subcaptionbox{Harmonic potential.}[0.5\linewidth]{\includegraphics[width=\linewidth]{transverse_harmonic_mode.pdf}}\hfill
-%     \subcaptionbox{Quartic potential.}[0.5\linewidth]{\includegraphics[width=\linewidth]{transverse_quartic_mode.pdf}}
-%     \caption[The transverse normal mode vectors]{\label{fig:transverse_modes}The dimensionless normal mode vectors along transverse axes of \(60\) \yb{171} ions in two kinds of potential form, the mode index starts from the lowest zigzag mode and the strengths of mode vectors represent the contribution to specific modes.}
-% \end{figure}
+% Therefore, using such parametric excitation technique, we can realize high-precision minimization of excess micromotion of both axes and only one cooling beam is used and thus don't complicate the system configurations with additional lasers.
 
 
 

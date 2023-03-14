@@ -15,40 +15,41 @@
 \contentsline {section}{\numberline {2.2}The Linear Paul Trap}{7}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Mathieu Equation}{8}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Normal Modes}{10}{subsection.2.2.2}%
-\contentsline {section}{\numberline {2.3}notation}{11}{section.2.3}%
-\contentsline {chapter}{\numberline {Chapter 3}Experimental Setup}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The Cryostat}{12}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Low Temperature and UHV System}{14}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Helical Resonator and Segmented Blade Trap}{17}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Design of Helical Resonator}{17}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Assembly of Helical Resonator}{18}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Assembly of Blade Trap}{18}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Yb Oven}{19}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Mechanics Frame}{21}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Optical and Imaging System}{21}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Laser Sources and Power Allocation}{21}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Laser Frequency Stabilization}{22}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Laser Modulation}{24}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Optical Layout of Cryostat Breadboard}{25}{subsection.3.7.4}%
-\contentsline {section}{\numberline {3.8}Electronic Devices}{26}{section.3.8}%
-\contentsline {chapter}{\numberline {Chapter 4}Experimental Procedure}{27}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Start CryoServer}{27}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Cooling-down and warm-up}{27}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Maintenance of the exchange gas chamber}{27}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Cooling-down}{28}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Warm-up}{28}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Micromotion Minimization}{13}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}notation}{15}{section.2.3}%
+\contentsline {chapter}{\numberline {Chapter 3}Experimental Setup}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The Cryostat}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Low Temperature and UHV System}{19}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Helical Resonator and Segmented Blade Trap}{22}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Design of Helical Resonator}{22}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Assembly of Helical Resonator}{23}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Assembly of Blade Trap}{23}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Yb Oven}{24}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Mechanics Frame}{26}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Optical and Imaging System}{26}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Laser Sources and Power Allocation}{26}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Laser Frequency Stabilization}{27}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Laser Modulation}{29}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Optical Layout of Cryostat Breadboard}{30}{subsection.3.7.4}%
+\contentsline {section}{\numberline {3.8}Electronic Devices}{31}{section.3.8}%
+\contentsline {chapter}{\numberline {Chapter 4}Experimental Procedure}{32}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Start CryoServer}{32}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Cooling-down and warm-up}{32}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Maintenance of the exchange gas chamber}{32}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Cooling-down}{33}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Warm-up}{33}{subsection.4.2.3}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{References}{29}{section*.24}%
+\contentsline {chapter}{References}{34}{section*.24}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\numberline {Appendix A}补充内容}{30}{appendix.A}%
-\contentsline {section}{\numberline {A.1}图表示例}{30}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}图}{30}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}表格}{30}{subsection.A.1.2}%
-\contentsline {section}{\numberline {A.2}数学公式}{31}{section.A.2}%
-\contentsline {chapter}{Acknowledgements}{32}{section*.28}%
-\contentsline {chapter}{声\hspace {1em}明}{33}{section*.30}%
-\contentsline {chapter}{Resume}{34}{section*.32}%
-\contentsline {chapter}{Comments from Thesis Supervisor}{35}{appendix*.38}%
-\contentsline {chapter}{Resolution of Thesis Defense Committee}{36}{appendix*.39}%
+\contentsline {chapter}{\numberline {Appendix A}补充内容}{35}{appendix.A}%
+\contentsline {section}{\numberline {A.1}图表示例}{35}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}图}{35}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}表格}{35}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}数学公式}{36}{section.A.2}%
+\contentsline {chapter}{Acknowledgements}{37}{section*.28}%
+\contentsline {chapter}{声\hspace {1em}明}{38}{section*.30}%
+\contentsline {chapter}{Resume}{39}{section*.32}%
+\contentsline {chapter}{Comments from Thesis Supervisor}{40}{appendix*.38}%
+\contentsline {chapter}{Resolution of Thesis Defense Committee}{41}{appendix*.39}%
 \contentsfinish 
