@@ -259,7 +259,7 @@ So, we are able to make use of the modulation information in order to extract th
 
 In this article, we present the parametric excitation approach for the purpose of minimizing excess micromotion because of its ease of use and high degree of accuracy. Although the delivery of laser along the objective might be challenging, the accuracy of micromotion minimization along the objective is completely constrained by the resolution and amplification capabilities of the imaging system. This was covered in the previous section. To be able to detect extra micromotion in any of the three orthogonal directions, parametric excitation just needs a single cooling beam to readily connect to all three directions simultaneously. It is possible to put it into practice by modulating the amplitude of RF fields, using the pseudo potential approximation, the force that is exerted on the ions is
 
-\begin{equation}
+\begin{equation}\label{eq:parametric_excitation}
     \frac{\mathrm{d}^2 \bar{x}}{\mathrm{~d} t^2}+\xi \frac{\mathrm{d} \bar{x}}{\mathrm{~d} t} \omega_x^2\left(1+2 h \cos \left(\omega_m t\right)\right) \bar{x}=\frac{e E_R}{m}
 \end{equation}
 
@@ -273,32 +273,17 @@ In addition, a recent piece of research demonstrates that there is a link betwee
     \bar{x}(t)=\sum_nc_ne^{ic_n\omega_mt}
 \end{equation}
 
-% \(c_n=c_{-n}^*\) for symmetry, and \(c_0\) depends on the first order of modulation, \(c_0=\frac{eE_R}{m\omega_x^2}\). Then we can expand it to the second order, and we can simplify \(\bar{x}(t)=c_0+2\Re{\qty(c_{-1}e^{-i\omega_mt})}\), substitute it back to Eq.~\ref{eq:parametric_excitation}, we can easily get the second-order solution, 
-% \begin{equation}\label{eq:parametric_solution}
-%   \norm{c_{-1}}^2=\frac{2c_0^2h^2}{\qty(f^2-1)+4f^2d^2},\quad \tan(\arg(c_{-1}))=\frac{2fd}{f^2-1}
-% \end{equation}
-% where \(f=\frac{\omega_m}{\omega_x},\, d=\frac{\xi}{\omega_x}\) are normalized frequency and damping factor. The amplitude of \(c_{-1}\) is linearly proportional to \(c_0\), and thus \(E_R\). Obviously, there is a \(\pi\) phase shift when scanning the modulation frequency across \(\omega_x\), which indicate the resonant frequency, and it can be further assisted with the peak value of \(c_{-1}\) during a frequency scan. The sensitivity is determined by two factors, (a) the modulation factor \(h\), (b) the detuning of the modulation frequency to the secular frequency(note that there is a correction of secular frequency due to the modulation which is not shown here, refer to Ref.~\inlinecite{nadlinger2021micromotion} for the details, but the underlying physcis holds the same.). 
+\(c_n=c_{-n}^*\) for symmetry, and \(c_0\) depends on the first order of modulation, \(c_0=\frac{eE_R}{m\omega_x^2}\).
 
-% \begin{figure}
-%   \centering
-%   \includegraphics[width=0.6\linewidth]{parametric_excitation.pdf}
-%   \caption[Protocol of parametric excitation]{\label{fig:parametrix_excitation}The schematic protocol to minimize excess micromotion using parametric excitation technique. The yellow indicates the blade-like electrodes, and the black and red arrows indicate the principal axes in radial plane, and the purple arrows show the procedure of minimization starting from \(A\).}
-% \end{figure}
+Then we can extend it to the second order, and we can simplify $\bar{x}(t)=c_0+2 \Re\left(c_{-1} e^{-i \omega_m t}\right)$, replace it back into Eq.~\ref{eq:parametric_excitation}, and we can easily find the answer for the second order,
 
-% In experiment, the amplitude modulation of RF voltage can be realized by an analog modulation of signal generator or a frequency mixer and RF power splitters, the modulation signal should be synchronized with the fluorescence to demodulate the correlation, in practice it can be realized via a TAC device, e.g., PicoHarp, or otherwise we can record the arrival time of each photons and demodulate the correlation digitally. Suppose \(\vv{AB}\) and \(\vv{BC}\) are two independent non-parallel compensation voltage vectors and we rename them as comp \(1\) and comp \(2\), the main operating procedure shown in Fig.~\ref{fig:parametrix_excitation} can be summarized as below,
-% \begin{enumerate}[(1)]
-%   \item Set appropriate modulation depth, and scan the modulation frequency, we can find the secular frequency for the phase shift or the peak value of correlation, suppose \(\omega_x,\,\omega_y\)
-%   \item Fix the detuning \(\Delta\) to \(\omega_x\)
-%   \item Tweak comp \(1\) and find the minimum of the parametric excitation correlation, here \(B\)
-%   \item Change the modulation frequency to excite \(\omega_y\) with the same detuning \(\Delta\)(The detuning is actually not necessary to hold the same.)
-%   \item Tweak comp \(2\) and find the minimum again, \(C\)
-%   \item Repeat steps for \(\omega_x\) again, and find the minimum \(D\)
-%   \item Now we can obtain the basis vector for \(\omega_y\), and we can combine comp \(1,\,2\) together along \(\vv{cy}=\vv{BD}\) to minimize parametric excitation, \(O\)
-%   \item In principle, if the precision is good enough that we have already reached the optimal position. However, if higher precision is required, then we can iteratively update the compensation voltages, since we can always obtain a finer basis vectors from the last two minimization steps.
-% \end{enumerate}
+\begin{equation}
+    \left\|c_{-1}\right\|^2=\frac{2 c_0^2 h^2}{\left(f^2-1\right)+4 f^2 d^2}, \quad \tan \left(\arg \left(c_{-1}\right)\right)=\frac{2 f d}{f^2-1}
+\end{equation}
 
-% Therefore, using such parametric excitation technique, we can realize high-precision minimization of excess micromotion of both axes and only one cooling beam is used and thus don't complicate the system configurations with additional lasers.
+where \(f=\frac{\omega_m}{\omega_x},\, d=\frac{\xi}{\omega_x}\) are normalized frequency and damping factor. The amplitude of \(c_{-1}\) is linearly proportional to \(c_0\), and thus \(E_R\).
 
+By scanning the modulation frequency across \(\omega_x\), which indicates the resonant frequency, it is obvious that there is a phase shift of \(\pi\). This phase shift may be aided further by the peak value of \(c_{-1}\) that occurs during a frequency scan. The sensitivity is influenced by two factors: (a) the modulation factor h, and (b) the degree to which the modulation frequency is detuned with respect to the secular frequency. Notice that there is a correction to the secular frequency that is related to the modulation, but that it is not represented here. The fundamental physics, however, remains the same.
 
 
 \section{notation}
