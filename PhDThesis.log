@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  15 MAR 2023 09:31
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  16 MAR 2023 11:26
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1328,11 +1328,23 @@ File: figures//fig_2_370_transitions_pumping.pdf Graphic file (type pdf)
 <use figures//fig_2_370_transitions_pumping.pdf>
 File: figures//fig_2_370_transitions_pumping.pdf Graphic file (type pdf)
 <use figures//fig_2_370_transitions_pumping.pdf>
- [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]) (./data/chap03.tex [16]
+ [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 337.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 337.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 337.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 337.
+ [18] [19]
+File: figures//fig_2_Raman.pdf Graphic file (type pdf)
+<use figures//fig_2_Raman.pdf>
+) (./data/chap03.tex [20]
 Chapter 3
-[17
+[21
 
-] [18] [19] [20] [21]
+] [22] [23] [24] [25]
 Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
@@ -1341,15 +1353,15 @@ Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=
 Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-[22] [23] [24] [25] [26] [27] [28] [29] [30]) (./data/chap04.tex [31]
+[26] [27] [28] [29] [30] [31] [32] [33] [34]) (./data/chap04.tex [35]
 Chapter 4
-[32
+[36
 
-]) [33] (./PhDThesis.bbl
+]) [37] (./PhDThesis.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 14.
 
-) (./data/appendix.tex [34
+) (./data/appendix.tex [38
 
 
 
@@ -1357,33 +1369,33 @@ Package natbib Warning: Empty `thebibliography' environment on input line 14.
 Appendix A
 File: example-image-a.pdf Graphic file (type pdf)
 <use example-image-a.pdf>
-[35
+[39
 
-]) (./data/acknowledgements.tex [36]) [37
-
-
-] (./data/resume.tex [38
+]) (./data/acknowledgements.tex [40]) [41
 
 
-]) (./data/comments.tex [39
+] (./data/resume.tex [42
 
 
-] [40
+]) (./data/comments.tex [43
 
-]) (./data/resolution.tex [41
+
+] [44
+
+]) (./data/resolution.tex [45
 
 
 ]) (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: D461F1DCDEF1A1137E0CCE89690228F8;9735.
+(rerunfilecheck)             Checksum: 46C6984BB08E025725728B4500B18431;10437.
  ) 
 Here is how much of TeX's memory you used:
- 31350 strings out of 476688
- 679962 string characters out of 5807700
- 1876001 words of memory out of 5000000
- 51023 multiletter control sequences out of 15000+600000
- 523502 words of font info for 202 fonts, out of 8000000 for 9000
+ 31403 strings out of 476688
+ 681766 string characters out of 5807700
+ 1878001 words of memory out of 5000000
+ 51058 multiletter control sequences out of 15000+600000
+ 524441 words of font info for 219 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  102i,12n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (57 pages, 1078488 bytes).
+Output written on PhDThesis.xdv (61 pages, 1187368 bytes).

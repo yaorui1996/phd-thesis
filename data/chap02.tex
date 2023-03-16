@@ -1,12 +1,12 @@
 % !TeX root = ./PhDThesis.tex
 
-\chapter{Ion Trapping}
+\chapter{Ion trapping}
 
-\section{The \texorpdfstring{${ }^{171} \mathrm{Yb}^{+}$}{} Qubit}
+\section{The \texorpdfstring{${ }^{171} \mathrm{Yb}^{+}$}{} qubit}
 
 With a mass factor of 171 and a nuclear spin of 1/2, ${ }^{171} \mathrm{Yb}^{+}$ has been selected as the qubit system candidate in our laboratory. In the experiment, we use an RF trap to trap the ${ }^{171} \mathrm{Yb}^{+}$ ion. Hyperfine clock states are used to encode the qubit. They are stable against magnetic fluctuations. The two hyperfine states of the ${ }^2 \mathrm{~S}_{1 / 2}$ manifold are encoded as $\left|\downarrow_z\right\rangle \equiv\left|F=0, m_F=0\right\rangle$ and $\left|\uparrow_z\right\rangle \equiv\left|F=1, m_F=0\right\rangle$. The ${ }^2 \mathrm{~S}_{1 / 2} \leftrightarrow{ }^2 \mathrm{P}_{1 / 2}$ transition of the ${ }^{171} \mathrm{Yb}^{+}$ ion is nearly cyclic, but there are 0.5\% of spontaneous emission events that cause the state to decay to ${ }^2 \mathrm{D}_{3 / 2}$. Consequently, a 935 nm laser is continuously on to repump the state to ${ }^{3} [3 / 2]_{1 / 2}$ and subsequently decays back to ${ }^2 \mathrm{~S}_{1 / 2}$ in order to finish the cycle transition. By addressing the transition ${ }^2 \mathrm{~S}_{1 / 2} \leftrightarrow{ }^2 \mathrm{P}_{1 / 2}$ with a 370 nm laser, Doppler cooling, optical pumping, and state detection may be achieved. With the use of acoustic-optic modulator (AOM) and electro-optic modulator (EOM), we put all these operations into practice.
 
-\subsection{Two-photon Ionization}
+\subsection{Two-photon ionization}
 
 Generating an ion and loading it into a Paul trap is the first step towards a trapped-ion quantum computer. The energy necessary to ionize neutral ytterbium to ${ }^{171} \mathrm{Yb}^{+}$ ion is at least a photon with the wavelength below 198.2 nm in the FUV zone, which is hard to produce as a laser. Instead, we adopt a two-photon ionization method to produce ${ }^{171} \mathrm{Yb}^{+}$ with a single valance electron through the intermediate level ${ }^1 \mathrm{P}_1$. An enriched Ytterbium atomic source can be used to produce neutral atomic flux towards the trap center. Once the flux is ejected into the trap center, a laser at 398.9110 nm illuminates the region to first ionize the atoms to a highly excited state ${ }^1 \mathrm{P}_1$ and then another laser with wavelength below 393.1 nm continuously removes the electron, leaving only a valance electron on the atomic orbits.
 
@@ -28,7 +28,7 @@ Routine ion loading procedures include directing an atomic beam to the loading z
     \label{fig:energy_level}
 \end{figure}
 
-\subsection{Doppler Cooling}
+\subsection{Doppler cooling}
 
 Ions have too wide of a motional area to be detected after they have been loaded into the trap since they are still very hot. We must first cool down the heated ions and produce the Coulomb crystal in order to stabilize and crystallize them. Doppler cooling is a method of rapidly cooling ions by utilizing a cyclic transition whose excited state has a very short lifetime and, therefore, a very high cooling rate. Doppler cooling is achieved in the ${ }^{171} \mathrm{Yb}^{+}$ system using a red-detuned laser to access $6^2 P_{1 / 2}$ levels with a lifetime of around 8.12 ns, a natural linewidth of 19.6 MHz, and a transition of 369.5263 nm.
 
@@ -48,11 +48,11 @@ The Doppler cooling limit $T_{\min }=\hbar \Gamma(1+\chi) /\left(4 k_B\right)$ c
     \label{fig:370_transitions}
 \end{figure}
 
-\subsection{Optical Pumping}
+\subsection{Optical pumping}
 
 When the ions have been cooled, the $\left|\downarrow_z\right\rangle$ state is prepared using optical pumping. Laser at 370 nm is stimulated when the ${ }^2 \mathrm{~S}_{1 / 2} \mathrm{~F}=1$ to ${ }^2 \mathrm{P}_{1 / 2} \mathrm{~F}=1$ transition occurs. If the ion enters the ${ }^2 \mathrm{P}_{1 / 2} \mathrm{~F}=1$ manifold, it may spontaneously decay to any of the ${ }^2 \mathrm{~S}_{1 / 2}$ states. The ion is $\sim$ 10GHz off resonant from the nearest transition. From the ${ }^2 \mathrm{P}_{1 / 2} \mathrm{~F}=1$ state, the ion has a 1/3 chance of decaying to the $\left|\downarrow_z\right\rangle$ state. According to the energy diagram, the optical pumping beam has to include both linear and circular components of polarization.
 
-\subsection{State Detection}
+\subsection{State detection}
 
 An experiment's initial step is always preparing the $\left|\downarrow_z\right\rangle$ ion chain. The next step is to actually do the experiment, followed by analysis. When the $\hat{\sigma}_z$ operator is used for measurements, the $\left|\uparrow\right\rangle$ and $\left|\downarrow_z\right\rangle$ states of the ions are the only viable results.
 
@@ -63,7 +63,7 @@ Doppler cooling, optical pumping, and state detection are all examples of operat
 We are able to determine the state of the spins in the ion chain by capturing the spin-dependent fluorescence using a site-resolving image Andor IXon Ultra 888 EMCCD camera. During the state detection process, a resonant laser with a wavelength of 370 nm is shone between $\left|\uparrow\right\rangle$ and $\left|\downarrow_z\right\rangle$. When the qubit is in the $\left|\downarrow_z\right\rangle$ state, a small amount of photons are scattered off, however when the spin state is in the $\left|\uparrow\right\rangle$ state, a significant number of photons are scattered off. The binary threshold for spin-state discrimination is determined by calibrating the number of photons dispersed from the bright $\left|\uparrow\right\rangle$ state and the dark $\left|\downarrow_z\right\rangle$ state of each spin at the beginning of the process of collecting data on those spins. The bright and dark states of the setup used in this thesis have an average fidelity of more than 97 \%, which is suitable for the quantum memory experiments. The off-resonant mixing of spin states during detection, crosstalk between nearby ions, noise from the electronic camera, and noise from the laser are the primary causes of mistake in this case.
 
 
-\section{The Linear Paul Trap}
+\section{The linear Paul trap}
 
 According to one of Maxwell's equations, $\nabla \cdot \vec{E}=0$, the electric field will not diverge in a region where there is no free charge density. This conclusion may be drawn from the fact that: Earnshaw deduced from this equation that it was mathematically impossible for a charged particle to be connected in a static electric field in all directions at the same time. Yet, in order to condense charged particles, either oscillating electric fields or a combination of static electric and magnetic fields are required. In this experiment, the RF trap is the primary focus.
 
@@ -94,7 +94,7 @@ $\alpha, \beta, \gamma, \alpha^{\prime}, \beta^{\prime}, \gamma^{\prime}$ are ge
 
 To be more specific, a Paul trap with the parameters $\gamma^{\prime}=0, \alpha=\beta=-\frac{\gamma}{2}, \alpha^{\prime}=-\beta^{\prime}$ is referred to as a linear trap. In a linear trap, charged particles are only confined by a static field in one direction, while RF fields are used to confine them in the other two directions.
 
-\subsection{Mathieu Equation}
+\subsection{Mathieu equation}
 
 With a Paul trap, it is possible to decouple the motion of charged particles in three different directions. In this case, we will treat in $x$ for the sake of simplicity following,
 
@@ -162,7 +162,7 @@ where \(E_0(x)=-\alpha'V x\) for the general potential, it is a harmonic confine
 
 This re-creates the conclusion that Earnshaw's theorem came to. It is a valid approximation for equilibrium positions and secular motion of charged particles in an RF trap, and it can be used to calculate the principal axes taking both DC and RF fields into account. The secular frequency is \(\omega_x=\frac{e\alpha' V}{\sqrt{2}m\Omega}\), which is consistent with the Mathieu equation. The static confinement can also be taken into account, which is also a harmonic term.
 
-\subsection{Normal Modes}
+\subsection{Normal modes}
 
 Since the normal modes are entirely decoupled from all directions, particularly the transverse modes that we are working on, we employ a chain of trapped ${ }^{171} \mathrm{Yb}^{+}$ ions as the quantum memory in a linear Paul trap. This allows us to study the transverse modes. It is necessary for the trap frequencies to adhere to the relation Eq.~\eqref{eq:linear_chain} if the Coulomb crystal is to be contained inside a linear chain.
 
@@ -225,7 +225,7 @@ where \(U_0\) is the one only related to coordinates \(uz_i\)'s. When thinking a
     \frac{\partial^2 U^{\prime}}{\partial u x_i \partial u x_j}= \begin{cases}\frac{m \omega_x^2}{|\alpha|}-\sum_{k \neq i} \frac{1}{\left|u z_i-u z_k\right|^3}, & i=j \\ \frac{1}{\left|u z_i-u z_j\right|^3}, & i \neq j\end{cases}
 \end{equation}
 
-\subsection{Micromotion Minimization}
+\subsection{Micromotion minimization}
 
 Ions in Paul's tarp will go through a process known as forced motion, which is driven by the frequency referred to as \(\Omega\). Some of this motion is an intrinsic effect caused by the RF potential, while other motion is caused by forced motion for ions going through a process known as nonzero oscillating force. The force may be created by a residual DC field that moves the ions away from the RF null, and the real-time electric field is not zero. The temporal dependency of the real-time electric field's frequency is characterized by \(\Omega\). The motion of ions may, as a matter of course, be explained by the linear superposition of two portions.
 
@@ -284,6 +284,126 @@ Then we can extend it to the second order, and we can simplify $\bar{x}(t)=c_0+2
 where \(f=\frac{\omega_m}{\omega_x},\, d=\frac{\xi}{\omega_x}\) are normalized frequency and damping factor. The amplitude of \(c_{-1}\) is linearly proportional to \(c_0\), and thus \(E_R\).
 
 By scanning the modulation frequency across \(\omega_x\), which indicates the resonant frequency, it is obvious that there is a phase shift of \(\pi\). This phase shift may be aided further by the peak value of \(c_{-1}\) that occurs during a frequency scan. The sensitivity is influenced by two factors: (a) the modulation factor h, and (b) the degree to which the modulation frequency is detuned with respect to the secular frequency. Notice that there is a correction to the secular frequency that is related to the modulation, but that it is not represented here. The fundamental physics, however, remains the same.
+
+
+
+\section{Coherent manipulation of ions}
+
+The ${ }^{171} \mathrm{Yb}^{+}$ qubits are the primary research topic in our laboratory, the qubit itself is encoded in the ground state manifold's two hyperfine levels. In order to manipulate the qubit using a laser, one must make use of the Raman transition, which is facilitated by various auxiliary energy levels.
+
+\subsection{Theory of laser-ion interaction}
+
+In this part, I will focus on the interaction of a single ion with the laser. The application of this concept to the situation of several ions is quite simple, with the exception of the laborious indexing required for the normal mode ladder operators. The Halmitonian for the trapped ion that was irradiated by the laser is as follows: $\hat{H} = \hat{H}_0 + \hat{V}$, where $\hat{H}_0$ refers to the non-interacting component and $\hat{V}$ refers to the interaction part. After being cooled by Doppler cooling, it is possible to safely view it as a harmonic oscillator, even if there is just a single ion trapped in the potential. And if we are just concerned with a two-level internal system and a z-axis exterior motion of the ion, then (we shall set $\hbar$ as 1 in the following) $\hat{H}_0=\omega_0 /2 \hat{\sigma}_z + \nu \hat{a}^{\dagger} \hat{a}$, where $\omega_0$ operator for the annihilation of the z-axis motion. We now deduce the laser-ion interaction, denoted by the symbol $\hat{V}$; however, we only take into account the electric-field component of the laser and use a semi-classical point of view, this means that the laser field is not quantized,
+
+\begin{equation}
+    \mathbf{E}=\frac{\mathbf{E}_0}{2}\left(e^{i\left(\omega_L t-\mathbf{k} \cdot \mathbf{R}+\varphi_L\right)}+e^{-i\left(\omega_L t-\mathbf{k} \cdot \mathbf{R}+\varphi_L\right)}\right),
+\end{equation}
+
+where $\mathbf{R}$ represents the position vector of the ion, $\mathbf{E}_0$ represents the amplitude of the laser field, $\omega_L$ represents the frequency of the laser field, and $\varphi_L$ represents the phase of the laser field. In this context, we will use the example of dipole interaction. The location of the ion along the z axis may be expanded by the ladder operator, $\hat{z}=\bar{z} + z_0 (\hat{a}^{\dagger}+\hat{a})$, where $\bar{z}$ is the average position, $z_0$ is the motional extent, and $\hat{a}\, (\hat{a}^{\dagger})$ was just described above. The motional extent is the distance traveled by the ion along the z axis. The dipole interaction Hamiltonian might therefore be written as
+
+\begin{equation}
+    \hat{V}=-e\left(\mathbf{r}_{e g} \hat{\sigma}_{+}+\mathbf{r}_{e g} \hat{\sigma}_{-}\right) \cdot \frac{\mathbf{E}_0}{2}\left(e^{i\left(\omega_L t-\eta\left(\hat{a}^{\dagger}+\hat{a}\right)+\phi\right)}+\text { H.c. }\right),
+\end{equation}
+
+where $\mathbf{r}_{e g}=\langle e|\hat{\mathbf{r}}| g\rangle, \hat{\sigma}_{+}\left(\hat{\sigma}_{-}\right)$is $|e\rangle\langle g|(|g\rangle\langle e|), \eta=z_0 k \cos \theta$ is a parameter derived from the Lamb-Dicke equation that describes the relationship between the ion-motional extent and the laser wavelength. This parameter is often considerably less than $1$, and in our configuration, it is between $0.07-0.09$ away from a transverse mode. And $\phi = \varphi_L - k\cos{\theta} \bar{z}$ is just a re-defined laser phase factor. In the formulas that have come before, the symbol $\theta$ refers to the angle that exists between the laser wave vector $\mathbf{k}$ and the ion-motional axis z. We put the whole Hamiltonian into the interaction picture of the uncoupled Hamiltonian, $\hat{H}_0$ with $\hat{U}_0= e^{i \hat{H}_0 t}$,
+
+\begin{equation}
+    \begin{aligned}
+        \hat{H}_I & =\hat{U}_0 \hat{H} \hat{U}_0^{\dagger}-i \hat{U}_0 \frac{\partial \hat{U}_0^{\dagger}}{\partial t}                                                                                                                                                                               \\
+                  & =-e\left(\mathbf{r}_{e g} \hat{\sigma}_{+} e^{i \omega_0 t}+\mathbf{r}_{e g} \hat{\sigma}_{-} e^{-i \omega_0 t}\right) \cdot \frac{\mathbf{E}_0}{2}\left(e^{i\left(\omega_L t-\eta\left(\hat{a}^{\dagger} e^{i v t}+\hat{a} e^{-i v t}\right)+\phi\right)}+\text { H.c. }\right)
+    \end{aligned}
+\end{equation}
+
+By using the rotating wave approximation, we are able to eliminate the high frequency components, which are on the order of $\omega_L+\omega_0$, and get the Hamiltonian that is associated with the interaction picture,
+
+\begin{equation}
+    \hat{H}_I=-e \mathbf{r}_{e g} \cdot \frac{\mathbf{E}_0}{2} \hat{\sigma}_{+} e^{-i(\delta t+\phi)} e^{i \eta\left(\hat{a}^{\dagger} e^{i v t}+\hat{a} e^{-i v t}\right)}+H . c .
+\end{equation}
+
+where $\delta = \omega_L-\omega_0$ is the detuning. We decided to go with $\Omega=-e \mathbf{r}_{e g} \cdot \mathbf{E}_0 e^{-i \phi}$, which is known as the Rabi frequency, then the $\hat{H}_I$ is
+
+\begin{equation}\label{eq:1}
+    \hat{H}_I=\frac{\Omega}{2} \hat{\sigma}_{+} e^{-i \delta t} e^{i \eta\left(\hat{a}^{\dagger} e^{i v t}+\hat{a} e^{-i v t}\right)}+\text { H.c. }
+\end{equation}
+
+We make the observation that this Hamiltonian is generated from the dipole interaction, nevertheless, for any other sort of interactions, whether quadrupole or Raman interaction, the Hamiltonian of laser and ion is always of the same form. The only thing that is different is the concrete representation of the Rabi frequency, which is denoted by $\Omega$, but we are not too concerned about it since it can be determined by experimentation. As the ytterbium hyperfine qubits are the primary research topic in our laboratory, I will provide an in-depth depiction of the Raman interaction in the next part.
+
+Let us proceed by assuming the following form for the detuning $\delta$ of the laser frequency $\omega_L$ from the atomic frequency $\omega_0$,
+
+\begin{equation}
+    \delta=\omega_L-\omega_0=k\nu, \ k=0,\pm1,\pm2,\dots
+\end{equation}
+
+We apply BCH theorem \footnote{$e^{X} e^{Y}=e^{Z}$ where $Z=X+Y+\frac{1}{2}[X, Y]+\frac{1}{12}[X,[X, Y]]-\frac{1}{12}[Y,[X, Y]]+\cdots$} to equation \eqref{eq:1},
+
+\begin{equation}
+    \label{2}
+    \hat{H}_I=\frac{\Omega}{2} \hat{\sigma}_+ e^{-\eta^2/2}\sum_{n,m=0}^{\infty} (i\eta)^{n+m}\frac{(a^\dagger)^n}{n!}\frac{a^m}{m!}e^{i\nu t (n-m-k)} + H.c.
+\end{equation}
+
+If the laser is tuned at the frequency $\omega_L$ such that $k=0$, the spectral line is called the carrier. For $k>0$ ($k<0$), the spectral line is termed the $k$th blue (red) sideband because the laser is blue (red) detuned from the atomic frequency $\omega_0$.
+
+The spectral line is referred to as the carrier when the laser is adjusted to operate at the frequency $\omega_L$ in such a way that $k=0$. Since the laser is blue (or red) detuned from the atomic frequency $\omega_0$, the spectral line is referred to as the $k$th blue (or red) sideband when $k>0$ (or $k<0$), respectively.
+
+As a result, the Hamiltonian of the kth order, denoted by the symbol $\hat{H}_I^k$, may be written as follows,
+
+for $k>0$
+
+\begin{equation}
+    \hat{H}_I^k=\sum_{m=0}^{\infty}\left(\frac{\Omega_{m, m+k}}{2}|e\rangle\langle g|\otimes| m+k\rangle\langle m|+\text { H.c. }\right),
+\end{equation}
+
+for $k<0$
+
+\begin{equation}
+    \hat{H}_I^k=\sum_{m=0}^{\infty}\left(\frac{\Omega_{m, m+|k|}}{2}|e\rangle\langle g|\otimes| m\rangle\langle m+|k||+H . c .\right),
+\end{equation}
+
+where for $k>0$, $\Omega_{m,m+k}=\Omega_{m+k,m}=\Omega e^{-\eta^2/2}(i\eta)^{k}L_m^{k}(\eta^2)\sqrt{\frac{m!}{(m+k)!}}$ is the Rabi frequency between the two states, $|g\rangle|m\rangle(|g\rangle|m+k\rangle)$ and $|e\rangle|m+k\rangle(|e\rangle|m\rangle)$, so $\Omega_{m, m+k}=\left|\Omega_{m, m+k}\right| e^{i \frac{k \pi}{2}-i \phi}$.
+
+The $\hat{U}_{k}=\exp(-i\hat{H}_I^k t)$ notation denotes the temporal evolution operator. In order to discover the rule, we may broaden it and do the calculation $(\hat{H}_I^k)^2$, $(\hat{H}_I^k)^3$.
+
+We are primarily interested in the interactions on the carrier ($k = 0$) and the first red (blue) sideband ($k=-1(+1)$) in terms of quantum coherent manipulations of a single ion. This is because these interactions are the fundamental components for the constructions of a wide class of quantum manipulations, such as sideband cooling and the spin-dependent force.
+
+For $k=0$
+
+\begin{equation}
+    \begin{aligned}
+        \hat{U}_c & =\sum_{m=0}^{\infty} \cos \left(\frac{\left|\Omega_{m, m}\right| t}{2}\right)(|g\rangle\langle g|\otimes| m\rangle\langle m|+| e\rangle\langle e|\otimes| m\rangle\langle m|) \\
+                  & -i \sum_{m=0}^{\infty} \sin \left(\frac{\left|\Omega_{m, m}\right| t}{2}\right)\left(|e\rangle\langle g|\otimes| m\rangle\langle m| e^{-i \phi}+\text { H.c. }\right)
+    \end{aligned}
+\end{equation}
+
+For $k=-1\, (+1)$
+
+\begin{equation}
+    \begin{aligned}
+        \hat{U}_{r(b)} & =\sum_{m=0}^{\infty} \cos \left(\frac{\left|\Omega_{m, m+1}\right| t}{2}\right)(|g(e)\rangle\langle g(e)|\otimes| m+1\rangle\langle m+1|+| e(g)\rangle\langle e(g)|\otimes| m\rangle\langle m|)            \\
+                       & -i \sum_{m=0}^{\infty} \sin \left(\frac{\left|\Omega_{m, m+1}\right| t}{2}\right)\left(|e\rangle\langle g|\otimes| m(m+1)\rangle\langle m+1(m)| e^{i\left(\frac{\pi}{2}-\phi\right)}+\text { H.c. }\right)
+        \\
+                       & +|g(e)\rangle\langle g(e)|\otimes| 0\rangle\langle 0|
+    \end{aligned}
+\end{equation}
+
+Even when the average phonon number of the motional state is rather large, the preceding forms may still be applied to the dynamics of the ions even while operating outside of the Lamb-Dicke regime. The majority of the time, especially after ground-state cooling of the ion motion, we only expand the Hamiltonian \eqref{eq:1} to the first order of the Lamb-Dicke parameter $\eta$ in the Lamb-Dicke regime. After doing so, the Hamiltonian \eqref{eq:1} can be approximated to
+
+\begin{equation}
+    \label{10}
+    \hat{H}_I=\frac{\Omega}{2} (\hat{\sigma}_+ e^{-i\delta t}+H.c.) +\frac{i\eta\Omega}{2}\left(\hat{\sigma}_+ (\hat{a}^\dagger e^{i(\nu-\delta) t} + \hat{a}e^{-i(\nu+\delta) t})+H.c.\right).
+\end{equation}
+
+This is especially true after ground-state cooling of the ion motion. Setting $\delta$ close to $0$, $-\nu$ and $\nu$ accordingly and disregarding the rather rapid rotating terms allows us to quickly get the carrier, the first red sideband, and the first blue sideband from this equation.
+
+\subsection{Raman coherent control}
+
+Consider now how the Raman laser beams would react if they were to contact with a single ion. This laser is called a pump laser and its frequency is $\omega_p$ and Rabi frequency $\Omega_p$. The other laser is called a Stokes laser and its frequency is $\omega_s$ and Rabi frequency $\Omega_s$. As we can see from Fig.~\ref{fig:Raman}, there are two laser beams coupling the spin-down state ($\left|\downarrow\right\rangle$) and the auxiliary state ($\left|1\right\rangle$). The laser-ion Hamiltonian under intraction picture is an extension of the equation that additionally considers the cross coupling terms (i.e. the pump (Stokes) beam also couples $|\uparrow(\downarrow)\rangle$ and $|1\rangle$), as well as the intraction picture.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{fig_2_Raman.pdf}
+    \caption{Level scheme of Raman transition.}
+    \label{fig:Raman}
+\end{figure}
 
 
 \section{notation}
