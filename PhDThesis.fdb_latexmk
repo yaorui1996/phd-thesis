@@ -1,25 +1,25 @@
 # Fdb version 4
-["bibtex PhDThesis"] 1678936945 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1678937213 0
+["bibtex PhDThesis"] 1679019479 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1679019884 0
   "./ref/refs.bib" 1664959156 10001 41cdddcd0d3c3155a2cc69ca952ced96 ""
   "./thuthesis-numeric.bst" 1664959156 46116 cd3bc71ff82c01699bd493d2be7a78bd ""
-  "PhDThesis.aux" 1678937212 10454 68bf4b183b2b5d9164f847b17d81a8ea "xelatex"
+  "PhDThesis.aux" 1679019882 11018 210ef07fafb61d7de79d975f196656ba "xelatex"
   (generated)
   "PhDThesis.bbl"
   "PhDThesis.blg"
   (rewritten before read)
-["xdvipdfmx"] 1678937212 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1678937213 0
-  "PhDThesis.xdv" 1678937212 1187368 3abc1e34ea10ea933d3f87dfc7a58e72 "xelatex"
+["xdvipdfmx"] 1679019883 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1679019884 0
+  "PhDThesis.xdv" 1679019882 1304444 b428348d093699b35da301e56b6b677b "xelatex"
   (generated)
   "PhDThesis.pdf"
   (rewritten before read)
-["xelatex"] 1678937209 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1678937213 0
-  "PhDThesis.aux" 1678937212 10454 68bf4b183b2b5d9164f847b17d81a8ea "xelatex"
-  "PhDThesis.bbl" 1678936946 380 df8c4f4f41d6dc077f9019104a98461e "bibtex PhDThesis"
-  "PhDThesis.lof" 1678937212 728 88c543bd8a19f019d9969aeec94be154 "xelatex"
-  "PhDThesis.lot" 1678937212 185 7d5afa20713405c5c3230dbb078f8d8d "xelatex"
-  "PhDThesis.out" 1678937212 10437 46c6984bb08e025725728b4500b18431 "xelatex"
+["xelatex"] 1679019880 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1679019884 0
+  "PhDThesis.aux" 1679019882 11018 210ef07fafb61d7de79d975f196656ba "xelatex"
+  "PhDThesis.bbl" 1679019479 380 df8c4f4f41d6dc077f9019104a98461e "bibtex PhDThesis"
+  "PhDThesis.lof" 1679019882 728 04656d9416db1d82ae58fb883c1845ed "xelatex"
+  "PhDThesis.lot" 1679019882 185 44ea4cb84f52959048ffcc55f4703b40 "xelatex"
+  "PhDThesis.out" 1679019882 11471 26170e5352d7256d95c07b34219852ef "xelatex"
   "PhDThesis.tex" 1676003608 2580 f09eb50cfe32b6169260e18e28ceac13 ""
-  "PhDThesis.toc" 1678937212 4521 bb79ef7aba088793365db6cf2096abcd "xelatex"
+  "PhDThesis.toc" 1679019882 4876 cd3d784d1c45ae6351427f4bd1b7ba16 "xelatex"
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1675865316 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1675867395 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1675864802 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -158,9 +158,9 @@
   "data/acknowledgements.tex" 1675954430 539 ee27e5873474b56db0f22949b8cf1367 ""
   "data/appendix.tex" 1675954430 1456 6fa171fd6daf5b8dcfee44f6d2968563 ""
   "data/chap01.tex" 1676281337 1421 df7198032fd4793618b1d2af9b1e37ef ""
-  "data/chap02.tex" 1678937208 47237 9fa3979e5cba474e1ed183034aeb5aec ""
-  "data/chap03.tex" 1678440855 38658 074534a0c8a9779439e049fa875f7bbc ""
-  "data/chap04.tex" 1676253174 4770 a7d0a7fee4b94cde4f97539e339b244e ""
+  "data/chap02.tex" 1678943488 53358 3f1415c7e1ee79935bbeb8abbbbfe6de ""
+  "data/chap03.tex" 1678944303 38652 032e9893019f48393730665f81ed4eb3 ""
+  "data/chap04.tex" 1679019879 11666 bf4d510454d40a3964fdaa96d4300aba ""
   "data/comments.tex" 1675954430 276 f199f94d4914a4e688b413c16104b1bf ""
   "data/committee.tex" 1675954430 1631 99bc59fdcaaa3e60b7e5c117f0bcf5c5 ""
   "data/denotation.tex" 1675954430 5429 b972dc834702dc10f103b4ca85a92de8 ""
@@ -168,11 +168,11 @@
   "data/resume.tex" 1675954430 1443 fbeb965761182ca54c9271eae92e27fd ""
   "figures//fig_2_370_transitions_cooling.pdf" 1648209582 46910 ca59d6862fd552c052d8e4d9edb971d7 ""
   "figures//fig_2_370_transitions_pumping.pdf" 1648209538 46421 c2a99bcf5e2e23ffbdbc717b6b80377d ""
-  "figures//fig_2_Raman.pdf" 1678937183 303904 bab385073e23ff2fbe41e67ee1488fa6 ""
+  "figures//fig_2_Raman.pdf" 1678937266 306196 49d92bbff48fd9713226cda7f2c07ef2 ""
   "figures//fig_2_energy_level.pdf" 1678690932 116784 db8503cdc38872f929218faf63a07592 ""
   "figures//fig_2_photo_ionization.pdf" 1645946134 76830 fc5ad8282f012a6667ae17c1356e6944 ""
   "thusetup.tex" 1675954288 4805 00b2e5e167024538e2d1a5115c1d3974 ""
-  "thuthesis.cls" 1678937208 112463 72705b84252c4f64a294fb60487d981d ""
+  "thuthesis.cls" 1679019879 112463 72705b84252c4f64a294fb60487d981d ""
   (generated)
   "PhDThesis.aux"
   "PhDThesis.lof"

@@ -398,6 +398,15 @@ This is especially true after ground-state cooling of the ion motion. Setting $\
 
 Consider now how the Raman laser beams would react if they were to contact with a single ion. This laser is called a pump laser and its frequency is $\omega_p$ and Rabi frequency $\Omega_p$. The other laser is called a Stokes laser and its frequency is $\omega_s$ and Rabi frequency $\Omega_s$. As we can see from Fig.~\ref{fig:Raman}, there are two laser beams coupling the spin-down state ($\left|\downarrow\right\rangle$) and the auxiliary state ($\left|1\right\rangle$). The laser-ion Hamiltonian under intraction picture is an extension of the equation that additionally considers the cross coupling terms (i.e. the pump (Stokes) beam also couples $|\uparrow(\downarrow)\rangle$ and $|1\rangle$), as well as the intraction picture.
 
+\begin{equation}
+    \begin{aligned}
+        \label{Raman interaction H}
+        \hat{H}_{R} & =\left(\frac{\Omega_p^{1\uparrow}}{2}\hat{\sigma}_{1\uparrow}e^{-i(\Delta+\omega_0)t}+\frac{\Omega_p^{1\downarrow}}{2}\hat{\sigma}_{1\downarrow}e^{-i\Delta t}\right)e^{i\eta_p(a^\dag e^{i\nu t}+ae^{-i\nu t})} \\&+\left(\frac{\Omega_s^{1\uparrow}}{2}\hat{\sigma}_{1\uparrow}e^{-i(\Delta-\delta)t}+\frac{\Omega_s^{1\downarrow}}{2}\hat{\sigma}_{1\downarrow}e^{-i(\Delta-\delta-\omega_0) t}\right)e^{i\eta_s(a^\dag e^{i\nu t}+ae^{-i\nu t})}+H.c.,
+    \end{aligned}
+\end{equation}
+
+where $\Omega_x^{i, j}=-\frac{e \mathbf{r}_{i, j} \cdot \mathbf{E}_x}{\hbar} e^{-i \phi_x}(i, j=\downarrow, \uparrow, 1$ and $x=p, s)$ means the Rabi frequency coupling $|i\rangle$ and $|j\rangle$ via laser $x$ and $\hat{\sigma}_{i, j}=|i\rangle\langle j|$. $\Delta$, $\delta$ and $\omega_0$ is explained in the caption of Fig.~\ref{fig:Raman}.
+
 \begin{figure}
     \centering
     \includegraphics[width=0.5\linewidth]{fig_2_Raman.pdf}
@@ -405,16 +414,53 @@ Consider now how the Raman laser beams would react if they were to contact with 
     \label{fig:Raman}
 \end{figure}
 
+Changing to a new reference frame via $\hat{U}=e^{i \delta t|\uparrow\rangle\langle\uparrow|+i \Delta t| 1\rangle\langle 1|}$ allows us to get the Hamiltonian, which is as follows,
 
-\section{notation}
+\begin{equation}
+    \begin{aligned}
+        \widetilde{H} & =-\delta|\uparrow\rangle\langle\uparrow|-\Delta| 1\rangle\langle 1|+\left[\left(\frac{\Omega_p^{1 \downarrow}}{2} \sigma_{1 \downarrow}+\frac{\Omega_p^{1 \uparrow}}{2} \sigma_{1 \uparrow} e^{-i\left(\omega_0+\delta\right) t}\right) e^{i \eta_p\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)}\right. \\
+                      & \left.+\left(\frac{\Omega_s^{1 \uparrow}}{2} \sigma_{1 \uparrow}+\frac{\Omega_s^{I \downarrow}}{2} \sigma_{1 \downarrow} e^{i\left(\omega_0+\delta\right) t}\right) e^{i \eta_s\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)}+H . c .\right] .
+    \end{aligned}
+\end{equation}
 
-${ }^{171} \mathrm{Yb}^{+}$
+For $\delta\ll\omega_0$, and $\Omega_s^{1\downarrow},\Omega_p^{1\uparrow} \ll \omega_0+\delta$, it might be possible to omit the cross-coupling phrases. The Hamiltonian equation would therefore be,
 
-$6^2 P_{1 / 2}$
+\begin{equation}
+    \begin{aligned}
+        \breve{H} & =-\delta|\uparrow\rangle\langle\uparrow|-\Delta| 1\rangle\langle 1|                                                                                                                                                                                                            \\
+                  & +\left[\frac{\Omega_p^{1 \downarrow}}{2} \hat{\sigma}_{1 \downarrow} e^{i \eta_p\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)}+\frac{\Omega_s^{1 \uparrow}}{2} \hat{\sigma}_{1 \uparrow} e^{i \eta_s\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)}+\text { H.c. }\right] .
+    \end{aligned}
+\end{equation}
 
-$|\downarrow\rangle$
+If we set the internal state as $|\psi(t)\rangle=c_{\downarrow}(t)|\downarrow\rangle+c_{\uparrow}(t)|\uparrow\rangle+c_1(t)|1\rangle$, then the evolution equations of $c_{\downarrow},c_{\uparrow},c_1$ are
 
-$\left|\downarrow_z\right\rangle$
+\begin{equation}
+    \begin{aligned}
+        i \dot{c}_{\downarrow} & =\frac{\left(\Omega_p^{1 \downarrow}\right)^*}{2} e^{-i \eta_p\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)} c_1                                                                                                                 \\
+        i \dot{c}_{\uparrow}   & =-\delta c_{\uparrow}+\frac{\left(\Omega_s^{1 \dagger}\right)^*}{2} e^{-i \eta_s\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)} c_1                                                                                               \\
+        i \dot{c}_1            & =\frac{\Omega_p^{1 \downarrow}}{2} e^{i \eta_p\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)} c_{\downarrow}+\frac{\Omega_s^{1 \dagger}}{2} e^{i \eta_s\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)} c_{\uparrow}-\Delta c_1 .
+    \end{aligned}
+\end{equation}
 
-$\left|\uparrow\right\rangle$
+If that $\Delta$ is far larger than $\Omega^{1\downarrow}_p$ and $\Omega^{1\uparrow}_s$, the population probability of $|1\rangle$ will be very low due to the far detuning. Hence, we will be able to adiabatically remove this irrelevant state by setting $\dot{c}_1$ to zero and obtaining  $c_1=\frac{\Omega^{1\downarrow}_P c_{\downarrow}+\Omega^{1\uparrow}_s c_{\uparrow}}{2\Delta}$. The effective equation for the development of a system with two levels is as follows,
 
+\begin{equation}
+    \begin{aligned}
+        i \dot{c}_{\downarrow} & =\Lambda_{\downarrow} c_{\downarrow}+\frac{\Omega_R^*}{2} e^{-i \eta\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)} c_{\uparrow}                 \\
+        i \dot{c}_{\uparrow}   & =\frac{\Omega_R}{2} e^{i \eta\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)} c_{\downarrow}+\left(\Lambda_{\uparrow}-\delta\right) c_{\uparrow},
+    \end{aligned}
+\end{equation}
+
+$\Lambda_{\downarrow(\uparrow)}=\frac{\left|\Omega_{p(s)}^{1, \downarrow(\uparrow)}\right|^2}{4 \Delta}$ is the second-order ac Stark shift of the state, $\eta=\eta_p-\eta_s$ is the Lamb-Dicke parameter of the differential wave vector $\Delta \mathbf{k}=\mathbf{k}_p-\mathbf{k}_s$. The effective Rabi frequency used to couple the two qubit states is denoted by $|\downarrow(\uparrow)\rangle$ and $\Omega_R=\frac{\Omega^{1\downarrow}_p \times (\Omega^{1\uparrow}_s)^*}{2\Delta}$. Now, with the help of the aforementioned evolution equations, we can easily get the effective Hamiltonian of the qubit,
+
+\begin{equation}
+    \hat{H}_{\mathrm{eff}}=\frac{\Delta_{s s}}{2} \hat{\sigma}_z+\frac{\Lambda_{\uparrow}+\Lambda_{\downarrow}}{2} \hat{I}-\delta \hat{\sigma}_{+} \hat{\sigma}_{-}+\left(\frac{\Omega_R}{2} e^{i \eta\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)} \hat{\sigma}_{+}+H . c .\right),
+\end{equation}
+
+where $\Delta_{ss}=\Lambda_{\uparrow}-\Lambda_{\downarrow}$ is the differential ac Stark shift of the two qubit levels. By removing an insignificant component from $\hat{I}$ and transferring into the reference frame in terms of $\hat{U}_0=e^{-i\delta\hat{\sigma}_+\hat{\sigma}_-+i\Delta_{ss}\sigma_z/2}$, we get the effective Hamiltonian that is identical to Eq.~\eqref{eq:1},
+
+\begin{equation}
+    \hat{H}_{\mathrm{eff}}=\frac{\Omega_R}{2} e^{-i \mu t} e^{i \eta\left(a^{\dagger} e^{i v t}+a e^{-i v t}\right)} \hat{\sigma}_{+}+H . c .
+\end{equation}
+
+where $\mu=\delta-\Delta_{ss}$ is a redefinition of the two-photon detuning. On the basis of this Hamiltonian, it is feasible to do all of the manipulations, such as switching between the carrier and the red and blue sidebands.

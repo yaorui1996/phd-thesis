@@ -19,40 +19,43 @@
 \contentsline {section}{\numberline {2.3}Coherent manipulation of ions}{16}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Theory of laser-ion interaction}{16}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Raman coherent control}{20}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}notation}{20}{section.2.4}%
-\contentsline {chapter}{\numberline {Chapter 3}Experimental Setup}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The Cryostat}{21}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Low Temperature and UHV System}{23}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Helical Resonator and Segmented Blade Trap}{26}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Design of Helical Resonator}{26}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Assembly of Helical Resonator}{27}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Assembly of Blade Trap}{27}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Yb Oven}{28}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Mechanics Frame}{30}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Optical and Imaging System}{30}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Laser Sources and Power Allocation}{30}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Laser Frequency Stabilization}{31}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Laser Modulation}{33}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Optical Layout of Cryostat Breadboard}{34}{subsection.3.7.4}%
-\contentsline {section}{\numberline {3.8}Electronic Devices}{35}{section.3.8}%
-\contentsline {chapter}{\numberline {Chapter 4}Experimental Procedure}{36}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Start CryoServer}{36}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Cooling-down and warm-up}{36}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Maintenance of the exchange gas chamber}{36}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Cooling-down}{37}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Warm-up}{37}{subsection.4.2.3}%
+\contentsline {chapter}{\numberline {Chapter 3}Experimental setup}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}The cryostat}{23}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Cryogenic and UHV system}{25}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Helical resonator and segmented blade trap}{28}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Design of helical resonator}{28}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Assembly of helical resonator}{29}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Assembly of blade trap}{29}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Yb oven}{30}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Mechanics frame}{32}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Optical and imaging system}{32}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Laser sources and power allocation}{32}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Laser frequency stabilization}{33}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Laser modulation}{35}{subsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.7.4}Optical layout of cryostat breadboard}{36}{subsection.3.7.4}%
+\contentsline {section}{\numberline {3.8}Electronic devices}{37}{section.3.8}%
+\contentsline {chapter}{\numberline {Chapter 4}Cryogenic experimental technique}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Start CryoServer}{38}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Cool-down and warm-up procedures}{38}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Maintenance of the exchange gas chamber}{38}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Cool-down}{39}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Warm-up}{39}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Characterization of the vibration}{40}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}The Michelson interferometer}{40}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}High-precision long-term vibration measurement}{42}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Minimize vibration of the cryostat}{42}{subsection.4.3.3}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{References}{38}{section*.25}%
+\contentsline {chapter}{References}{43}{section*.25}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\numberline {Appendix A}补充内容}{39}{appendix.A}%
-\contentsline {section}{\numberline {A.1}图表示例}{39}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}图}{39}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}表格}{39}{subsection.A.1.2}%
-\contentsline {section}{\numberline {A.2}数学公式}{40}{section.A.2}%
-\contentsline {chapter}{Acknowledgements}{41}{section*.29}%
-\contentsline {chapter}{声\hspace {1em}明}{42}{section*.31}%
-\contentsline {chapter}{Resume}{43}{section*.33}%
-\contentsline {chapter}{Comments from Thesis Supervisor}{44}{appendix*.39}%
-\contentsline {chapter}{Resolution of Thesis Defense Committee}{45}{appendix*.40}%
+\contentsline {chapter}{\numberline {Appendix A}补充内容}{44}{appendix.A}%
+\contentsline {section}{\numberline {A.1}图表示例}{44}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}图}{44}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}表格}{44}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}数学公式}{45}{section.A.2}%
+\contentsline {chapter}{Acknowledgements}{46}{section*.29}%
+\contentsline {chapter}{声\hspace {1em}明}{47}{section*.31}%
+\contentsline {chapter}{Resume}{48}{section*.33}%
+\contentsline {chapter}{Comments from Thesis Supervisor}{49}{appendix*.39}%
+\contentsline {chapter}{Resolution of Thesis Defense Committee}{50}{appendix*.40}%
 \contentsfinish 
