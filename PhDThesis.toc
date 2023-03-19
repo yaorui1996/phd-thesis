@@ -44,18 +44,19 @@
 \contentsline {section}{\numberline {4.3}Characterization of the vibration}{40}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}The Michelson interferometer}{40}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}High-precision long-term vibration measurement}{42}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Minimize vibration of the cryostat}{42}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.3}Minimize vibration of the cryostat}{43}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Obtain impedance match of helical resonator}{44}{section.4.4}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{References}{43}{section*.25}%
+\contentsline {chapter}{References}{46}{section*.25}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\numberline {Appendix A}补充内容}{44}{appendix.A}%
-\contentsline {section}{\numberline {A.1}图表示例}{44}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}图}{44}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}表格}{44}{subsection.A.1.2}%
-\contentsline {section}{\numberline {A.2}数学公式}{45}{section.A.2}%
-\contentsline {chapter}{Acknowledgements}{46}{section*.29}%
-\contentsline {chapter}{声\hspace {1em}明}{47}{section*.31}%
-\contentsline {chapter}{Resume}{48}{section*.33}%
-\contentsline {chapter}{Comments from Thesis Supervisor}{49}{appendix*.39}%
-\contentsline {chapter}{Resolution of Thesis Defense Committee}{50}{appendix*.40}%
+\contentsline {chapter}{\numberline {Appendix A}补充内容}{47}{appendix.A}%
+\contentsline {section}{\numberline {A.1}图表示例}{47}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}图}{47}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}表格}{47}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}数学公式}{48}{section.A.2}%
+\contentsline {chapter}{Acknowledgements}{49}{section*.29}%
+\contentsline {chapter}{声\hspace {1em}明}{50}{section*.31}%
+\contentsline {chapter}{Resume}{51}{section*.33}%
+\contentsline {chapter}{Comments from Thesis Supervisor}{52}{appendix*.39}%
+\contentsline {chapter}{Resolution of Thesis Defense Committee}{53}{appendix*.40}%
 \contentsfinish 
