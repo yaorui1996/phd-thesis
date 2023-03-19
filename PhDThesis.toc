@@ -48,16 +48,16 @@
 \contentsline {chapter}{\numberline {Chapter 5}Stable trapping of multiple ions}{46}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Semi-automatic experimental control system}{46}{section.5.1}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{References}{47}{section*.25}%
+\contentsline {chapter}{References}{49}{section*.25}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{\numberline {Appendix A}补充内容}{48}{appendix.A}%
-\contentsline {section}{\numberline {A.1}图表示例}{48}{section.A.1}%
-\contentsline {subsection}{\numberline {A.1.1}图}{48}{subsection.A.1.1}%
-\contentsline {subsection}{\numberline {A.1.2}表格}{48}{subsection.A.1.2}%
-\contentsline {section}{\numberline {A.2}数学公式}{49}{section.A.2}%
-\contentsline {chapter}{Acknowledgements}{50}{section*.29}%
-\contentsline {chapter}{声\hspace {1em}明}{51}{section*.31}%
-\contentsline {chapter}{Resume}{52}{section*.33}%
-\contentsline {chapter}{Comments from Thesis Supervisor}{53}{appendix*.39}%
-\contentsline {chapter}{Resolution of Thesis Defense Committee}{54}{appendix*.40}%
+\contentsline {chapter}{\numberline {Appendix A}补充内容}{50}{appendix.A}%
+\contentsline {section}{\numberline {A.1}图表示例}{50}{section.A.1}%
+\contentsline {subsection}{\numberline {A.1.1}图}{50}{subsection.A.1.1}%
+\contentsline {subsection}{\numberline {A.1.2}表格}{50}{subsection.A.1.2}%
+\contentsline {section}{\numberline {A.2}数学公式}{51}{section.A.2}%
+\contentsline {chapter}{Acknowledgements}{52}{section*.29}%
+\contentsline {chapter}{声\hspace {1em}明}{53}{section*.31}%
+\contentsline {chapter}{Resume}{54}{section*.33}%
+\contentsline {chapter}{Comments from Thesis Supervisor}{55}{appendix*.39}%
+\contentsline {chapter}{Resolution of Thesis Defense Committee}{56}{appendix*.40}%
 \contentsfinish 
