@@ -1218,8 +1218,6 @@ INPUT ./PhDThesis.out
 OUTPUT PhDThesis.out
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 OUTPUT PhDThesis.xdv
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -1305,6 +1303,13 @@ INPUT data/chap04.tex
 INPUT ./data/chap04.tex
 INPUT ./data/chap04.tex
 INPUT data/chap04.tex
+INPUT ./data/chap05.tex
+INPUT ./data/chap05.tex
+INPUT ./data/chap05.tex
+INPUT data/chap05.tex
+INPUT ./data/chap05.tex
+INPUT ./data/chap05.tex
+INPUT data/chap05.tex
 INPUT ./PhDThesis.bbl
 INPUT PhDThesis.bbl
 INPUT ./PhDThesis.bbl

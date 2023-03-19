@@ -1,0 +1,12 @@
+% !TeX root = ./PhDThesis.tex
+
+\chapter{Stable trapping of multiple ions}
+
+For a newly built cryogenic trap system, the experimental implementation of stable trapping of multiple ions may take most of the project time before some quantum computing or quantum simulation experiments can be carried out. Experimental implementation of stable trapping of multiple ions involves not only achieving long-lived ion crystals, but also testing a stable standard experimental flow, debugging the experimental platform for various sources of noise, and developing an automatic experimental control system. From a project perspective, it is also a good idea to iterate and optimise the system while achieving stable trapping of multiple ions, and then try to solve the problem when the experiment gets stuck somewhere. Personally, I think more attention should be paid to experimental implementation of stable trapping of multiple ions, because for complex systems, the duplication of effort involved in finding a problem and then solving it can make the total time spent more than the time spent on building a stable experimental system in advance. However, the experimental implementation of stable trapping of multiple ions may not be well defined, and this may become a hole in the methodology.
+
+\section{Semi-automatic experimental control system}
+
+We usually divide the experimental tasks into daily operation tasks and current experiment tasks. The boundary between the two is not clear and we add some daily operation tasks by summarising some of the experimental tasks that have already been solved. Daily operation tasks can also be called experimental setup's parameters calibration tasks. For cryogenic trap systems, daily operation tasks also include the long-term monitoring of some system parameters. In an ideal laboratory environment it is possible to implement an automatic experimental control system, but in most laboratories we can only strive for a semi-automatic experimental control system. This is because some key points have to be controlled and checked by humans, mainly from some uncontrollable human disturbances.
+
+Semi-automatic experimental control system mainly refers to the software system, which contains the front-end system, the back-end system, the database system and the experimental workflow.
+

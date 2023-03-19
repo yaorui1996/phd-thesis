@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  19 MAR 2023 17:16
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  19 MAR 2023 22:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1137,18 +1137,6 @@ Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
 (fontspec)             <->"SimHei/OT:script=hani;language=dflt;embolden=3;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 26.10027pt on input line 25.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 22.08484pt on input line 25.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 16.0617pt on input line 25.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 26.0947pt on input line 25.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 22.08012pt on input line 25.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 16.05827pt on input line 25.
 
 Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
@@ -1173,9 +1161,13 @@ Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 16.0617pt on input line 25.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
 (Font)              scaled to size 14.05399pt on input line 25.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
 (Font)              scaled to size 10.54048pt on input line 25.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 16.05827pt on input line 25.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 14.05098pt on input line 25.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
@@ -1357,11 +1349,15 @@ Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=
 Chapter 4
 [38
 
-] [39] [40] [41] [42] [43]) [44] [45] (./PhDThesis.bbl
+] [39] [40] [41] [42] [43]) (./data/chap05.tex [44] [45]
+Chapter 5
+) [46
+
+] (./PhDThesis.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 14.
 
-) (./data/appendix.tex [46
+) (./data/appendix.tex [47
 
 
 
@@ -1369,33 +1365,33 @@ Package natbib Warning: Empty `thebibliography' environment on input line 14.
 Appendix A
 File: example-image-a.pdf Graphic file (type pdf)
 <use example-image-a.pdf>
-[47
+[48
 
-]) (./data/acknowledgements.tex [48]) [49
-
-
-] (./data/resume.tex [50
+]) (./data/acknowledgements.tex [49]) [50
 
 
-]) (./data/comments.tex [51
+] (./data/resume.tex [51
 
 
-] [52
+]) (./data/comments.tex [52
 
-]) (./data/resolution.tex [53
+
+] [53
+
+]) (./data/resolution.tex [54
 
 
 ]) (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 833B54976ED157F38A70D82DC451E6E9;11779.
+(rerunfilecheck)             Checksum: 98CE94C8F361B5DC5250336EDE7D917B;12138.
  ) 
 Here is how much of TeX's memory you used:
- 31405 strings out of 476688
- 681800 string characters out of 5807700
+ 31395 strings out of 476688
+ 681179 string characters out of 5807700
  1880001 words of memory out of 5000000
- 51060 multiletter control sequences out of 15000+600000
- 524441 words of font info for 219 fonts, out of 8000000 for 9000
+ 51055 multiletter control sequences out of 15000+600000
+ 523205 words of font info for 209 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  102i,12n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (69 pages, 1387076 bytes).
+Output written on PhDThesis.xdv (70 pages, 1411212 bytes).
