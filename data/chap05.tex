@@ -111,9 +111,15 @@ all the ions are bright.
 
 \subsection{Fitting the electrical potential coefficient for each electrode}
 
+For a fixed electrical potential, we can capture different numbers of ions, as shown in Fig~\ref{fig:fit_electrical_potential_coefficient}, 2, 12, 24, 34, 42. For each image, we can calculate the position of the ion and fit it to the electrical potential at that time. Red circles and dots on the right-hand side indicate the calculated position of the ion and the equilibrium position of the ion at the fitted electrical potential, respectively. The black dots indicate the presence of dark ions. The electrical potential can be expressed as
+
 \begin{equation}
-    \phi_n(x)=\sum_{i=1}^n \alpha_i P_i(x), x=z / l_0
+    \phi_n(x)=\sum_{i=1}^n \alpha_i P_i(x), x=z / l_0,
 \end{equation}
+
+where $z$ is the true position of the ion, $l_0$ is half the length of the ion chain, $P_i(x)$ is the Legendre polynomial of degree i and $\alpha_i$ is the coefficient of the expansion.
+
+Since the electrical potential has not changed, the fit should be consistent for different numbers of ions. As shown in Table~\ref{tab:fitting_the_electrical_potential_coefficient}, the coefficients of the Legendre polynomial have consistent convergence for data with 2 to 42 ions.
 
 \begin{figure}
     \centering
@@ -130,11 +136,15 @@ all the ions are bright.
         Ion number & $\alpha_1$ & $\alpha_2$ & $\alpha_3$ & $\alpha_4$ \\
         \midrule
         2          & 7.59183    & 212.463    & 0          & 0          \\
-        2          & 7.59183    & 212.463    & 0          & 0          \\
-        2          & 7.59183    & 212.463    & 0          & 0          \\
-        2          & 7.59183    & 212.463    & 0          & 0          \\
-        2          & 7.59183    & 212.463    & 0          & 0          \\
+        12         & 12.5574    & 207.098    & -45.04     & 40.0967    \\
+        24         & 10.8866    & 204.913    & -50.165    & 48.4474    \\
+        34         & 10.8904    & 204.944    & -49.784    & 48.0492    \\
+        42         & 10.7205    & 205.988    & -55.486    & 47.6406    \\
         \bottomrule
     \end{tabular}
     \label{tab:fitting_the_electrical_potential_coefficient}
 \end{table}
+
+\begin{equation}
+    \alpha_i=\sum_{s=1}^5 \alpha_i^s U_s
+\end{equation}

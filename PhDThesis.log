@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  20 MAR 2023 22:17
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  20 MAR 2023 23:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1305,23 +1305,23 @@ File: figures//fig_5_axial_potential_fit_comparison.pdf Graphic file (type pdf)
 <use figures//fig_5_axial_potential_fit_comparison.pdf>
 File: figures//fig_5_axial_potential_fit_dark_ions.pdf Graphic file (type pdf)
 <use figures//fig_5_axial_potential_fit_dark_ions.pdf>
- [6] [7]
+ [6] [7] [8]
 File: figures//fig_5_fit_electrical_potential_coefficient.pdf Graphic file (type pdf)
 <use figures//fig_5_fit_electrical_potential_coefficient.pdf>
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 128.
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 134.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 11.04242pt on input line 128.
+(Font)              scaled to size 11.04242pt on input line 134.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.72966pt on input line 128.
+(Font)              scaled to size 7.72966pt on input line 134.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 5.5212pt on input line 128.
+(Font)              scaled to size 5.5212pt on input line 134.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 11.04005pt on input line 128.
+(Font)              scaled to size 11.04005pt on input line 134.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 7.728pt on input line 128.
+(Font)              scaled to size 7.728pt on input line 134.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 5.52002pt on input line 128.
-) [8] [9] (./PhDThesis.bbl
+(Font)              scaled to size 5.52002pt on input line 134.
+) [9] (./PhDThesis.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 14.
 
@@ -1345,4 +1345,4 @@ Here is how much of TeX's memory you used:
  1349 hyphenation exceptions out of 8191
  102i,12n,129p,1594b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (21 pages, 253076 bytes).
+Output written on PhDThesis.xdv (21 pages, 263256 bytes).
