@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  20 MAR 2023 14:31
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  20 MAR 2023 22:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1227,172 +1227,122 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 9.03276pt on input line 25.
  [3
 
-] (./data/committee.tex [4
+] [4
 
 
 
 
 ]
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 9.03471pt on input line 43.
+(Font)              scaled to size 9.03471pt on input line 34.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.22777pt on input line 43.
+(Font)              scaled to size 7.22777pt on input line 34.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 9.03278pt on input line 43.
+(Font)              scaled to size 9.03278pt on input line 34.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 7.22623pt on input line 43.
+(Font)              scaled to size 7.22623pt on input line 34.
  [5
 
 
-]) [6
+] [6
 
-
-] [7
-
-
-] [8
-
-] (./data/abstract.tex [1
-
-
-]) [2
-
-
-] (./PhDThesis.toc [3
-
-
-])
+] (./PhDThesis.toc)
 \tf@toc=\write4
 \openout4 = `PhDThesis.toc'.
 
- [4] [5] (./PhDThesis.lof)
+ [1
+
+
+] (./PhDThesis.lof)
 \tf@lof=\write5
 \openout5 = `PhDThesis.lof'.
 
- [6
+ [2
 
 
 ] (./PhDThesis.lot)
 \tf@lot=\write6
 \openout6 = `PhDThesis.lot'.
 
- (./data/denotation.tex [7
+ [3
 
 
-] [8
+] [4
 
-
-]) [9] [10
-
-] (./data/chap01.tex
+] (./data/chap05.tex
 Chapter 1
-) (./data/chap02.tex [1
+[1
 
-]
-Chapter 2
+] [2] [3] [4]
+File: figures//fig_5_cal_ion_position_mma_code.pdf Graphic file (type pdf)
+<use figures//fig_5_cal_ion_position_mma_code.pdf>
+File: figures//fig_5_cal_ion_position_mma_raw.pdf Graphic file (type pdf)
+<use figures//fig_5_cal_ion_position_mma_raw.pdf>
+File: figures//fig_5_cal_ion_position_mma_result.pdf Graphic file (type pdf)
+<use figures//fig_5_cal_ion_position_mma_result.pdf>
+File: figures//fig_5_cal_ion_position_python_code.pdf Graphic file (type pdf)
+<use figures//fig_5_cal_ion_position_python_code.pdf>
+File: figures//fig_5_cal_ion_position_python_245.pdf Graphic file (type pdf)
+<use figures//fig_5_cal_ion_position_python_245.pdf>
+ [5]
+File: figures//fig_5_axial_potential_fit_a.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_a.pdf>
+File: figures//fig_5_axial_potential_fit_b.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_b.pdf>
+File: figures//fig_5_axial_potential_fit_c.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_c.pdf>
+File: figures//fig_5_axial_potential_fit_d.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_d.pdf>
+File: figures//fig_5_axial_potential_fit_e.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_e.pdf>
+File: figures//fig_5_axial_potential_fit_f.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_f.pdf>
+File: figures//fig_5_axial_potential_fit_g.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_g.pdf>
+File: figures//fig_5_axial_potential_fit_h.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_h.pdf>
+File: figures//fig_5_axial_potential_fit_comparison.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_comparison.pdf>
+File: figures//fig_5_axial_potential_fit_dark_ions.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_dark_ions.pdf>
+ [6] [7]
+File: figures//fig_5_fit_electrical_potential_coefficient.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_electrical_potential_coefficient.pdf>
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 128.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.52892pt on input line 5.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 7.52731pt on input line 5.
-File: figures//fig_2_photo_ionization.pdf Graphic file (type pdf)
-<use figures//fig_2_photo_ionization.pdf>
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 16.
+(Font)              scaled to size 11.04242pt on input line 128.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 11.04242pt on input line 16.
+(Font)              scaled to size 7.72966pt on input line 128.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.72966pt on input line 16.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 5.5212pt on input line 16.
+(Font)              scaled to size 5.5212pt on input line 128.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 11.04005pt on input line 16.
+(Font)              scaled to size 11.04005pt on input line 128.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 7.728pt on input line 16.
+(Font)              scaled to size 7.728pt on input line 128.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 5.52002pt on input line 16.
-[2
-
-]
-File: figures//fig_2_energy_level.pdf Graphic file (type pdf)
-<use figures//fig_2_energy_level.pdf>
- [3] [4]
-File: figures//fig_2_370_transitions_cooling.pdf Graphic file (type pdf)
-<use figures//fig_2_370_transitions_cooling.pdf>
-File: figures//fig_2_370_transitions_pumping.pdf Graphic file (type pdf)
-<use figures//fig_2_370_transitions_pumping.pdf>
-File: figures//fig_2_370_transitions_pumping.pdf Graphic file (type pdf)
-<use figures//fig_2_370_transitions_pumping.pdf>
- [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 337.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 337.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 337.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 337.
- [18] [19]
-File: figures//fig_2_Raman.pdf Graphic file (type pdf)
-<use figures//fig_2_Raman.pdf>
- [20] [21]) (./data/chap03.tex [22]
-Chapter 3
-[23
-
-] [24] [25] [26] [27]
-Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-[28] [29] [30] [31] [32] [33] [34] [35] [36]) (./data/chap04.tex [37]
-Chapter 4
-[38
-
-] [39] [40] [41] [42] [43]) (./data/chap05.tex [44] [45]
-Chapter 5
-[46
-
-] [47] [48]) [49] [50] (./PhDThesis.bbl
+(Font)              scaled to size 5.52002pt on input line 128.
+) [8] [9] (./PhDThesis.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 14.
 
-) (./data/appendix.tex [51
+) [10
 
 
 
-]
-Appendix A
-File: example-image-a.pdf Graphic file (type pdf)
-<use example-image-a.pdf>
-[52
-
-]) (./data/acknowledgements.tex [53]) [54
+] [11
 
 
-] (./data/resume.tex [55
-
-
-]) (./data/comments.tex [56
-
-
-] [57
-
-]) (./data/resolution.tex [58
-
-
-]) (./PhDThesis.aux)
+] (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: D6726B14591B4FFA56BD5B0DF4CCA14F;13141.
+(rerunfilecheck)             Checksum: FCC388D42F072814C206816D4CFA39F4;2980.
  ) 
 Here is how much of TeX's memory you used:
- 31396 strings out of 476688
- 681192 string characters out of 5807700
- 1880001 words of memory out of 5000000
- 51056 multiletter control sequences out of 15000+600000
- 523205 words of font info for 209 fonts, out of 8000000 for 9000
+ 31134 strings out of 476688
+ 669214 string characters out of 5807700
+ 1859001 words of memory out of 5000000
+ 50853 multiletter control sequences out of 15000+600000
+ 521511 words of font info for 170 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 102i,12n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,129p,1594b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (76 pages, 1513768 bytes).
+Output written on PhDThesis.xdv (21 pages, 253076 bytes).

@@ -39,3 +39,102 @@ For a complex system, a restart operation is often an effective method. I will t
 \subsection{Calculate axial electrical potential with 1D ion chains}
 
 We can calculate the axial electrical potential with 1D ion chains. we can use a CCD to measure the position of each ion in the 1D ion chains. this measurement is usually subject to error, and the error is different for different positions of the ions. For a chain of ions, the aberration is smaller for ions near the centre of the field of view and larger for ions near the edge of the field of view. If the ion chain exceeds the edge length of the CCD sensor, we can also measure the position of the ions in sections by moving the objective. In addition to the measurement error, the algorithm used to calculate the ion position can also produce a corresponding error. Commonly used algorithms for measuring ion positions are linear algorithms based on computer vision, which have the advantage of being fast and able to give results within 10ms. The other algorithm is a fitting-based algorithm, which is less fast and less convergent and is very dependent on the signal-to-noise ratio, but can achieve high accuracy with the right parameters. We can then use the algorithm to find the equilibrium position of the ion chain for a given number of ions and the electrical potential parameter as a calculated value. The difference between the measured and calculated values can then be fed back to the electrical potential as a function of error, so that the parameter with the lowest error, i.e. the axial electrical potential at this point, can be iteratively found.
+
+\begin{figure}
+    \centering
+    \subcaptionbox{Mathematica code.\label{fig:cal_ion_position_mma_code}}
+    {\includegraphics[width=0.8\linewidth]{fig_5_cal_ion_position_mma_code.pdf}}
+    \subcaptionbox{Raw image.\label{fig:cal_ion_position_mma_raw}}
+    {\includegraphics[width=0.4\linewidth]{fig_5_cal_ion_position_mma_raw.pdf}}
+    \subcaptionbox{Image after processing.\label{fig:cal_ion_position_mma_result}}
+    {\includegraphics[width=0.4\linewidth]{fig_5_cal_ion_position_mma_result.pdf}}
+    \caption{Usage of Mathematica's code to identify a typical ion chain image}
+    \label{fig:cal_ion_position_mma}
+\end{figure}
+
+Fig~\ref{fig:cal_ion_position_mma_code} shows the use of Mathematica's code to identify a typical ion chain image. Fig~\ref{fig:cal_ion_position_mma_raw} and Fig~\ref{fig:cal_ion_position_mma_result} show the original image and the processed image respectively, with the red dots representing the centre of the identified ions. The background scattered light and the aberration of the image can have an effect on the result of the identification. As can be seen from the recognition results in the blue box in Fig~\ref{fig:cal_ion_position_mma_result}, the trailing of a particular ion may be determined as a new ion, but the conformation of the ion chain precludes this possibility. Optimising the algorithm may be a good idea, but the noise introduced by the imaging system will not be eliminated. Even if the recognition algorithm is optimised using criteria such as no jump in neighbouring ion spacing, ion chain linearity judgement, etc., the noise will still reduce detection fidelity during state detection, and the benefit of reducing noise by optimising the imaging system is much greater. Fig~\ref{fig:cal_ion_position_python} shows code using python to recognise an image of a long ion chain. The algorithms used are similar, so are prone to recognition errors for larger ion chains.
+
+\begin{figure}
+    \centering
+    \subcaptionbox{Python code.\label{fig:cal_ion_position_python_code}}
+    {\includegraphics[width=0.8\linewidth]{fig_5_cal_ion_position_python_code.pdf}}
+    \subcaptionbox{Image of 245 ions.\label{fig:cal_ion_position_python_raw}}
+    {\includegraphics[width=1.0\linewidth]{fig_5_cal_ion_position_python_245.pdf}}
+    \caption{Usage of Python code to calculate 245 ions' position.}
+    \label{fig:cal_ion_position_python}
+\end{figure}
+
+Now that we are able to obtain information on the location of the ions, we next use a ingenious algorithm proposed by Yukai Wu to calculate the axial electrical potential. The idea of the fitting is very simple. For given trapping potential, we can compute the equilibrium positions of the ions. Then we can adjust the trapping potential to get a best fit of the measured ion positions. For this purpose, it is desired to use a discrete set of parameters to describe the trapping potential. For example, here we use the Legendre polynomials. To get better convergence properties, we scale the axial positions to about $[-1,1]$, which can be recovered in the end.
+
+\begin{figure}
+    \centering
+    \subcaptionbox{\label{fig:axial_potential_fit_a}}
+    {\includegraphics[width=0.4\linewidth]{fig_5_axial_potential_fit_a.pdf}}
+    \subcaptionbox{\label{fig:axial_potential_fit_b}}
+    {\includegraphics[width=0.4\linewidth]{fig_5_axial_potential_fit_b.pdf}}
+    \subcaptionbox{\label{fig:axial_potential_fit_c}}
+    {\includegraphics[width=0.4\linewidth]{fig_5_axial_potential_fit_c.pdf}}
+    \subcaptionbox{\label{fig:axial_potential_fit_d}}
+    {\includegraphics[width=0.4\linewidth]{fig_5_axial_potential_fit_d.pdf}}
+    \subcaptionbox{\label{fig:axial_potential_fit_e}}
+    {\includegraphics[width=0.4\linewidth]{fig_5_axial_potential_fit_e.pdf}}
+    \subcaptionbox{\label{fig:axial_potential_fit_f}}
+    {\includegraphics[width=0.4\linewidth]{fig_5_axial_potential_fit_f.pdf}}
+    \subcaptionbox{\label{fig:axial_potential_fit_g}}
+    {\includegraphics[width=0.4\linewidth]{fig_5_axial_potential_fit_g.pdf}}
+    \subcaptionbox{\label{fig:axial_potential_fit_h}}
+    {\includegraphics[width=0.4\linewidth]{fig_5_axial_potential_fit_h.pdf}}
+    \caption{Fitting results for various ion numbers.}
+    \label{fig:axial_potential_fit}
+\end{figure}
+
+In Fig~\ref{fig:axial_potential_fit} we present the fitting results for various ion numbers under the same settings of potentials and the CCD camera. Fitting results for (a, b) N = 6, (c, d) N = 9, (e, f) N = 13, (g, h) N = 19. The fitting of the trapping potential uses up to 2nd order polynomials(a, c, e, g) and up to 4th order polynomials (b, d, f, h). The blue and red dots are the measured positions and the fitted ones, respectively. The fitted data are lifted in the vertical direction to better distinguish the two sets of data. The green curves are the fitted axial trap potential. As we can see, 2nd order polynomials do not give good fitting results, but polynomials up to 4th order generally fit well.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{fig_5_axial_potential_fit_comparison.pdf}
+    \caption{Fitted trapping potential for diferrent ion number.}
+    \label{fig:axial_potential_fit_comparison}
+\end{figure}
+
+Furthermore, we can see in Fig~\ref{fig:axial_potential_fit_comparison} that the fitted potentials for different ion numbers agree well with each other, apart from a constant shift which is not relevant to the equilibrium positions and has been removed. Fitted trapping potential for N = 6 (red), N = 9 (green), N = 13 (orange) and N = 19 (blue) ions.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{fig_5_axial_potential_fit_dark_ions.pdf}
+    \caption{Fitted trapping potential with dark ions.}
+    \label{fig:axial_potential_fit_dark_ions}
+\end{figure}
+
+Finally, we comment that the method can be applied to the case where dark ions exist, so long as we can identify the order of the bright and the dark ions. Then we simply use the positions of the bright ones in simulation to fit the trapping potential. As shown in Fig~\ref{fig:axial_potential_fit_dark_ions}, the fitting results is almost the same if the number of dark ions is not too large. The fitting results for the N = 19 case in Fig~\ref{fig:axial_potential_fit} with the ion 6 and ion 9 chosen as dark ions. The fitted potential (green) almost overlaps with the previous one (black) where
+all the ions are bright.
+
+\subsection{Fitting the electrical potential coefficient for each electrode}
+
+\begin{equation}
+    \phi_n(x)=\sum_{i=1}^n \alpha_i P_i(x), x=z / l_0
+\end{equation}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{fig_5_fit_electrical_potential_coefficient.pdf}
+    \caption{Fit trapping potential up to 42 ions.}
+    \label{fig:fit_electrical_potential_coefficient}
+\end{figure}
+
+\begin{table}
+    \centering
+    \caption{Fitting the electrical potential coefficient}
+    \begin{tabular}{lllll}
+        \toprule
+        Ion number & $\alpha_1$ & $\alpha_2$ & $\alpha_3$ & $\alpha_4$ \\
+        \midrule
+        2          & 7.59183    & 212.463    & 0          & 0          \\
+        2          & 7.59183    & 212.463    & 0          & 0          \\
+        2          & 7.59183    & 212.463    & 0          & 0          \\
+        2          & 7.59183    & 212.463    & 0          & 0          \\
+        2          & 7.59183    & 212.463    & 0          & 0          \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:fitting_the_electrical_potential_coefficient}
+\end{table}
