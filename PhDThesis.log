@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  19 MAR 2023 23:20
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  20 MAR 2023 14:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1265,27 +1265,28 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 \tf@toc=\write4
 \openout4 = `PhDThesis.toc'.
 
- [4] (./PhDThesis.lof)
+ [4] [5] (./PhDThesis.lof)
 \tf@lof=\write5
 \openout5 = `PhDThesis.lof'.
 
- [5
+ [6
 
 
 ] (./PhDThesis.lot)
 \tf@lot=\write6
 \openout6 = `PhDThesis.lot'.
 
- (./data/denotation.tex [6
+ (./data/denotation.tex [7
 
 
-] [7
+] [8
 
 
-]) [8] (./data/chap01.tex
+]) [9] [10
+
+] (./data/chap01.tex
 Chapter 1
 ) (./data/chap02.tex [1
-
 
 ]
 Chapter 2
@@ -1353,11 +1354,11 @@ Chapter 4
 Chapter 5
 [46
 
-] [47]) [48] (./PhDThesis.bbl
+] [47] [48]) [49] [50] (./PhDThesis.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 14.
 
-) (./data/appendix.tex [49
+) (./data/appendix.tex [51
 
 
 
@@ -1365,33 +1366,33 @@ Package natbib Warning: Empty `thebibliography' environment on input line 14.
 Appendix A
 File: example-image-a.pdf Graphic file (type pdf)
 <use example-image-a.pdf>
-[50
+[52
 
-]) (./data/acknowledgements.tex [51]) [52
-
-
-] (./data/resume.tex [53
+]) (./data/acknowledgements.tex [53]) [54
 
 
-]) (./data/comments.tex [54
+] (./data/resume.tex [55
 
 
-] [55
+]) (./data/comments.tex [56
 
-]) (./data/resolution.tex [56
+
+] [57
+
+]) (./data/resolution.tex [58
 
 
 ]) (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 98CE94C8F361B5DC5250336EDE7D917B;12138.
+(rerunfilecheck)             Checksum: D6726B14591B4FFA56BD5B0DF4CCA14F;13141.
  ) 
 Here is how much of TeX's memory you used:
- 31395 strings out of 476688
- 681179 string characters out of 5807700
+ 31396 strings out of 476688
+ 681192 string characters out of 5807700
  1880001 words of memory out of 5000000
- 51055 multiletter control sequences out of 15000+600000
+ 51056 multiletter control sequences out of 15000+600000
  523205 words of font info for 209 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  102i,12n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (72 pages, 1451600 bytes).
+Output written on PhDThesis.xdv (76 pages, 1513768 bytes).
