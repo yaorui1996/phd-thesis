@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {1.2.2}Calculate axial electrical potential with 1D ion chains}{4}{subsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.2.3}Fitting the electrical potential coefficient for each electrode}{8}{subsection.1.2.3}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{References}{10}{section*.17}%
+\contentsline {chapter}{References}{12}{section*.18}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{声\hspace {1em}明}{11}{section*.19}%
+\contentsline {chapter}{声\hspace {1em}明}{13}{section*.20}%
 \contentsfinish 

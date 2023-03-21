@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  20 MAR 2023 23:08
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  21 MAR 2023 10:26
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1321,28 +1321,41 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 7.728pt on input line 134.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 5.52002pt on input line 134.
-) [9] (./PhDThesis.bbl
+ [9]
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image.pdf>
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_1.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_1.pdf>
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_2.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_2.pdf>
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_3.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_3.pdf>
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_4.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_4.pdf>
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_5.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_5.pdf>
+) [10] [11] (./PhDThesis.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 14.
 
-) [10
+) [12
 
 
 
-] [11
+] [13
 
 
 ] (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: FCC388D42F072814C206816D4CFA39F4;2980.
+(rerunfilecheck)             Checksum: F96FED52743EE333D8765254336DCA4D;2980.
  ) 
 Here is how much of TeX's memory you used:
- 31134 strings out of 476688
- 669214 string characters out of 5807700
+ 31207 strings out of 476688
+ 675171 string characters out of 5807700
  1859001 words of memory out of 5000000
- 50853 multiletter control sequences out of 15000+600000
+ 50920 multiletter control sequences out of 15000+600000
  521511 words of font info for 170 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  102i,12n,129p,1594b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (21 pages, 263256 bytes).
+Output written on PhDThesis.xdv (23 pages, 285672 bytes).
