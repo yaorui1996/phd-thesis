@@ -24,19 +24,17 @@ During the early build of the lab, we should implement scripted, semi-automated 
 
 
 
-\section{Stabilization of axial electrical potential}
+\section{Monitor axial electrical potential drift}
 
-We often perform parameter calibration operation at trapping around 10 ions, but if current experimental tasks require ion number between 100 and 200, we need to perform parameter calibration at this ion number scale. This is because repeatedly changing the number of ions in a trap is an operation we do not want to perform.
-
-\subsection{Monitor axial electrical potential drift}
-
-For a well-built blade trap, the upper limit of the ion number of 1D ion chains that can be stably bound is fixed. When the ion spacing is close to the diffraction limit of the imaging system, we cannot obtain precise information on the ion position from the CCD and the crosstalk between the ions during state detection is too large for high fidelity state detection. In this case we increase the radial trap frequency by increasing the RF power and decrease the axial trap frequency by decreasing the DC voltage. However, there is an upper limit to this method of regulation. When the radial trap frequency is too high, RF heating will occur and the ion crystal will not be stable and will dissolve. In addition, when the ion chain length exceeds the width of the central electrode, we find an asymmetry in the imaging and structure of the ion chain. The asymmetry in the imaging of the ion chain is due to the aberration of the imaging system, we can optimise the imaging system to achieve a field of view of 300 μm, but it may be more difficult to achieve 600 μm. The asymmetry of the ion chain structure is due to the asymmetry of the blade electrode and the drift of the background electrical potential.
+We often perform parameter calibration operation at trapping around 10 ions, but if current experimental tasks require ion number between 100 and 200, we need to perform parameter calibration at this ion number scale. This is because repeatedly changing the number of ions in a trap is an operation we do not want to perform. For a well-built blade trap, the upper limit of the ion number of 1D ion chains that can be stably trapped is fixed. When the ion spacing is close to the diffraction limit of the imaging system, we cannot obtain precise information on the ion position from the CCD and the crosstalk between the ions during state detection is too large for high fidelity state detection. In this case we increase the radial trap frequency by increasing the RF power and decrease the axial trap frequency by decreasing the DC voltage. However, there is an upper limit to this method of regulation. When the radial trap frequency is too high, RF heating will occur and the ion crystal will not be stable and will dissolve. In addition, when the ion chain length exceeds the width of the central electrode, we find an asymmetry in the imaging and structure of the ion chain. The asymmetry in the imaging of the ion chain is due to the aberration of the imaging system, we can optimise the imaging system to achieve a field of view of 300 μm, but it may be more difficult to achieve 600 μm. The asymmetry of the ion chain structure is due to the asymmetry of the blade electrode and the drift of the background electrical potential.
 
 It is difficult to investigate what the source of the background electrical potential is, but it is objective and there may be more than one source. This phenomenon is clearly observed when we make the ion chain length exceed the width of the central electrode. When the DC voltage is set to a symmetrical value, the ion chain configuration tends to be asymmetrical. This asymmetry also changes over time, either after a day or after a month. It is inevitable that we will do something to the trap in the meantime. This asymmetry can be clearly observed if the oven current is raised to observe the fluorescence of the Yb flux, and the ions can be loaded without turning on the oven during at least one day. This asymmetry changes slowly if more than 200 ions are repeatedly loaded at a time over a period of more than a week, which can be explained by the ions adhering to the surface of the blade after the crystal has been destroyed. We can compensate the background electrical potential with the DC voltage and produce the desired harmonic potential, but when the background electrical potential exceeds the range we can compensate for, we should find a way to eliminate the causes of the background electrical potential drift.
 
 For a complex system, a restart operation is often an effective method. I will try to raise the temperature to room temperature or above 40 K. Over the course of several experiments I have observed that the background electrical potential is removed, which can be quantified by the maximum number of ions that can be stably trapped, or characterised by the asymmetry of the background electrical potential. However, I have occasionally observed that this restart operation does not work completely, and in general this restart operation is effective, but lacks sufficient quantitative data to generalise the factors and values that are truly effective.
 
-\subsection{Calculate axial electrical potential with 1D ion chains}
+
+
+\section{Calculate axial electrical potential with 1D ion chains}
 
 We can calculate the axial electrical potential with 1D ion chains. we can use a CCD to measure the position of each ion in the 1D ion chains. this measurement is usually subject to error, and the error is different for different positions of the ions. For a chain of ions, the aberration is smaller for ions near the centre of the field of view and larger for ions near the edge of the field of view. If the ion chain exceeds the edge length of the CCD sensor, we can also measure the position of the ions in sections by moving the objective. In addition to the measurement error, the algorithm used to calculate the ion position can also produce a corresponding error. Commonly used algorithms for measuring ion positions are linear algorithms based on computer vision, which have the advantage of being fast and able to give results within 10ms. The other algorithm is a fitting-based algorithm, which is less fast and less convergent and is very dependent on the signal-to-noise ratio, but can achieve high accuracy with the right parameters. We can then use the algorithm to find the equilibrium position of the ion chain for a given number of ions and the electrical potential parameter as a calculated value. The difference between the measured and calculated values can then be fed back to the electrical potential as a function of error, so that the parameter with the lowest error, i.e. the axial electrical potential at this point, can be iteratively found.
 
@@ -109,7 +107,9 @@ Furthermore, we can see in Fig~\ref{fig:axial_potential_fit_comparison} that the
 Finally, we comment that the method can be applied to the case where dark ions exist, so long as we can identify the order of the bright and the dark ions. Then we simply use the positions of the bright ones in simulation to fit the trapping potential. As shown in Fig~\ref{fig:axial_potential_fit_dark_ions}, the fitting results is almost the same if the number of dark ions is not too large. The fitting results for the N = 19 case in Fig~\ref{fig:axial_potential_fit} with the ion 6 and ion 9 chosen as dark ions. The fitted potential (green) almost overlaps with the previous one (black) where
 all the ions are bright.
 
-\subsection{Fitting the electrical potential coefficient for each electrode}
+
+
+\section{Fitting the electrical potential coefficient for each electrode}
 
 For a fixed electrical potential, we can capture different numbers of ions, as shown in Fig~\ref{fig:fit_electrical_potential_coefficient}, 2, 12, 24, 34, 42. For each image, we can calculate the position of the ion and fit it to the electrical potential at that time. Red circles and dots on the right-hand side indicate the calculated position of the ion and the equilibrium position of the ion at the fitted electrical potential, respectively. The black dots indicate the presence of dark ions. The electrical potential can be expressed as
 
@@ -155,22 +155,48 @@ where $\alpha_i^s$ the coefficient of the electrical potential generated by each
 
 \begin{figure}
     \centering
-
     \subcaptionbox{\label{fig:fit_the_electrical_potential_coefficient_for_each_electrode_image}}
-    {\includegraphics[width=0.4\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image.pdf}}
+    {\includegraphics[width=0.8\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image.pdf}}
     \subcaptionbox{\label{fig:fit_the_electrical_potential_coefficient_for_each_electrode_1}}
-    {\includegraphics[width=0.4\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_1.pdf}}
+    {\includegraphics[width=0.3\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_1.pdf}}
     \subcaptionbox{\label{fig:fit_the_electrical_potential_coefficient_for_each_electrode_2}}
-    {\includegraphics[width=0.4\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_2.pdf}}
+    {\includegraphics[width=0.3\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_2.pdf}}
     \subcaptionbox{\label{fig:fit_the_electrical_potential_coefficient_for_each_electrode_3}}
-    {\includegraphics[width=0.4\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_3.pdf}}
+    {\includegraphics[width=0.3\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_3.pdf}}
     \subcaptionbox{\label{fig:fit_the_electrical_potential_coefficient_for_each_electrode_4}}
-    {\includegraphics[width=0.4\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_4.pdf}}
+    {\includegraphics[width=0.3\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_4.pdf}}
     \subcaptionbox{\label{fig:fit_the_electrical_potential_coefficient_for_each_electrode_5}}
-    {\includegraphics[width=0.4\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_5.pdf}}
-
-    \caption{XX.}
+    {\includegraphics[width=0.3\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_5.pdf}}
+    \subcaptionbox{\label{fig:fit_the_electrical_potential_coefficient_for_each_electrode_image_2}}
+    {\includegraphics[width=0.8\linewidth]{fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image_2.pdf}}
+    \caption{Fit the electrical potential coefficient for each electrode.}
     \label{fig:fit_the_electrical_potential_coefficient_for_each_electrode}
 \end{figure}
 
-I trap 51 ions at a fixed electrical potential, as shown in Fig~\ref{fig:fit_electrical_potential_coefficient}. I then added a fixed voltage to each pair of electrodes, at which point I could find the new electrical potential. The single result may have a large error, but if the voltage is increased in equal steps, it can be fitted to give $\alpha_i^s$. In Fig~\ref{fig:fit_the_electrical_potential_coefficient_for_each_electrode}, I have plotted the electrical potential generated by the 5 pairs of electrodes. The green line represents the increase in electrical potential for equal steps of increasing voltage, and you can see that the increase in electrical potential is fixed. The red line represents the average of these data, and I think this value can represent the coefficient of electrical potential generated by each pair of DC electrodes.
+I trapped 51 ions at a fixed electrical potential, as shown in Fig~\ref{fig:fit_the_electrical_potential_coefficient_for_each_electrode_image}. Although the applied electrode voltage is symmetrical, the resulting potential field is asymmetrical, which is not what we want. I then added a fixed voltage to each pair of electrodes, at which point I could find the new electrical potential. The single result may have a large error, but if the voltage is increased in equal steps, it can be fitted to give $\alpha_i^s$. In Fig~\ref{fig:fit_the_electrical_potential_coefficient_for_each_electrode}(b)-(f), I have plotted the electrical potential generated by the 5 pairs of electrodes. The green line represents the increase in electrical potential for equal steps of increasing voltage, and you can see that the increase in electrical potential is fixed. The red line represents the average of these data, and I think this value can represent the coefficient of electrical potential generated by each pair of DC electrodes. Next I calculated at what voltage settings this asymmetry could be compensated for and then achieved the result shown in Fig~\ref{fig:fit_the_electrical_potential_coefficient_for_each_electrode_image_2}, where the ions are equally spaced.
+
+
+
+\section{Stabilization of axial electrical potential}
+
+When the number of ions becomes larger, we encounter some challenges. On the one hand the applicability of the algorithm can be problematic. For a quasi-1D chain of 126 ions as shown in Fig~\ref{fig:stabilization_of_axial_electrical_potential_image}, the original algorithm fails due to the emergence of the zig-zag configuration. Since the original algorithm is only valid for 1D ion chains, we can consider optimisation algorithms to solve this problem. On the other hand, when experimental parameters such as image aberrations, adjustable range of voltages, etc. can gradually become a major source of noise, they can cause excessive errors or be too unstable, and we can solve this problem by refining the physical system.
+
+\begin{figure}
+    \centering
+    \subcaptionbox{\label{fig:stabilization_of_axial_electrical_potential_image}}
+    {\includegraphics[width=0.8\linewidth]{fig_5_stabilization_of_axial_electrical_potential_image.pdf}}
+    \subcaptionbox{\label{fig:stabilization_of_axial_electrical_potential_1}}
+    {\includegraphics[width=0.3\linewidth]{fig_5_stabilization_of_axial_electrical_potential_1.pdf}}
+    \subcaptionbox{\label{fig:stabilization_of_axial_electrical_potential_2}}
+    {\includegraphics[width=0.3\linewidth]{fig_5_stabilization_of_axial_electrical_potential_2.pdf}}
+    \subcaptionbox{\label{fig:stabilization_of_axial_electrical_potential_3}}
+    {\includegraphics[width=0.3\linewidth]{fig_5_stabilization_of_axial_electrical_potential_3.pdf}}
+    \subcaptionbox{\label{fig:stabilization_of_axial_electrical_potential_4}}
+    {\includegraphics[width=0.3\linewidth]{fig_5_stabilization_of_axial_electrical_potential_4.pdf}}
+    \subcaptionbox{\label{fig:stabilization_of_axial_electrical_potential_5}}
+    {\includegraphics[width=0.3\linewidth]{fig_5_stabilization_of_axial_electrical_potential_5.pdf}}
+    \caption{Fit the electrical potential coefficient with a 126-ions quasi-1D chain.}
+    \label{fig:stabilization_of_axial_electrical_potential}
+\end{figure}
+
+There are a number of ideas for optimisation algorithms, one simple idea is to abandon the calculation of the theoretical equilibrium position for a given electrical potential and take the equilibrium position of the ion directly from the image and invert the electrical potential at this point according to Coulomb's law. Using this method we can obtain the electrical potential for five pairs of electrodes as shown in Fig~\ref{fig:stabilization_of_axial_electrical_potential}(b)-(f). It can be seen that at this scale of ion numbers the error becomes larger.

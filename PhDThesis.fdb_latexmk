@@ -1,25 +1,25 @@
 # Fdb version 4
-["bibtex PhDThesis"] 1679365602 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1679365607 0
+["bibtex PhDThesis"] 1679389531 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1679389618 0
   "./ref/refs.bib" 1664959156 10001 41cdddcd0d3c3155a2cc69ca952ced96 ""
   "./thuthesis-numeric.bst" 1664959156 46116 cd3bc71ff82c01699bd493d2be7a78bd ""
-  "PhDThesis.aux" 1679365605 8577 a647b9593e54ea6d2b1fc6ef8ec2903f "xelatex"
+  "PhDThesis.aux" 1679389616 10565 76729f62a8d7b264dca77551b3f2d025 "xelatex"
   (generated)
   "PhDThesis.bbl"
   "PhDThesis.blg"
   (rewritten before read)
-["xdvipdfmx"] 1679365606 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1679365607 0
-  "PhDThesis.xdv" 1679365605 285672 e806ea538c32504a6ad3d60b555cf914 "xelatex"
+["xdvipdfmx"] 1679389617 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1679389618 0
+  "PhDThesis.xdv" 1679389616 304140 87fc4fb5e81c9cadf1e1ef98a0fb7662 "xelatex"
   (generated)
   "PhDThesis.pdf"
   (rewritten before read)
-["xelatex"] 1679365603 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1679365607 0
-  "PhDThesis.aux" 1679365605 8577 a647b9593e54ea6d2b1fc6ef8ec2903f "xelatex"
-  "PhDThesis.bbl" 1679365603 380 df8c4f4f41d6dc077f9019104a98461e "bibtex PhDThesis"
-  "PhDThesis.lof" 1679365605 981 2489db1ddec2208b5f17f9cb81b8c3fd "xelatex"
-  "PhDThesis.lot" 1679365605 204 0190fc66d30ce4a99a853c1b05aa2a88 "xelatex"
-  "PhDThesis.out" 1679365605 2980 f96fed52743ee333d8765254336dca4d "xelatex"
-  "PhDThesis.tex" 1679295797 2624 04d499f6dc1158693cb88dcbc2300661 ""
-  "PhDThesis.toc" 1679365605 1030 71b3093260531c0493a74cfba0c9425e "xelatex"
+["xelatex"] 1679389614 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1679389618 0
+  "PhDThesis.aux" 1679389616 10565 76729f62a8d7b264dca77551b3f2d025 "xelatex"
+  "PhDThesis.bbl" 1679389531 380 df8c4f4f41d6dc077f9019104a98461e "bibtex PhDThesis"
+  "PhDThesis.lof" 1679389616 1199 a6fdf85940c0b19154ff55ead51d3f6a "xelatex"
+  "PhDThesis.lot" 1679389616 204 0190fc66d30ce4a99a853c1b05aa2a88 "xelatex"
+  "PhDThesis.out" 1679389616 2929 3af1b67ea20cd200e41f50ba69a1d698 "xelatex"
+  "PhDThesis.tex" 1679387987 2624 04d499f6dc1158693cb88dcbc2300661 ""
+  "PhDThesis.toc" 1679389616 1001 b282bb38da801872b34cb69b602cb345 "xelatex"
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1675865316 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1675867395 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1675864802 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -151,8 +151,8 @@
   "c:/texlive/2022/texmf-dist/web2c/texmf.cnf" 1675864318 40171 cdab547de63d26590bebb3baff566530 ""
   "c:/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1675867503 10497105 d7d28ad1ea0e4658faf7aac11e95c342 ""
   "c:/texlive/2022/texmf.cnf" 1675867412 713 e69b156964470283e0530f5060668171 ""
-  "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" 1679295797 2624 04d499f6dc1158693cb88dcbc2300661 ""
-  "data/chap05.tex" 1679365599 22819 0de3ca7f11e00cb81e493a52903e1972 ""
+  "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" 1679387987 2624 04d499f6dc1158693cb88dcbc2300661 ""
+  "data/chap05.tex" 1679389614 26065 23ce1249215069ec61cbbc8f8a37e81d ""
   "figures//fig_5_axial_potential_fit_a.pdf" 1679304010 27627 7cc4df124d98cde0f75b943f2d961476 ""
   "figures//fig_5_axial_potential_fit_b.pdf" 1679304013 27381 beb346192fd38543c2f559a750a927ce ""
   "figures//fig_5_axial_potential_fit_c.pdf" 1679304012 28231 846ad46a5acd363839fc46d8d428c70c ""
@@ -174,9 +174,16 @@
   "figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_3.pdf" 1679365115 27151 f442500b2651061daabbb70982215d2f ""
   "figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_4.pdf" 1679365113 23218 ee4b1a54fe665881cd956dea84153ad4 ""
   "figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_5.pdf" 1679365116 22998 4aded572d1e23c002c04ead22b490607 ""
-  "figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image.pdf" 1679365111 14191 2c2333adab45eba7fed34906406c09a1 ""
+  "figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image.pdf" 1679381989 30252 3c8ecb00b7e7f388a1a8d55e42369ed8 ""
+  "figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image_2.pdf" 1679381997 29487 48aea4268869e43e53c89161de8b0c88 ""
+  "figures//fig_5_stabilization_of_axial_electrical_potential_1.pdf" 1679389197 60927 c196bc57b7cb209492fd70dcb45fea3c ""
+  "figures//fig_5_stabilization_of_axial_electrical_potential_2.pdf" 1679389208 60155 0e0022e2e120fa08a2ab0fde94a56b76 ""
+  "figures//fig_5_stabilization_of_axial_electrical_potential_3.pdf" 1679389203 68240 a29599b93b1c10e87eedf042d01b37b4 ""
+  "figures//fig_5_stabilization_of_axial_electrical_potential_4.pdf" 1679389206 57389 81143078ccd37a06b753ba4c86502a0e ""
+  "figures//fig_5_stabilization_of_axial_electrical_potential_5.pdf" 1679389205 55459 f7c81920a45f4fdc2ed3dc178aa67498 ""
+  "figures//fig_5_stabilization_of_axial_electrical_potential_image.pdf" 1679389201 171156 96fe32d7d47901e0cba7fe9a815417c1 ""
   "thusetup.tex" 1679295965 4789 756a86316366d1c60f93782ab4786780 ""
-  "thuthesis.cls" 1679365599 112463 72705b84252c4f64a294fb60487d981d ""
+  "thuthesis.cls" 1679389614 112463 72705b84252c4f64a294fb60487d981d ""
   (generated)
   "PhDThesis.aux"
   "PhDThesis.lof"

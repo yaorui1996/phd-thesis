@@ -3,12 +3,12 @@
 \contentsline {chapter}{List of Tables}{III}{section*.8}%
 \contentsline {chapter}{\numberline {Chapter 1}Stable trapping of multiple ions}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Semi-automatic experimental control system}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Stabilization of axial electrical potential}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Monitor axial electrical potential drift}{3}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Calculate axial electrical potential with 1D ion chains}{4}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Fitting the electrical potential coefficient for each electrode}{8}{subsection.1.2.3}%
+\contentsline {section}{\numberline {1.2}Monitor axial electrical potential drift}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Calculate axial electrical potential with 1D ion chains}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Fitting the electrical potential coefficient for each electrode}{8}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Stabilization of axial electrical potential}{11}{section.1.5}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{References}{12}{section*.18}%
+\contentsline {chapter}{References}{13}{section*.19}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{声\hspace {1em}明}{13}{section*.20}%
+\contentsline {chapter}{声\hspace {1em}明}{14}{section*.21}%
 \contentsfinish 
