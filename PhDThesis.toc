@@ -1,61 +1,22 @@
 \contentsline {chapter}{Table of Contents}{I}{section*.4}%
-\contentsline {chapter}{List of Figures}{III}{section*.6}%
-\contentsline {chapter}{List of Tables}{IV}{section*.8}%
-\contentsline {chapter}{\numberline {Chapter 1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Trapped-ion system}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Quantum computer}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Quantum memory}{2}{section.1.3}%
-\contentsline {chapter}{\numberline {Chapter 2}Ion trapping}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}The ${ }^{171} \mathrm {Yb}^{+}$ qubit}{4}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Two-photon ionization}{4}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Doppler cooling}{6}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Optical pumping}{7}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}State detection}{7}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}The linear Paul trap}{9}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Mathieu equation}{10}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Normal modes}{12}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Micromotion minimization}{15}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Coherent manipulation of ions}{18}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Theory of laser-ion interaction}{18}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Raman coherent control}{22}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {Chapter 3}Experimental setup}{25}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{25}{section.3.1}%
-\contentsline {section}{\numberline {3.2}The cryostat}{25}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Cryogenic and UHV system}{27}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Helical resonator and segmented blade trap}{30}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Design of helical resonator}{30}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Assembly of helical resonator}{31}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Assembly of blade trap}{31}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Yb oven}{32}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Mechanics frame}{34}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Optical and imaging system}{34}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Laser sources and power allocation}{34}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Laser frequency stabilization}{35}{subsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.7.3}Laser modulation}{37}{subsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.7.4}Optical layout of cryostat breadboard}{38}{subsection.3.7.4}%
-\contentsline {section}{\numberline {3.8}Electronic devices}{39}{section.3.8}%
-\contentsline {chapter}{\numberline {Chapter 4}Cryogenic experimental technique}{40}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Cool-down and warm-up procedures}{40}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Maintenance of the exchange gas chamber}{40}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Cool-down}{41}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Warm-up}{41}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Characterization of the vibration}{42}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}The Michelson interferometer}{42}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}High-precision long-term vibration measurement}{44}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Minimize vibration of the cryostat}{45}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Obtain impedance match of helical resonator}{46}{section.4.3}%
-\contentsline {chapter}{\numberline {Chapter 5}Stable trapping of multiple ions}{48}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Semi-automatic experimental control system}{48}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Monitor axial electrical potential drift}{50}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Calculate axial electrical potential with 1D ion chains}{51}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Fitting the electrical potential coefficient for each electrode}{55}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Stabilization of axial electrical potential}{58}{section.5.5}%
-\contentsline {chapter}{\numberline {Chapter 6}Experimental realization of a 200-ion multi-qubit quantum memory}{60}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Quasi-1D ion crystal}{60}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Measure the storage time}{61}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Effect of the sympathetic cooling}{64}{section.6.3}%
+\contentsline {chapter}{List of Figures}{II}{section*.6}%
+\contentsline {chapter}{List of Tables}{III}{section*.8}%
+\contentsline {chapter}{\numberline {Chapter 1}Notation}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {Chapter 2}Experimental setup}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}The cryostat}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Cryogenic and UHV system}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Helical resonator and segmented blade trap}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Design of helical resonator}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Assembly of helical resonator}{8}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Assembly of blade trap}{9}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Yb oven}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Optical and imaging system}{11}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Laser sources and power allocation}{12}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Laser frequency stabilization}{13}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Laser modulation}{14}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Optical layout of cryostat breadboard}{15}{subsection.2.5.4}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{References}{67}{section*.30}%
+\contentsline {chapter}{References}{17}{section*.12}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{声\hspace {1em}明}{68}{section*.32}%
+\contentsline {chapter}{声\hspace {1em}明}{18}{section*.14}%
 \contentsfinish 

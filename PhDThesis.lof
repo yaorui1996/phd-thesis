@@ -1,22 +1,4 @@
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Two-photon ionization scheme on ${ }^{171} \mathrm {Yb}^{+}$.\relax }}{5}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces ${ }^{171} \mathrm {Yb}^{+}$ energy level diagram.\relax }}{6}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The relevant transitions for 369.52 nm laser\relax }}{8}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Level scheme of Raman transition.\relax }}{22}{figure.caption.13}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Usage of Mathematica's code to identify a typical ion chain image\relax }}{52}{figure.caption.14}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Usage of Python code to calculate 245 ions' position.\relax }}{53}{figure.caption.15}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Fitting results for various ion numbers.\relax }}{54}{figure.caption.16}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Fitted trapping potential for diferrent ion number.\relax }}{55}{figure.caption.17}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Fitted trapping potential with dark ions.\relax }}{55}{figure.caption.18}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Fit trapping potential up to 42 ions.\relax }}{56}{figure.caption.19}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Fit the electrical potential coefficient for each electrode.\relax }}{57}{figure.caption.21}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Fit the electrical potential coefficient with a 126-ions quasi-1D chain.\relax }}{59}{figure.caption.22}%
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Schematic experimental setup.\relax }}{60}{figure.caption.23}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces The image of 218 ions in a zigzag structure.\relax }}{61}{figure.caption.24}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Experimental sequence.\relax }}{61}{figure.caption.25}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Usage of the SK1 composite pulse.\relax }}{62}{figure.caption.26}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces The measured storage fidelity vs. storage time.\relax }}{63}{figure.caption.27}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Compare the heating effect with or without sympathetic cooling.\relax }}{64}{figure.caption.28}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces The decay of photon counts.\relax }}{65}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Exchange gas space.\relax }}{4}{figure.caption.11}%
 \let \contentsline \ttl@gobblecontents 
 \contentsfinish 
 \contentsfinish 
