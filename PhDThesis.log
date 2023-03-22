@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  22 MAR 2023 14:03
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  22 MAR 2023 21:20
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1291,39 +1291,37 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 7.728pt on input line 19.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 5.52002pt on input line 19.
-File: figures//fig_1_exchange_gas_space.pdf Graphic file (type pdf)
-<use figures//fig_1_exchange_gas_space.pdf>
- [3] [4] [5] [6] [7]
-Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑏 (U+1D44F) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝑑 (U+1D451) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 𝐷 (U+1D437) in font Times New Roman/OT:script=latn;language=dflt;mapping=tex-text;!
-[8] [9] [10] [11] [12] [13] [14] [15]) [16] (./PhDThesis.bbl
+File: figures//fig_3_exchange_gas_space.pdf Graphic file (type pdf)
+<use figures//fig_3_exchange_gas_space.pdf>
+ [3]
+File: figures//fig_3_cryostat_a.pdf Graphic file (type pdf)
+<use figures//fig_3_cryostat_a.pdf>
+ [4] [5] [6]
+File: figures//fig_3_cryostat_b.pdf Graphic file (type pdf)
+<use figures//fig_3_cryostat_b.pdf>
+File: figures//fig_3_cryostat_c.pdf Graphic file (type pdf)
+<use figures//fig_3_cryostat_c.pdf>
+ [7]
+File: figures//fig_3_cryostat_temperature.pdf Graphic file (type pdf)
+<use figures//fig_3_cryostat_temperature.pdf>
+ [8]
+File: figures//fig_3_outline_design_of_a_helical_resonator.pdf Graphic file (type pdf)
+<use figures//fig_3_outline_design_of_a_helical_resonator.pdf>
+ [9] [10] [11] [12] [13] [14] [15] [16] [17]) [18] [19
 
-Package natbib Warning: Empty `thebibliography' environment on input line 14.
-
-) [17
-
-
-
-] [18
 
 
 ] (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 566876F9FE70BD03C2A2183F2C0DE73F;4003.
+(rerunfilecheck)             Checksum: F1FC14A525654EF657B5C5178ADB9044;3893.
  ) 
 Here is how much of TeX's memory you used:
- 30998 strings out of 476688
- 663747 string characters out of 5807700
- 1886001 words of memory out of 5000000
- 50725 multiletter control sequences out of 15000+600000
+ 31056 strings out of 476688
+ 665982 string characters out of 5807700
+ 1862001 words of memory out of 5000000
+ 50781 multiletter control sequences out of 15000+600000
  521543 words of font info for 174 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 102i,11n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (28 pages, 513928 bytes).
+Output written on PhDThesis.xdv (29 pages, 530412 bytes).

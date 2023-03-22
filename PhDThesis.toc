@@ -5,18 +5,17 @@
 \contentsline {chapter}{\numberline {Chapter 2}Experimental setup}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The cryostat}{2}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Cryogenic and UHV system}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Helical resonator and segmented blade trap}{7}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Design of helical resonator}{8}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Assembly of helical resonator}{8}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Assembly of blade trap}{9}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Yb oven}{10}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Optical and imaging system}{11}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Laser sources and power allocation}{12}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Laser frequency stabilization}{13}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Laser modulation}{14}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Optical layout of cryostat breadboard}{15}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.3}Helical resonator and segmented blade trap}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Design of helical resonator}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Assembly of helical resonator}{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Assembly of blade trap}{11}{subsection.2.3.3}%
+\contentsline {section}{\numberline {2.4}Yb oven}{12}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Optical and imaging system}{13}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Laser sources and power allocation}{14}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Laser frequency stabilization}{15}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Laser modulation}{16}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Optical layout of cryostat breadboard}{17}{subsection.2.5.4}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{References}{17}{section*.12}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{声\hspace {1em}明}{18}{section*.14}%
+\contentsline {chapter}{声\hspace {1em}明}{19}{section*.17}%
 \contentsfinish 
