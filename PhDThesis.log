@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  22 MAR 2023 22:31
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  23 MAR 2023 00:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1312,21 +1312,35 @@ File: figures//fig_3_circuit_diagram_helical_resonator.pdf Graphic file (type pd
 <use figures//fig_3_circuit_diagram_helical_resonator.pdf>
 File: figures//fig_3_circuit_diagram_blade_trap.pdf Graphic file (type pdf)
 <use figures//fig_3_circuit_diagram_blade_trap.pdf>
- [10] [11] [12] [13] [14] [15] [16] [17] [18]) [19] [20
+ [10]
+File: figures//fig_3_assembly_of_helical_resonator_antenna.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_helical_resonator_antenna.pdf>
+File: figures//fig_3_assembly_of_helical_resonator_copper.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_helical_resonator_copper.pdf>
+File: figures//fig_3_assembly_of_helical_resonator_pcb.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_helical_resonator_pcb.pdf>
+ [11] [12] [13]
+File: figures//fig_3_assembly_of_trap_sapphire.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_trap_sapphire.pdf>
+File: figures//fig_3_assembly_of_trap_blade.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_trap_blade.pdf>
+File: figures//fig_3_assembly_of_trap_pcb.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_trap_pcb.pdf>
+ [14] [15] [16] [17] [18] [19] [20] [21] [22]) [23] [24
 
 
 
 ] (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 17A6C344B5EE9D6115425A4E318B4B12;4315.
+(rerunfilecheck)             Checksum: CDE524EEB348369DF72DA371996CD3B3;4338.
  ) 
 Here is how much of TeX's memory you used:
- 31081 strings out of 476688
- 667195 string characters out of 5807700
- 1862001 words of memory out of 5000000
- 50804 multiletter control sequences out of 15000+600000
+ 31148 strings out of 476688
+ 670576 string characters out of 5807700
+ 1869001 words of memory out of 5000000
+ 50865 multiletter control sequences out of 15000+600000
  521543 words of font info for 174 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  102i,11n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (30 pages, 554228 bytes).
+Output written on PhDThesis.xdv (34 pages, 609336 bytes).
