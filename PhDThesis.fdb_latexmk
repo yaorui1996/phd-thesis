@@ -1,16 +1,16 @@
 # Fdb version 4
-["xdvipdfmx"] 1679491233 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1679491234 0
-  "PhDThesis.xdv" 1679491233 530412 68e6d42cccb9c081e17c8b9488e9a4bc "xelatex"
+["xdvipdfmx"] 1679495483 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1679495484 0
+  "PhDThesis.xdv" 1679495483 554228 ac94c870e180bd5e86325f1ebb5fa14f "xelatex"
   (generated)
   "PhDThesis.pdf"
   (rewritten before read)
-["xelatex"] 1679491231 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1679491234 0
-  "PhDThesis.aux" 1679491233 5595 4ad6aff475767ffa4c33ec6d0c4f54aa "xelatex"
-  "PhDThesis.lof" 1679491233 727 42d4b98011a895fbd83b3ca25d83917e "xelatex"
-  "PhDThesis.lot" 1679491233 338 b9c754ef353ecd08c5cb448b23045b1d "xelatex"
-  "PhDThesis.out" 1679491233 3893 f1fc14a525654ef657b5c5178adb9044 "xelatex"
+["xelatex"] 1679495481 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1679495484 0
+  "PhDThesis.aux" 1679495483 6789 ada7e6f49473204fc5c635cca7ee907e "xelatex"
+  "PhDThesis.lof" 1679495483 877 6c4147eb053b2ecff122dd884d186fb2 "xelatex"
+  "PhDThesis.lot" 1679495483 481 40ed190e2988c9fe521da5571c70a4f5 "xelatex"
+  "PhDThesis.out" 1679495483 4315 17a6c344b5ee9d6115425a4e318b4b12 "xelatex"
   "PhDThesis.tex" 1679491226 2668 3be72848e895c2b74302ff863a8632c9 ""
-  "PhDThesis.toc" 1679491233 1564 68ae5be3d50e192f7641643e85791d4c "xelatex"
+  "PhDThesis.toc" 1679495483 1695 bb03e895f70e52211d8dbda8dcf849bf "xelatex"
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1675865316 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1675867395 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1675864802 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -144,7 +144,9 @@
   "c:/texlive/2022/texmf.cnf" 1675867412 713 e69b156964470283e0530f5060668171 ""
   "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" 1679491226 2668 3be72848e895c2b74302ff863a8632c9 ""
   "data/chap00.tex" 1679451881 78 8d65b12e39a6053db81bc78ed587edc0 ""
-  "data/chap03.tex" 1679491019 41978 427dbf47e64fb0f9c8d7f8a1afea39c1 ""
+  "data/chap03.tex" 1679495478 44367 1f1cd59e3874f4a8e436cfa319e88e3a ""
+  "figures//fig_3_circuit_diagram_blade_trap.pdf" 1679491456 384855 50382153c2c932f11c16fc8bba765241 ""
+  "figures//fig_3_circuit_diagram_helical_resonator.pdf" 1679491581 24192 3854e24972d92d9be4b1dbecfaef8c6f ""
   "figures//fig_3_cryostat_a.pdf" 1679467444 642979 f0ff4ed10f88067255405d8053a525db ""
   "figures//fig_3_cryostat_b.pdf" 1679469646 1935690 1ead29b82d1d549e2b3ffd6788131ec9 ""
   "figures//fig_3_cryostat_c.pdf" 1679469733 1156919 2e7f1b9e7c64bd139a7fd9840c083329 ""
@@ -152,7 +154,7 @@
   "figures//fig_3_exchange_gas_space.pdf" 1679464410 70158 8fa951ac767133690f47797b1c7e3c14 ""
   "figures//fig_3_outline_design_of_a_helical_resonator.pdf" 1679490935 117264 00021ba07e30b31dde87551cbda2d278 ""
   "thusetup.tex" 1679405771 4789 756a86316366d1c60f93782ab4786780 ""
-  "thuthesis.cls" 1679491226 112463 72705b84252c4f64a294fb60487d981d ""
+  "thuthesis.cls" 1679495479 112463 72705b84252c4f64a294fb60487d981d ""
   (generated)
   "PhDThesis.aux"
   "PhDThesis.lof"

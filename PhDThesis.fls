@@ -1266,6 +1266,10 @@ INPUT ./figures//fig_3_cryostat_temperature.pdf
 INPUT figures//fig_3_cryostat_temperature.pdf
 INPUT ./figures//fig_3_outline_design_of_a_helical_resonator.pdf
 INPUT figures//fig_3_outline_design_of_a_helical_resonator.pdf
+INPUT ./figures//fig_3_circuit_diagram_helical_resonator.pdf
+INPUT figures//fig_3_circuit_diagram_helical_resonator.pdf
+INPUT ./figures//fig_3_circuit_diagram_blade_trap.pdf
+INPUT figures//fig_3_circuit_diagram_blade_trap.pdf
 INPUT PhDThesis.aux
 INPUT ./PhDThesis.out
 INPUT ./PhDThesis.out

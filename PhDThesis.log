@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  22 MAR 2023 21:20
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  22 MAR 2023 22:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1307,21 +1307,26 @@ File: figures//fig_3_cryostat_temperature.pdf Graphic file (type pdf)
  [8]
 File: figures//fig_3_outline_design_of_a_helical_resonator.pdf Graphic file (type pdf)
 <use figures//fig_3_outline_design_of_a_helical_resonator.pdf>
- [9] [10] [11] [12] [13] [14] [15] [16] [17]) [18] [19
+ [9]
+File: figures//fig_3_circuit_diagram_helical_resonator.pdf Graphic file (type pdf)
+<use figures//fig_3_circuit_diagram_helical_resonator.pdf>
+File: figures//fig_3_circuit_diagram_blade_trap.pdf Graphic file (type pdf)
+<use figures//fig_3_circuit_diagram_blade_trap.pdf>
+ [10] [11] [12] [13] [14] [15] [16] [17] [18]) [19] [20
 
 
 
 ] (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: F1FC14A525654EF657B5C5178ADB9044;3893.
+(rerunfilecheck)             Checksum: 17A6C344B5EE9D6115425A4E318B4B12;4315.
  ) 
 Here is how much of TeX's memory you used:
- 31056 strings out of 476688
- 665982 string characters out of 5807700
+ 31081 strings out of 476688
+ 667195 string characters out of 5807700
  1862001 words of memory out of 5000000
- 50781 multiletter control sequences out of 15000+600000
+ 50804 multiletter control sequences out of 15000+600000
  521543 words of font info for 174 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 102i,12n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (29 pages, 530412 bytes).
+Output written on PhDThesis.xdv (30 pages, 554228 bytes).

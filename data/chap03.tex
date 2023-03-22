@@ -55,7 +55,7 @@ The vacuum chamber resembles a cylinder with a diameter of about 200 mm and a he
 
 \begin{table}
     \centering
-    \caption{List of electrical devices connected to the vacuum chamber.}
+    \caption{Table of electrical devices connected to the vacuum chamber.}
     \begin{tabular}{ll}
         \toprule
         Device           & Model                      \\
@@ -107,6 +107,38 @@ The blade trap forms a capacitor of approximately 6 pF. In order to drive this c
 \end{figure}
 
 The circuit models for the helical resonator and the blade trap have been well studied. In practice, we have developed a very mature design procedure with a high quality factor, choosing only two parameters $ b / d $ and $ d / D $ to optimise the performance of the helical resonator with the quality factor as the objective function. We can calculate the loading frequency in the empirical parameter regime using the trap capacitance and the quality factor. Typically, $ b / d \approx 1.5 $ and $ d / D \approx 0.5 $ is a good choice, and if the loading frequency meets our requirements we will try to choose the highest quality factor around this parameter range, as shown in Fig~\ref{fig:outline_design_of_a_helical_resonator}. A two-wire spiral resonator is much more complex than a single-wire spiral resonator because of the coupling between the two coils. However, for the sake of simplicity we are still using the model and we can achieve an accuracy of about $\pm 5$ MHz. To ensure that the phase and amplitude of the two coils are the same, we use a parallel capacitor, which is shorted when connected to the RF feedthrough, with a capacitance of approximately 300 nF. The two-wire design is designed to help minimise micro-movements by applying a DC voltage to the RF electrodes, so we need to ensure that the RF signal on the coil is grounded and the DC voltage is not, this is achieved by a 300 nF capacitor connected to the shield. In addition, we added an RC filter before the DC voltage was connected to the coil.
+
+\subsection{Circuit diagrams of the helical resonator and the blade trap}
+
+\begin{figure}
+    \centering
+    \subcaptionbox{Circuit diagrams of the helical resonator.\label{fig:circuit_diagram_helical_resonator}}
+    {\includegraphics[width=0.5\linewidth]{fig_3_circuit_diagram_helical_resonator.pdf}}
+    \subcaptionbox{Circuit diagrams of the blade trap.\label{fig:circuit_diagram_blade_trap}}
+    {\includegraphics[width=0.3\linewidth]{fig_3_circuit_diagram_blade_trap.pdf}}
+    \caption{Circuit diagrams of the helical resonator and the blade trap.}
+    \label{fig:circuit_diagram}
+\end{figure}
+
+To facilitate our understanding of the circuit structure of the helical resonator and the blade trap, Fig~\ref{fig:circuit_diagram_helical_resonator} shows their equivalent circuit diagrams. In Fig~\ref{fig:circuit_diagram_blade_trap}, an external RF signal (RF-In) is fed to a small antenna. The antenna is coupled to a double bifilar helical copper wire, which is short-circuited by a large capacitor (C7, 330nF). The two RF bias signals (RF1 Bias and RF2 Bias) are supplied by the AD5791 and pass through an RC filter consisting of a resistor (R1, R2, 10 $k\Omega$) and a capacitor (C1, C2, 330 nF) to add a DC bias to the respective RF signal. The two capacitively coupled signals (RF1 Pick-off, RF2 Pick-off) can be coupled to a 1\% RF resonant signal. The voltage divider circuit uses a small capacitor (C3, C4, 0.2 pF) and a large capacitor (C5, C6, 20 pF) in series. The signal from the two pairs of DC electrodes on the blade trap (DC1, DC2) is grounded through large capacitors (C8, C9, 820 pF).
+
+\begin{table}
+    \centering
+    \caption{Table of electronic components in the circuit diagrams.}
+    \begin{tabular}{p{0.15\linewidth}p{0.1\linewidth}p{0.3\linewidth}p{0.3\linewidth}}
+        \toprule
+        Component & Value        & Model            & Parameters                   \\
+        \midrule
+        Resistor  & 10 $k\Omega$ & RNCF1206TKY10K0  & RES 10K OHM 0.01\% 1/4W 1206 \\
+        Capacitor & 0.2 pF       & VJ1111D0R2VXRAJ  & 1.5KV                        \\
+        Capacitor & 20 pF        & 800B200JT500XT   & CAP CER  500V C0G/NP0 1111
+        \\
+        Capacitor & 820 pF       & C0805C821JCGACTU & CAP CER  500V C0G/NP0 0805   \\
+        Capacitor & 330 nF       & C2220C334J1GACTU & 100V NP0
+        \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 \subsection{Assembly of helical resonator}
 

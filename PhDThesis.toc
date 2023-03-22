@@ -7,15 +7,16 @@
 \contentsline {section}{\numberline {2.2}Cryogenic and UHV system}{4}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Helical resonator and segmented blade trap}{9}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Design of helical resonator}{9}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Assembly of helical resonator}{10}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Assembly of blade trap}{11}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Yb oven}{12}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Optical and imaging system}{13}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Laser sources and power allocation}{14}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Laser frequency stabilization}{15}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Laser modulation}{16}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Optical layout of cryostat breadboard}{17}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.3.2}Circuit diagrams of the helical resonator and the blade trap}{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Assembly of helical resonator}{11}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Assembly of blade trap}{12}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Yb oven}{13}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Optical and imaging system}{14}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Laser sources and power allocation}{15}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Laser frequency stabilization}{16}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Laser modulation}{17}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Optical layout of cryostat breadboard}{18}{subsection.2.5.4}%
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{声\hspace {1em}明}{19}{section*.17}%
+\contentsline {chapter}{声\hspace {1em}明}{20}{section*.19}%
 \contentsfinish 
