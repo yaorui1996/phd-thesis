@@ -1249,6 +1249,10 @@ INPUT ./figures//fig_4_warm_up_temperature.pdf
 INPUT figures//fig_4_warm_up_temperature.pdf
 INPUT ./figures//fig_3_optical_path_370_Interferometer.pdf
 INPUT figures//fig_3_optical_path_370_Interferometer.pdf
+INPUT ./figures//fig_3_optical_path_370_Interferometer_devices.pdf
+INPUT figures//fig_3_optical_path_370_Interferometer_devices.pdf
+INPUT ./figures//fig_3_optical_path_370_Interferometer_diagram.pdf
+INPUT figures//fig_3_optical_path_370_Interferometer_diagram.pdf
 INPUT PhDThesis.aux
 INPUT ./PhDThesis.out
 INPUT ./PhDThesis.out
