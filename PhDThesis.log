@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  23 MAR 2023 14:35
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  23 MAR 2023 17:43
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1246,135 +1246,43 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 
 ] [6
 
-] (./PhDThesis.toc)
-\tf@toc=\write4
-\openout4 = `PhDThesis.toc'.
-
- [1
-
-
-] (./PhDThesis.lof)
-\tf@lof=\write5
-\openout5 = `PhDThesis.lof'.
-
- [2
-
-
-] (./PhDThesis.lot)
-\tf@lot=\write6
-\openout6 = `PhDThesis.lot'.
-
- [3
-
-
-] [4
-
 ] (./data/chap00.tex
 Chapter 1
-) (./data/chap03.tex [1
+) (./data/chap04.tex [1
+
 
 ]
 Chapter 2
+File: figures//fig_4_exchange_gas_space_leakage.pdf Graphic file (type pdf)
+<use figures//fig_4_exchange_gas_space_leakage.pdf>
 [2
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 19.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 11.04242pt on input line 19.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.72966pt on input line 19.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 5.5212pt on input line 19.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 11.04005pt on input line 19.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 7.728pt on input line 19.
-LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 5.52002pt on input line 19.
-File: figures//fig_3_exchange_gas_space.pdf Graphic file (type pdf)
-<use figures//fig_3_exchange_gas_space.pdf>
+File: figures//fig_4_cool_down_temperature.pdf Graphic file (type pdf)
+<use figures//fig_4_cool_down_temperature.pdf>
+File: figures//fig_4_cool_down_pressure.pdf Graphic file (type pdf)
+<use figures//fig_4_cool_down_pressure.pdf>
  [3]
-File: figures//fig_3_cryostat_a.pdf Graphic file (type pdf)
-<use figures//fig_3_cryostat_a.pdf>
- [4] [5] [6]
-File: figures//fig_3_cryostat_b.pdf Graphic file (type pdf)
-<use figures//fig_3_cryostat_b.pdf>
-File: figures//fig_3_cryostat_c.pdf Graphic file (type pdf)
-<use figures//fig_3_cryostat_c.pdf>
- [7]
-File: figures//fig_3_cryostat_temperature.pdf Graphic file (type pdf)
-<use figures//fig_3_cryostat_temperature.pdf>
- [8]
-File: figures//fig_3_outline_design_of_a_helical_resonator.pdf Graphic file (type pdf)
-<use figures//fig_3_outline_design_of_a_helical_resonator.pdf>
- [9]
-File: figures//fig_3_circuit_diagram_helical_resonator.pdf Graphic file (type pdf)
-<use figures//fig_3_circuit_diagram_helical_resonator.pdf>
-File: figures//fig_3_circuit_diagram_blade_trap.pdf Graphic file (type pdf)
-<use figures//fig_3_circuit_diagram_blade_trap.pdf>
- [10]
-File: figures//fig_3_assembly_of_helical_resonator_antenna.pdf Graphic file (type pdf)
-<use figures//fig_3_assembly_of_helical_resonator_antenna.pdf>
-File: figures//fig_3_assembly_of_helical_resonator_copper.pdf Graphic file (type pdf)
-<use figures//fig_3_assembly_of_helical_resonator_copper.pdf>
-File: figures//fig_3_assembly_of_helical_resonator_pcb.pdf Graphic file (type pdf)
-<use figures//fig_3_assembly_of_helical_resonator_pcb.pdf>
- [11] [12] [13]
-File: figures//fig_3_assembly_of_trap_sapphire.pdf Graphic file (type pdf)
-<use figures//fig_3_assembly_of_trap_sapphire.pdf>
-File: figures//fig_3_assembly_of_trap_blade.pdf Graphic file (type pdf)
-<use figures//fig_3_assembly_of_trap_blade.pdf>
-File: figures//fig_3_assembly_of_trap_pcb.pdf Graphic file (type pdf)
-<use figures//fig_3_assembly_of_trap_pcb.pdf>
- [14] [15] [16]
-File: figures//fig_3_assembly_of_oven_1.pdf Graphic file (type pdf)
-<use figures//fig_3_assembly_of_oven_1.pdf>
-File: figures//fig_3_assembly_of_oven_2.pdf Graphic file (type pdf)
-<use figures//fig_3_assembly_of_oven_2.pdf>
- [17]
-File: figures//fig_3_test_oven_1.pdf Graphic file (type pdf)
-<use figures//fig_3_test_oven_1.pdf>
-File: figures//fig_3_test_oven_2.pdf Graphic file (type pdf)
-<use figures//fig_3_test_oven_2.pdf>
- [18]
-File: figures//fig_3_optical_layout_of_ion_trap_and_vacuum_chamber.pdf Graphic file (type pdf)
-<use figures//fig_3_optical_layout_of_ion_trap_and_vacuum_chamber.pdf>
- [19]
-File: figures//fig_3_optical_path_diode_laser.pdf Graphic file (type pdf)
-<use figures//fig_3_optical_path_diode_laser.pdf>
- [20]
-File: figures//fig_3_principle_of_frequency_modulation_for_optical_cavity.pdf Graphic file (type pdf)
-<use figures//fig_3_principle_of_frequency_modulation_for_optical_cavity.pdf>
- [21] [22]
-File: figures//fig_3_optical_path_wave_meter.pdf Graphic file (type pdf)
-<use figures//fig_3_optical_path_wave_meter.pdf>
-File: figures//fig_3_optical_path_370_cavity.pdf Graphic file (type pdf)
-<use figures//fig_3_optical_path_370_cavity.pdf>
- [23]
-File: figures//fig_3_optical_path_370_modulate.pdf Graphic file (type pdf)
-<use figures//fig_3_optical_path_370_modulate.pdf>
-File: figures//fig_3_optical_path_370_modulate_aom_power.pdf Graphic file (type pdf)
-<use figures//fig_3_optical_path_370_modulate_aom_power.pdf>
-File: figures//fig_3_optical_path_370_modulate_aom_frequency.pdf Graphic file (type pdf)
-<use figures//fig_3_optical_path_370_modulate_aom_frequency.pdf>
- [24]
-File: figures//fig_3_optical_path_cryostat_breadboard.pdf Graphic file (type pdf)
-<use figures//fig_3_optical_path_cryostat_breadboard.pdf>
- [25] [26]) [27] [28
+File: figures//fig_4_warm_up_temperature.pdf Graphic file (type pdf)
+<use figures//fig_4_warm_up_temperature.pdf>
+ [4]
+File: figures//fig_3_optical_path_370_Interferometer.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_370_Interferometer.pdf>
+ [5] [6] [7] [8] [9]) [10] [11] [12
 
 
 
 ] (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: F8AE6337AE7CC9ED3B22038A7E60B86A;4361.
+(rerunfilecheck)             Checksum: B4A46EF464589589D95ABA765FACD276;3085.
  ) 
 Here is how much of TeX's memory you used:
- 31254 strings out of 476688
- 675262 string characters out of 5807700
- 1869001 words of memory out of 5000000
- 50958 multiletter control sequences out of 15000+600000
- 521543 words of font info for 174 fonts, out of 8000000 for 9000
+ 30944 strings out of 476688
+ 661617 string characters out of 5807700
+ 1862001 words of memory out of 5000000
+ 50694 multiletter control sequences out of 15000+600000
+ 519667 words of font info for 156 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 102i,11n,129p,2693b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,129p,2580b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (38 pages, 665580 bytes).
+Output written on PhDThesis.xdv (18 pages, 228052 bytes).
