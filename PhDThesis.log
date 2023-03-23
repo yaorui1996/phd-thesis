@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  23 MAR 2023 11:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  23 MAR 2023 14:35
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1342,21 +1342,39 @@ File: figures//fig_3_optical_layout_of_ion_trap_and_vacuum_chamber.pdf Graphic f
  [19]
 File: figures//fig_3_optical_path_diode_laser.pdf Graphic file (type pdf)
 <use figures//fig_3_optical_path_diode_laser.pdf>
- [20] [21] [22] [23] [24]) [25] [26
+ [20]
+File: figures//fig_3_principle_of_frequency_modulation_for_optical_cavity.pdf Graphic file (type pdf)
+<use figures//fig_3_principle_of_frequency_modulation_for_optical_cavity.pdf>
+ [21] [22]
+File: figures//fig_3_optical_path_wave_meter.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_wave_meter.pdf>
+File: figures//fig_3_optical_path_370_cavity.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_370_cavity.pdf>
+ [23]
+File: figures//fig_3_optical_path_370_modulate.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_370_modulate.pdf>
+File: figures//fig_3_optical_path_370_modulate_aom_power.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_370_modulate_aom_power.pdf>
+File: figures//fig_3_optical_path_370_modulate_aom_frequency.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_370_modulate_aom_frequency.pdf>
+ [24]
+File: figures//fig_3_optical_path_cryostat_breadboard.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_cryostat_breadboard.pdf>
+ [25] [26]) [27] [28
 
 
 
 ] (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4F2658479ED3CC718774966CF1528BA8;4338.
+(rerunfilecheck)             Checksum: F8AE6337AE7CC9ED3B22038A7E60B86A;4361.
  ) 
 Here is how much of TeX's memory you used:
- 31185 strings out of 476688
- 671692 string characters out of 5807700
+ 31254 strings out of 476688
+ 675262 string characters out of 5807700
  1869001 words of memory out of 5000000
- 50896 multiletter control sequences out of 15000+600000
+ 50958 multiletter control sequences out of 15000+600000
  521543 words of font info for 174 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 102i,11n,129p,2606b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,129p,2693b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (36 pages, 633364 bytes).
+Output written on PhDThesis.xdv (38 pages, 665580 bytes).
