@@ -11,12 +11,12 @@
 \contentsline {subsection}{\numberline {2.3.3}Assembly of the helical resonator}{11}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Assembly of blade trap}{14}{subsection.2.3.4}%
 \contentsline {section}{\numberline {2.4}Yb oven}{17}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Optical and imaging system}{18}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Laser sources and power allocation}{19}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Laser frequency stabilization}{20}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Laser modulation}{21}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Optical layout of cryostat breadboard}{22}{subsection.2.5.4}%
+\contentsline {section}{\numberline {2.5}Optical and imaging system}{19}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Laser sources and power allocation}{20}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Laser frequency stabilization}{22}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Laser modulation}{23}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Optical layout of cryostat breadboard}{24}{subsection.2.5.4}%
 \setcounter {tocdepth}{0}
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{声\hspace {1em}明}{24}{section*.23}%
+\contentsline {chapter}{声\hspace {1em}明}{26}{section*.28}%
 \contentsfinish 
