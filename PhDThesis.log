@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  23 MAR 2023 23:55
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  24 MAR 2023 10:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1287,7 +1287,11 @@ File: figures//fig_4_vibration_HYQ.pdf Graphic file (type pdf)
 <use figures//fig_4_vibration_HYQ.pdf>
 File: figures//fig_4_vibration_HYQ_fft.pdf Graphic file (type pdf)
 <use figures//fig_4_vibration_HYQ_fft.pdf>
- [10] [11]) [12] [13
+File: figures//fig_4_vibration_HYQ_longterm.pdf Graphic file (type pdf)
+<use figures//fig_4_vibration_HYQ_longterm.pdf>
+File: figures//fig_4_vibration_HYQ_longterm_allan.pdf Graphic file (type pdf)
+<use figures//fig_4_vibration_HYQ_longterm_allan.pdf>
+ [10] [11]) [12] [13] [14
 
 
 
@@ -1296,12 +1300,12 @@ Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
 (rerunfilecheck)             Checksum: 7EC80182BD223A7EF99441DA5A0C6FD5;3086.
  ) 
 Here is how much of TeX's memory you used:
- 31027 strings out of 476688
- 666125 string characters out of 5807700
+ 31047 strings out of 476688
+ 667077 string characters out of 5807700
  1862001 words of memory out of 5000000
- 50769 multiletter control sequences out of 15000+600000
+ 50787 multiletter control sequences out of 15000+600000
  519667 words of font info for 156 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  102i,11n,129p,2654b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (19 pages, 239396 bytes).
+Output written on PhDThesis.xdv (20 pages, 241296 bytes).

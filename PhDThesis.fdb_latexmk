@@ -1,13 +1,13 @@
 # Fdb version 4
-["xdvipdfmx"] 1679586943 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1679586943 0
-  "PhDThesis.xdv" 1679586942 239396 77186ebd174b7466d340d156a6c4a736 "xelatex"
+["xdvipdfmx"] 1679625221 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1679625222 0
+  "PhDThesis.xdv" 1679625221 241296 0c8e4e55820ce2e55fcb8981f4c28a24 "xelatex"
   (generated)
   "PhDThesis.pdf"
   (rewritten before read)
-["xelatex"] 1679586941 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1679586943 0
-  "PhDThesis.aux" 1679586942 4904 79d6ca9a87882b113b98eb7415dc3278 "xelatex"
-  "PhDThesis.out" 1679586942 3086 7ec80182bd223a7ef99441da5a0c6fd5 "xelatex"
-  "PhDThesis.tex" 1679586937 2674 6f079cb178ed302187824b6022ef49c1 ""
+["xelatex"] 1679625219 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1679625222 0
+  "PhDThesis.aux" 1679625221 4904 6ba6f2f391111d29baebac329a3bb8e8 "xelatex"
+  "PhDThesis.out" 1679625221 3086 7ec80182bd223a7ef99441da5a0c6fd5 "xelatex"
+  "PhDThesis.tex" 1679587396 2674 6f079cb178ed302187824b6022ef49c1 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1675865316 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1675867395 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1675864802 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -138,9 +138,9 @@
   "c:/texlive/2022/texmf-dist/web2c/texmf.cnf" 1675864318 40171 cdab547de63d26590bebb3baff566530 ""
   "c:/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1675867503 10497105 d7d28ad1ea0e4658faf7aac11e95c342 ""
   "c:/texlive/2022/texmf.cnf" 1675867412 713 e69b156964470283e0530f5060668171 ""
-  "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" 1679586937 2674 6f079cb178ed302187824b6022ef49c1 ""
+  "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" 1679587396 2674 6f079cb178ed302187824b6022ef49c1 ""
   "data/chap00.tex" 1679451881 78 8d65b12e39a6053db81bc78ed587edc0 ""
-  "data/chap04.tex" 1679586895 22716 a34951ca1f6cf362e1b594c00d4aa6e5 ""
+  "data/chap04.tex" 1679625218 22978 63c575345a0f8f5725e25c799706d7c3 ""
   "figures//fig_3_optical_path_370_Interferometer.pdf" 1679564353 717804 e7e6be7205472125875acb446b288b4d ""
   "figures//fig_3_optical_path_370_Interferometer_devices.pdf" 1679566702 493043 53e5e0c7a92ca1d450716bc94afe69f5 ""
   "figures//fig_3_optical_path_370_Interferometer_diagram.pdf" 1679566691 93821 f4ca806d875b98f1944bb24fc884d205 ""
@@ -149,13 +149,15 @@
   "figures//fig_4_exchange_gas_space_leakage.pdf" 1679555133 188475 82089bec4377d48af2ab7f0a96965cd7 ""
   "figures//fig_4_vibration_HYQ.pdf" 1679586733 153238 ea4a5f2ba9371c816db9e1727981b0a2 ""
   "figures//fig_4_vibration_HYQ_fft.pdf" 1679586735 41414 76ab677b7c56f57ce8820946e946f8a8 ""
+  "figures//fig_4_vibration_HYQ_longterm.pdf" 1679624966 71178 ea340a1d9e18648885fc871a1d658860 ""
+  "figures//fig_4_vibration_HYQ_longterm_allan.pdf" 1679624962 47956 60693427f209d66107dad1c1c8a0a9bf ""
   "figures//fig_4_vibration_S302.pdf" 1679580746 37221 c3eb697b5552c36f0d031bc47f0b2283 ""
   "figures//fig_4_vibration_calabration_pzt.pdf" 1679584981 38005 c09f66d30ee11d9afad03e3aa178e81a ""
   "figures//fig_4_vibration_calibration_interferometer_with_high_precision.pdf" 1679584986 45068 20cfd1593ca1b922deacf7ad20e50cd0 ""
   "figures//fig_4_vibration_calibration_interferometer_with_high_stability.pdf" 1679584984 102693 5e7126da3ea1f1616d56d9f57149eb5c ""
   "figures//fig_4_warm_up_temperature.pdf" 1679561570 39636 375a0a102550c457bf1d3cabd07588f1 ""
   "thusetup.tex" 1679405771 4789 756a86316366d1c60f93782ab4786780 ""
-  "thuthesis.cls" 1679586938 112463 72705b84252c4f64a294fb60487d981d ""
+  "thuthesis.cls" 1679625219 112463 72705b84252c4f64a294fb60487d981d ""
   (generated)
   "PhDThesis.aux"
   "PhDThesis.log"

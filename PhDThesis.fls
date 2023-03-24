@@ -1265,6 +1265,10 @@ INPUT ./figures//fig_4_vibration_HYQ.pdf
 INPUT figures//fig_4_vibration_HYQ.pdf
 INPUT ./figures//fig_4_vibration_HYQ_fft.pdf
 INPUT figures//fig_4_vibration_HYQ_fft.pdf
+INPUT ./figures//fig_4_vibration_HYQ_longterm.pdf
+INPUT figures//fig_4_vibration_HYQ_longterm.pdf
+INPUT ./figures//fig_4_vibration_HYQ_longterm_allan.pdf
+INPUT figures//fig_4_vibration_HYQ_longterm_allan.pdf
 INPUT PhDThesis.aux
 INPUT ./PhDThesis.out
 INPUT ./PhDThesis.out
