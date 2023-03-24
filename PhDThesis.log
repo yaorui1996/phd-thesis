@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  24 MAR 2023 12:12
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  24 MAR 2023 15:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1248,64 +1248,187 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 
 ] (./data/chap00.tex
 Chapter 1
-) (./data/chap04.tex [1
+) (./data/chap03.tex [1
 
 
 ]
 Chapter 2
-File: figures//fig_4_exchange_gas_space_leakage.pdf Graphic file (type pdf)
-<use figures//fig_4_exchange_gas_space_leakage.pdf>
 [2
 
 ]
-File: figures//fig_4_cool_down_temperature.pdf Graphic file (type pdf)
-<use figures//fig_4_cool_down_temperature.pdf>
-File: figures//fig_4_cool_down_pressure.pdf Graphic file (type pdf)
-<use figures//fig_4_cool_down_pressure.pdf>
+LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 19.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 11.04242pt on input line 19.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 7.72966pt on input line 19.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 5.5212pt on input line 19.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 11.04005pt on input line 19.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 7.728pt on input line 19.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 5.52002pt on input line 19.
+File: figures//fig_3_exchange_gas_space.pdf Graphic file (type pdf)
+<use figures//fig_3_exchange_gas_space.pdf>
  [3]
-File: figures//fig_4_warm_up_temperature.pdf Graphic file (type pdf)
-<use figures//fig_4_warm_up_temperature.pdf>
- [4]
-File: figures//fig_3_optical_path_370_Interferometer.pdf Graphic file (type pdf)
-<use figures//fig_3_optical_path_370_Interferometer.pdf>
-File: figures//fig_4_vibration_S302.pdf Graphic file (type pdf)
-<use figures//fig_4_vibration_S302.pdf>
- [5] [6] [7]
-File: figures//fig_3_optical_path_370_Interferometer_devices.pdf Graphic file (type pdf)
-<use figures//fig_3_optical_path_370_Interferometer_devices.pdf>
-File: figures//fig_3_optical_path_370_Interferometer_diagram.pdf Graphic file (type pdf)
-<use figures//fig_3_optical_path_370_Interferometer_diagram.pdf>
+File: figures//fig_3_cryostat_a.pdf Graphic file (type pdf)
+<use figures//fig_3_cryostat_a.pdf>
+ [4] [5] [6]
+File: figures//fig_3_cryostat_b.pdf Graphic file (type pdf)
+<use figures//fig_3_cryostat_b.pdf>
+File: figures//fig_3_cryostat_c.pdf Graphic file (type pdf)
+<use figures//fig_3_cryostat_c.pdf>
+ [7]
+File: figures//fig_3_cryostat_temperature.pdf Graphic file (type pdf)
+<use figures//fig_3_cryostat_temperature.pdf>
  [8]
-File: figures//fig_4_vibration_calibration_interferometer_with_high_stability.pdf Graphic file (type pdf)
-<use figures//fig_4_vibration_calibration_interferometer_with_high_stability.pdf>
-File: figures//fig_4_vibration_calibration_interferometer_with_high_precision.pdf Graphic file (type pdf)
-<use figures//fig_4_vibration_calibration_interferometer_with_high_precision.pdf>
-File: figures//fig_4_vibration_calabration_pzt.pdf Graphic file (type pdf)
-<use figures//fig_4_vibration_calabration_pzt.pdf>
+File: figures//fig_3_outline_design_of_a_helical_resonator.pdf Graphic file (type pdf)
+<use figures//fig_3_outline_design_of_a_helical_resonator.pdf>
  [9]
-File: figures//fig_4_vibration_HYQ.pdf Graphic file (type pdf)
-<use figures//fig_4_vibration_HYQ.pdf>
-File: figures//fig_4_vibration_HYQ_fft.pdf Graphic file (type pdf)
-<use figures//fig_4_vibration_HYQ_fft.pdf>
-File: figures//fig_4_vibration_HYQ_longterm.pdf Graphic file (type pdf)
-<use figures//fig_4_vibration_HYQ_longterm.pdf>
-File: figures//fig_4_vibration_HYQ_longterm_allan.pdf Graphic file (type pdf)
-<use figures//fig_4_vibration_HYQ_longterm_allan.pdf>
- [10] [11] [12]) [13] [14
+File: figures//fig_3_circuit_diagram_helical_resonator.pdf Graphic file (type pdf)
+<use figures//fig_3_circuit_diagram_helical_resonator.pdf>
+File: figures//fig_3_circuit_diagram_blade_trap.pdf Graphic file (type pdf)
+<use figures//fig_3_circuit_diagram_blade_trap.pdf>
+ [10]
+File: figures//fig_3_assembly_of_helical_resonator_antenna.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_helical_resonator_antenna.pdf>
+File: figures//fig_3_assembly_of_helical_resonator_copper.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_helical_resonator_copper.pdf>
+File: figures//fig_3_assembly_of_helical_resonator_pcb.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_helical_resonator_pcb.pdf>
+ [11] [12] [13]
+File: figures//fig_3_assembly_of_trap_sapphire.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_trap_sapphire.pdf>
+File: figures//fig_3_assembly_of_trap_blade.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_trap_blade.pdf>
+File: figures//fig_3_assembly_of_trap_pcb.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_trap_pcb.pdf>
+ [14] [15] [16]
+File: figures//fig_3_assembly_of_oven_1.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_oven_1.pdf>
+File: figures//fig_3_assembly_of_oven_2.pdf Graphic file (type pdf)
+<use figures//fig_3_assembly_of_oven_2.pdf>
+ [17]
+File: figures//fig_3_test_oven_1.pdf Graphic file (type pdf)
+<use figures//fig_3_test_oven_1.pdf>
+File: figures//fig_3_test_oven_2.pdf Graphic file (type pdf)
+<use figures//fig_3_test_oven_2.pdf>
+ [18]
+File: figures//fig_3_optical_layout_of_ion_trap_and_vacuum_chamber.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_layout_of_ion_trap_and_vacuum_chamber.pdf>
+ [19]
+File: figures//fig_3_optical_path_diode_laser.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_diode_laser.pdf>
+ [20]
+File: figures//fig_3_principle_of_frequency_modulation_for_optical_cavity.pdf Graphic file (type pdf)
+<use figures//fig_3_principle_of_frequency_modulation_for_optical_cavity.pdf>
+ [21] [22]
+File: figures//fig_3_optical_path_wave_meter.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_wave_meter.pdf>
+File: figures//fig_3_optical_path_370_cavity.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_370_cavity.pdf>
+File: figures//fig_3_demodulated_signal.pdf Graphic file (type pdf)
+<use figures//fig_3_demodulated_signal.pdf>
+ [23]
+File: figures//fig_3_optical_path_370_modulate.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_370_modulate.pdf>
+ [24]
+File: figures//fig_3_optical_path_370_modulate_aom_power.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_370_modulate_aom_power.pdf>
+File: figures//fig_3_optical_path_370_modulate_aom_frequency.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_370_modulate_aom_frequency.pdf>
+ [25]
+File: figures//fig_3_optical_path_cryostat_breadboard.pdf Graphic file (type pdf)
+<use figures//fig_3_optical_path_cryostat_breadboard.pdf>
+ [26]) (./data/chap05.tex [27] [28]
+Chapter 3
+File: figures//fig_3_labview_front_end_program.pdf Graphic file (type pdf)
+<use figures//fig_3_labview_front_end_program.pdf>
+[29
+
+] [30]
+File: figures//fig_3_web_front_end_program.pdf Graphic file (type pdf)
+<use figures//fig_3_web_front_end_program.pdf>
+ [31] [32]
+File: figures//fig_5_cal_ion_position_mma_code.pdf Graphic file (type pdf)
+<use figures//fig_5_cal_ion_position_mma_code.pdf>
+File: figures//fig_5_cal_ion_position_mma_raw.pdf Graphic file (type pdf)
+<use figures//fig_5_cal_ion_position_mma_raw.pdf>
+File: figures//fig_5_cal_ion_position_mma_result.pdf Graphic file (type pdf)
+<use figures//fig_5_cal_ion_position_mma_result.pdf>
+ [33]
+File: figures//fig_5_cal_ion_position_python_code.pdf Graphic file (type pdf)
+<use figures//fig_5_cal_ion_position_python_code.pdf>
+File: figures//fig_5_cal_ion_position_python_245.pdf Graphic file (type pdf)
+<use figures//fig_5_cal_ion_position_python_245.pdf>
+File: figures//fig_5_axial_potential_fit_a.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_a.pdf>
+File: figures//fig_5_axial_potential_fit_b.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_b.pdf>
+File: figures//fig_5_axial_potential_fit_c.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_c.pdf>
+File: figures//fig_5_axial_potential_fit_d.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_d.pdf>
+File: figures//fig_5_axial_potential_fit_e.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_e.pdf>
+File: figures//fig_5_axial_potential_fit_f.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_f.pdf>
+File: figures//fig_5_axial_potential_fit_g.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_g.pdf>
+File: figures//fig_5_axial_potential_fit_h.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_h.pdf>
+ [34]
+File: figures//fig_5_axial_potential_fit_comparison.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_comparison.pdf>
+File: figures//fig_5_axial_potential_fit_dark_ions.pdf Graphic file (type pdf)
+<use figures//fig_5_axial_potential_fit_dark_ions.pdf>
+ [35] [36]
+File: figures//fig_5_fit_electrical_potential_coefficient.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_electrical_potential_coefficient.pdf>
+ [37]
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image.pdf>
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_1.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_1.pdf>
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_2.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_2.pdf>
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_3.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_3.pdf>
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_4.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_4.pdf>
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_5.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_5.pdf>
+File: figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image_2.pdf Graphic file (type pdf)
+<use figures//fig_5_fit_the_electrical_potential_coefficient_for_each_electrode_image_2.pdf>
+ [38] [39]
+File: figures//fig_5_stabilization_of_axial_electrical_potential_image.pdf Graphic file (type pdf)
+<use figures//fig_5_stabilization_of_axial_electrical_potential_image.pdf>
+File: figures//fig_5_stabilization_of_axial_electrical_potential_1.pdf Graphic file (type pdf)
+<use figures//fig_5_stabilization_of_axial_electrical_potential_1.pdf>
+File: figures//fig_5_stabilization_of_axial_electrical_potential_2.pdf Graphic file (type pdf)
+<use figures//fig_5_stabilization_of_axial_electrical_potential_2.pdf>
+File: figures//fig_5_stabilization_of_axial_electrical_potential_3.pdf Graphic file (type pdf)
+<use figures//fig_5_stabilization_of_axial_electrical_potential_3.pdf>
+File: figures//fig_5_stabilization_of_axial_electrical_potential_4.pdf Graphic file (type pdf)
+<use figures//fig_5_stabilization_of_axial_electrical_potential_4.pdf>
+File: figures//fig_5_stabilization_of_axial_electrical_potential_5.pdf Graphic file (type pdf)
+<use figures//fig_5_stabilization_of_axial_electrical_potential_5.pdf>
+) [40] [41] [42
 
 
 
 ] (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7EC80182BD223A7EF99441DA5A0C6FD5;3086.
+(rerunfilecheck)             Checksum: B4F54C621DCB5CDA651845D925D5349C;6078.
  ) 
 Here is how much of TeX's memory you used:
- 31047 strings out of 476688
- 667077 string characters out of 5807700
- 1862001 words of memory out of 5000000
- 50787 multiletter control sequences out of 15000+600000
- 519667 words of font info for 156 fonts, out of 8000000 for 9000
+ 31620 strings out of 476688
+ 696763 string characters out of 5807700
+ 1869001 words of memory out of 5000000
+ 51299 multiletter control sequences out of 15000+600000
+ 521535 words of font info for 173 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 102i,11n,129p,2654b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,11n,129p,2693b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (20 pages, 246368 bytes).
+Output written on PhDThesis.xdv (48 pages, 744204 bytes).

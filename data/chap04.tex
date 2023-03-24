@@ -134,15 +134,52 @@ This shows that it is very important to obtain a high quality factor and to achi
 We can indirectly measure the loaded quality factor of the helical resonator by using the ${S}_{11}$ parameter measured by the vector network analyzer.
 
 \begin{equation}
-    Q_L = \frac{Q_U}{1 + k},\ k =\\
+    Q_L = \frac{Q_U}{1 + \kappa},\ \kappa =\\
     \begin{cases}
         \mathrm{SWR},     & \text{over couple}     \\
         1,                & \text{critical couple} \\
         1 / \mathrm{SWR}, & \text{under couple}    \\
     \end{cases}
-    ,\ \mathrm{SWR} = \frac{1 + |\Gamma|}{1 - |\Gamma|}
+    ,\ \mathrm{SWR} = \frac{1 + |\Gamma|}{1 - |\Gamma|},
 \end{equation}
 
-where $Q_L$ is the loaded quality factor, $Q_I$ is the unloaded quality factor, SWR is the standing wave ratio, $\Gamma$ is a complex number that describes both the magnitude and the phase shift of the reflection.
+where $Q_L$ is the loaded quality factor, $Q_I$ is the unloaded quality factor, $\kappa$ is the coupling coefficient of the resonator, SWR is the standing wave ratio, $\Gamma$ is a complex number that describes both the magnitude and the phase shift of the reflection.
 
+\begin{figure}
+    \centering
+    \subcaptionbox{\label{fig:fig_4_impedance_match_circuit_diagram_a}}
+    {\includegraphics[width=0.8\linewidth]{fig_4_impedance_match_circuit_diagram_a.pdf}}
+    \subcaptionbox{\label{fig:fig_4_impedance_match_circuit_diagram_b}}
+    {\includegraphics[width=0.25\linewidth]{fig_4_impedance_match_circuit_diagram_b.pdf}}
+    \subcaptionbox{\label{fig:fig_4_impedance_match_circuit_diagram_c}}
+    {\includegraphics[width=0.45\linewidth]{fig_4_impedance_match_circuit_diagram_c.pdf}}
+    \caption{Circuit diagram of the helical resonator.}
+    \label{fig:fig_4_impedance_match_circuit_diagram}
+\end{figure}
 
+Fig~\ref{fig:fig_4_impedance_match_circuit_diagram} shows the circuit diagram of the helical resonator. $Z_0$ is the internal resistance of the RF signal source, $Z_0$ = 50 $\Omega$, L is the inductance of the antenna and helical copper wire, $R_t$ is the AC resistance of the trap, $C_t$ is the equivalent capacitance of the trap, $Z_{in}$ is the equivalent impedance of the trap, and $Z_M$ is the equivalent impedance of the mutual induction.
+
+\begin{equation}
+    \begin{aligned}
+        Z_{in} & =i \omega L+\frac{(k \omega L)^2}{i \omega L+R_t+\frac{1}{i \omega C}}, \\
+        Z_M    & =\frac{k^2 \omega^2 L^2}{i \omega L+Z_0},
+    \end{aligned}
+\end{equation}
+
+where k is the coefficient of mutual induction. When the circuit is resonant, the imaginary part of the total impedance in Fig~\ref{fig:fig_4_impedance_match_circuit_diagram_c} is 0. The frequency at this point is,
+
+\begin{equation}
+    \omega=\frac{Z_0}{L} \sqrt{\frac{\alpha-1+\sqrt{(\alpha+1)^2-4 \alpha k^2}}{2\left(1-k^2\right)}},\ \\
+    \alpha=\frac{L}{Z_0^2 C}.
+\end{equation}
+
+When we obtain impedance matching by adjusting the antenna coupling $k$, $Z_{in} = Z_0$ in Fig~\ref{fig:fig_4_impedance_match_circuit_diagram_b},
+
+\begin{equation}
+    \begin{aligned}
+        k      & =\sqrt{\frac{R_t}{Z_0}+\frac{C}{L} R_t\left(Z_0-R_t\right)}, \\
+        \omega & =\sqrt{\frac{Z_0}{L C(Z_0-R_t)}},
+    \end{aligned}
+\end{equation}
+
+We can now answer the question as to why the empirical operation of pulling a copper tube antenna out to impedance mismatch at room temperature is valid. During the cool-down process, $R_t$ decreases continuously, so that $K$ is smaller at low temperatures than at room temperature. The only experimental parameter that we have not been able to obtain so far is $R_t$ at low temperature, which is difficult to predict theoretically, so we can derive this from a single cool-down progress.

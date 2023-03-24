@@ -12,9 +12,21 @@ We usually divide the experimental tasks into daily operation tasks and current 
 
 Semi-automatic experimental control system mainly refers to the software system, which contains the front-end system, the back-end system, the database system and the experimental workflow.
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{fig_3_labview_front_end_program.pdf}
+    \caption{Labview front-end program (Sequencer).}
+\end{figure}
+
 The front-end system is the graphical interface that enables the experimenter to conduct experiments. The popular front-end technologies are client-side front-end technology and Web front-end technology. The more commonly used client-side front-end software in the laboratory are Labview, Mathematica, Matlab and other commercial software, which have rich functions and a friendly programming environment. I have written client-side front-end software based on python and pyqt5, as well as web front-end based on HTML5 technology in the course of my experiments. We can start building the experimental platform without focusing too much on front-end development, as these technologies are not necessary for physics research, and front-end technologies are rapidly growing, so it is possible to leave the front-end system to the professionals.
 
 The back-end system is one of the core elements of the semi-automatic experimental control system. A unified back-end system will speed up the development of the entire semi-automatic experimental control system and facilitate communication and cooperation between project team members. We need the back-end system to control the experimental apparatus in a stable manner and in accordance with the experimental targets. There are a very large number of programming languages for developing back-end systems, suitable for use in the laboratory are C, python, etc. We can also consider using software that integrates front and back ends such as Labview, Mathematica, Matlab, etc. A good back-end system must adhere to lab safety rules, have a good logging system, have a good working state set, be stable over time and have a fast response time. If you are working with multiple people you need to consider version control and documentation for development, such as code hosting. Long-term stability requires a good architecture, as instrument switches and new instrument additions occur frequently and the back-end system should not be offline too often. Instrument control protocols based on sockets and SCPI commands, mqtt protocol based instrument control protocols etc. can be considered. Fast response requires that the back-end program should have a response time of no more than 10-50 ms, which should be met in order to be able to perform complex operations.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{fig_3_web_front_end_program.pdf}
+    \caption{Web front-end program (Lasers etc.).}
+\end{figure}
 
 The database system has to take on the task of not only storing data but also taking into account data security. The database system on the experiment should take into account versatility and scalability, and should meet the needs of experimenters of different programming levels to use it. In addition to using SQL databases, InfluxDB, etc., it is also possible to use direct forms of experimental logs and file directory management, or even to use software such as excel directly for recording and management. In short, the database system should be compatible and easy to use as long as it exists and is standardised.
 
