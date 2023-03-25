@@ -278,10 +278,22 @@ In addition, a recent piece of research demonstrates that there is a link betwee
 Then we can extend it to the second order, and we can simplify $\bar{x}(t)=c_0+2 \Re\left(c_{-1} e^{-i \omega_m t}\right)$, replace it back into Eq.~\ref{eq:parametric_excitation}, and we can easily find the answer for the second order,
 
 \begin{equation}
-    \left\|c_{-1}\right\|^2=\frac{2 c_0^2 h^2}{\left(f^2-1\right)+4 f^2 d^2}, \quad \tan \left(\arg \left(c_{-1}\right)\right)=\frac{2 f d}{f^2-1}
+    |c_{-1}|^2=\frac{2 c_0^2 h^2}{\left(f^2-1\right)+4 f^2 d^2}, \quad \tan \left(\arg \left(c_{-1}\right)\right)=\frac{2 f d}{f^2-1}
 \end{equation}
 
 where \(f=\frac{\omega_m}{\omega_x},\, d=\frac{\xi}{\omega_x}\) are normalized frequency and damping factor. The amplitude of \(c_{-1}\) is linearly proportional to \(c_0\), and thus \(E_R\).
+
+\begin{figure}
+    \centering
+    \subcaptionbox{Correlated signal in the x-axis ($\omega_x$).}
+    {\includegraphics[width=0.4\linewidth]{fig_2_pe_x.pdf}}
+    \subcaptionbox{Correlated signal in the y-axis ($\omega_y$).}
+    {\includegraphics[width=0.4\linewidth]{fig_2_pe_x.pdf}}
+    \subcaptionbox{Correlated signal in the z-axis ($\omega_z$).}
+    {\includegraphics[width=0.4\linewidth]{fig_2_pe_x.pdf}}
+    \caption{Parametric excitation approach for minimizing excess micromotion.}
+    \label{fig:fig_2_pe}
+\end{figure}
 
 By scanning the modulation frequency across \(\omega_x\), which indicates the resonant frequency, it is obvious that there is a phase shift of \(\pi\). This phase shift may be aided further by the peak value of \(c_{-1}\) that occurs during a frequency scan. The sensitivity is influenced by two factors: (a) the modulation factor h, and (b) the degree to which the modulation frequency is detuned with respect to the secular frequency. Notice that there is a correction to the secular frequency that is related to the modulation, but that it is not represented here. The fundamental physics, however, remains the same.
 

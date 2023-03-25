@@ -379,11 +379,34 @@ The light source from the 370 nm laser is fed to the laser modulation module via
     \label{fig:fig_3_optical_path_cryostat_breadboard}
 \end{figure}
 
-Due to the large base area of the cryostat, the area left for the optical path on the breadboard is relatively small. the main function of the optical path built on the breadboard of the cryostat is to shape the beam into a specific shape and then inject it into the cavity. There are four windows on the Cryostat that are used to inject the laser. The laser light exiting the fibre collimator (C2, C3, C4, C11, C12) is first polarised by the QWP and HWP and then expanded by the lens pairs (T1, T2, T3, T4) to a suitable spot size, typically with a Gaussian diameter of approximately 10 mm. It is then incident on a long-focus lens (L1, L3, L5, L7) into the cavity and forms a small spot in the centre of the trap, typically with a Gaussian diameter of about 20 $\mu$m. The long-focus lenses are mounted on a 3-axis linear stage (G1, G2, G3, G4; M-461-XYZ-M, Newport) with a Picomotor actuator (8301NF, Newport) in each axis of the stage to achieve high precision control of the beam position. Reducing the spot diameter at the trap is necessary to increase the power density, reduce stray light and improve the signal to noise ratio. It also helps me to monitor the displacement of the spot relative to the ions over time, which helps me to find unstable components or modules in the system at the beginning of the construction of the system. But when the length of the ion chain in the trap increases, I need some light spots to expand in the horizontal direction to about 500 $\mu$m in diameter. It is advantageous to be able to easily adjust the spot diameter in the horizontal direction. I added cylindrical lenses (L2, L4, L6) to the optical path where I needed to adjust the horizontal diameter, and by artificially introducing astigmatism, I was able to shift the horizontal focal position along the optical axis. A long-focused cylindrical lens with a focal length of approximately 1000 mm is generally used, mounted on a rotatable lens mount so that the tilt angle of the elliptical spot can be adjusted and the cylindrical lens can be removed when the elliptical spot is not required.
+Due to the large base area of the cryostat, the area left for the optical path on the breadboard is relatively small. the main function of the optical path built on the breadboard of the cryostat is to shape the beam into a specific shape and then inject it into the cavity. There are four windows on the Cryostat that are used to inject the laser. The laser light exiting the fibre collimator (C2, C3, C4, C11, C12) is first polarised by the QWP and HWP and then expanded by the lens pairs (T1, T2, T3, T4) to a suitable spot size, typically with a Gaussian diameter of approximately 10 mm. It is then incident on a long-focus lens (L1, L3, L5, L7) into the cavity and forms a small spot in the centre of the trap, typically with a Gaussian diameter of about 20 $\mu$m. The long-focus lenses are mounted on a 3-axis linear stage (G1, G2, G3, G4; M-461-XYZ-M, Newport) with a Picomotor actuator (8301NF, Newport) in each axis of the stage to achieve high precision control of the beam position.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\linewidth]{fig_3_imaging_syetem_objective_design.pdf}
+    \caption{Design of the objective.}
+    \label{fig:fig_3_imaging_syetem_objective_design}
+\end{figure}
+
+Reducing the spot diameter at the trap is necessary to increase the power density, reduce stray light and improve the signal to noise ratio. It also helps me to monitor the displacement of the spot relative to the ions over time, which helps me to find unstable components or modules in the system at the beginning of the construction of the system. But when the length of the ion chain in the trap increases, I need some light spots to expand in the horizontal direction to about 500 $\mu$m in diameter. It is advantageous to be able to easily adjust the spot diameter in the horizontal direction. I added cylindrical lenses (L2, L4, L6) to the optical path where I needed to adjust the horizontal diameter, and by artificially introducing astigmatism, I was able to shift the horizontal focal position along the optical axis. A long-focused cylindrical lens with a focal length of approximately 1000 mm is generally used, mounted on a rotatable lens mount so that the tilt angle of the elliptical spot can be adjusted and the cylindrical lens can be removed when the elliptical spot is not required.
 
 The stability of the 370 nm laser (C11) is so important to the experiment that a laser monitoring module (U4) has been installed at the outgoing point of the fiber. This light is global light and is required for ion loading, Doppler cooling, optical pumping, and state detection. In order to trap both ${ }^{171} \mathrm{Yb}^{+}$ and ${ }^{174} \mathrm{Yb}^{+}$, two 935 nm lasers (C3 and C4) were combined into the cavity and their function was rupumping. Combining these two 935 nm lasers at the front stage would have been a better option, but this was not done due to space planning in the laboratory. The 399 nm laser (C2) is used for ion loading and the 370 nm laser (C12) is used for sympathetic cooling.
 
 A permanent magnet is placed in front of one window to generate a magnetic field at the centre of the trap, approximately 5 Gauss, perpendicular to the direction of the ion chain. A horn is placed in front of one of the windows to apply microwaves.
+
+\subsection{Imaging system}
+
+The objective is specifically designed for cryogenic trap system to collect fluorescence from the ions. The thickness of the glass inside the chamber is 5.63 mm. The numerical aperture of the fluorescence collection objective has to be as large as possible and the currently used objective has a numerical aperture of approximately 0.35. The design of the objective is shown in Fig~\ref{fig:fig_3_imaging_syetem_objective_design}
+
+We use the PMT (Hamamatsu H11890) for State Detection of one single ion and the EMCCD (Andor iXon Ultra 888) for State Detection of multiple ions, where the average SPAM error is 3\%.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{fig_3_imaging_syetem_spam_error.pdf}
+    \caption{Detection error analysis.}
+    \label{fig:fig_3_imaging_syetem_spam_error}
+\end{figure}
+
 
 
 
@@ -406,4 +429,4 @@ A permanent magnet is placed in front of one window to generate a magnetic field
 
 The system is outfitted with a microwave horn in order to coherently drive global spin rotations.
 The $|\downarrow\rangle$ and $|\uparrow\rangle$ states are directly coupled by a magnetic dipole moment, so the
-microwaves can directly drive rotations. Microwave signals are generated by mixing high frequency signals (Rohde \& Schwarz SMB-100A, 11 dBm @ 12.4428 GHz) with low frequency signals (Analog Devices AD9910, around 200 MHz). The signals then passes through a high frequency amplifier and is output to a microwave speaker. Measurement of microwave frequency and rabi rate for different energy levels is shown in Table~\ref{tab:microwave}. Here the microwave frequency is added to 12.4428 Ghz to get the absolute energy level.
+microwaves can directly drive rotations. Microwave signals are generated by mixing high frequency signals (Rohde \& Schwarz SMB-100A, 11 dBm @ 12.4428 GHz) with low frequency signals (Analog Devices AD9910, around 200 MHz). The signals then passes through a high frequency amplifier and is output to a microwave speaker. Measurement of microwave frequency and rabi rate for different energy levels is shown in Table~\ref{tab:microwave}. Here the microwave frequency is added to 12.4428 Ghz to get the absolute frequency of the corresponding energy level.
