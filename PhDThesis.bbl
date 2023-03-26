@@ -1,4 +1,4 @@
-\begin{thebibliography}{38}
+\begin{thebibliography}{94}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -17,6 +17,18 @@ Paul W.
   particles\allowbreak[J/OL].
 \newblock Rev. Mod. Phys., 1990, 62: 531-540.
 \newblock \url{https://link.aps.org/doi/10.1103/RevModPhys.62.531}.
+
+\bibitem[Burrell et~al.(2010)Burrell, Szwer, Webster, and Lucas]{RN297}
+Burrell A, Szwer D, Webster S, et~al.
+\newblock Scalable simultaneous multiqubit readout with 99. 99% single-shot
+  fidelity: volume~81\allowbreak[Z].
+\newblock 2010: 040302.
+
+\bibitem[Ejtemaee et~al.(2010)Ejtemaee, Thomas, and Haljan]{RN125}
+Ejtemaee S, Thomas R, Haljan P.
+\newblock Optimization of yb+ fluorescence and hyperfine-qubit
+  detection\allowbreak[J].
+\newblock Physical Review A, 2010, 82\allowbreak (6): 063419.
 
 \bibitem[Benioff(1980)]{Benioff1980}
 Benioff P.
@@ -242,6 +254,342 @@ Mao Z~C, Xu Y~Z, Mei Q~X, et~al.
   trapped ion crystal\allowbreak[J].
 \newblock Physical Review Letters, 2021, 127\allowbreak (14): 143201.
 
+\bibitem[Das et~al.(2018)Das, Liu, Grémaud, and Mukherjee]{RN259}
+Das S, Liu P, Grémaud B, et~al.
+\newblock Magnetic coherent population trapping in a single ion:
+  volume~97\allowbreak[Z].
+\newblock 2018: 033838.
+
+\bibitem[Janik et~al.(1985)Janik, Nagourney, and Dehmelt]{RN156}
+Janik G, Nagourney W, Dehmelt H.
+\newblock Doppler-free optical spectroscopy on the ba+ mono-ion
+  oscillator\allowbreak[J].
+\newblock JOSA B, 1985, 2\allowbreak (8): 1251-1257.
+
+\bibitem[Wu et~al.(2021)Wu, Mills, West, Heaven, and Hudson]{RN253}
+Wu H, Mills M, West E, et~al.
+\newblock Increase of the barium ion-trap lifetime via
+  photodissociation\allowbreak[J].
+\newblock Physical Review A, 2021, 104\allowbreak (6): 063103.
+
+\bibitem[Heinrich et~al.(2019)Heinrich, Guggemos, Guevara-Bertsch, Hussain,
+  Roos, and Blatt]{RN164}
+Heinrich D, Guggemos M, Guevara-Bertsch M, et~al.
+\newblock Ultrafast coherent excitation of a 40ca+ ion:
+  volume~21\allowbreak[Z].
+\newblock 2019: 073017.
+
+\bibitem[Berkeland et~al.(2002)Berkeland and Boshier]{RN124}
+Berkeland D, Boshier M.
+\newblock Destabilization of dark states and optical spectroscopy in
+  zeeman-degenerate atomic systems\allowbreak[J].
+\newblock Physical Review A, 2002, 65\allowbreak (3): 033413.
+
+\bibitem[Cirac et~al.(1994)Cirac, Garay, Blatt, Parkins, and Zoller]{RN148}
+Cirac J, Garay L, Blatt R, et~al.
+\newblock Laser cooling of trapped ions: The influence of
+  micromotion\allowbreak[J].
+\newblock Physical review A, 1994, 49\allowbreak (1): 421.
+
+\bibitem[Ejtemaee(2010)]{RN129}
+Ejtemaee S.
+\newblock A fluorescence study of single trapped ytterbium ions for quantum
+  information applications\allowbreak[D].
+\newblock 2010.
+
+\bibitem[Itano et~al.(1982)Itano and Wineland]{RN216}
+Itano W~M, Wineland D~J~P~R~A.
+\newblock Laser cooling of ions stored in harmonic and penning traps:
+  volume~25\allowbreak[Z].
+\newblock 1982: 35.
+
+\bibitem[Roos et~al.(2000)Roos, Leibfried, Mundt, Schmidt-Kaler, Eschner, and
+  Blatt]{RN152}
+Roos C, Leibfried D, Mundt A, et~al.
+\newblock Experimental demonstration of ground state laser cooling with
+  electromagnetically induced transparency\allowbreak[J].
+\newblock Physical review letters, 2000, 85\allowbreak (26): 5547.
+
+\bibitem[Semerikov et~al.(2018)Semerikov, Zalivako, Borisenko, Khabarova, and
+  Kolachevsky]{RN154}
+Semerikov I, Zalivako I, Borisenko A, et~al.
+\newblock Eit ground state cooling scheme of 171 yb+ based on the 2 s 1/2→ 2
+  p 1/2 cooling transition\allowbreak[J].
+\newblock Journal of Russian Laser Research, 2018, 39\allowbreak (6): 568-574.
+
+\bibitem[Zhang et~al.(2021)Zhang, Zhang, Xie, Wu, Ou, Chen, Bao, Haljan, Wu,
+  and Zhang]{RN243}
+Zhang J, Zhang M~C, Xie Y, et~al.
+\newblock Parallel-electromagnetically-induced-transparency near ground-state
+  cooling of a trapped-ion crystal\allowbreak[A].
+\newblock 2021.
+
+\bibitem[Kato et~al.(2021)Kato, Goel, Lee, Ye, Karki, Liu, Nomerotski, and
+  Blinov]{RN201}
+Kato A, Goel A, Lee R, et~al.
+\newblock Two-tone doppler cooling of radial two-dimensional crystals in a
+  radiofrequency ion trap\allowbreak[Z].
+\newblock 2021.
+
+\bibitem[Knünz et~al.(2012)Knünz, Herrmann, Batteiger, Saathoff, Hänsch, and
+  Udem]{RN127}
+Knünz S, Herrmann M, Batteiger V, et~al.
+\newblock Sub-millikelvin spatial thermometry of a single doppler-cooled ion in
+  a paul trap\allowbreak[J].
+\newblock Physical Review A, 2012, 85\allowbreak (2): 023427.
+
+\bibitem[Araneda et~al.(2020)Araneda, Cerchiari, Higginbottom, Holz,
+  Lakhmanskiy, Obšil, Colombe, and Blatt]{RN58}
+Araneda G, Cerchiari G, Higginbottom D~B, et~al.
+\newblock The panopticon device--an integrated paul-trap-hemispherical mirror
+  system for quantum optics\allowbreak[A].
+\newblock 2020.
+
+\bibitem[Brandl et~al.(2016)Brandl, Van~Mourik, Postler, Nolf, Lakhmanskiy,
+  Paiva, Möller, Daniilidis, Häffner, and Kaushal]{RN38}
+Brandl M, Van~Mourik M, Postler L, et~al.
+\newblock Cryogenic setup for trapped ion quantum computing\allowbreak[J].
+\newblock Review of Scientific Instruments, 2016, 87\allowbreak (11): 113103.
+
+\bibitem[Cirac et~al.(1995)Cirac and Zoller]{RN59}
+Cirac J~I, Zoller P.
+\newblock Quantum computations with cold trapped ions\allowbreak[J].
+\newblock Physical review letters, 1995, 74\allowbreak (20): 4091.
+
+\bibitem[Dubielzig et~al.(2021)Dubielzig, Halama, Hahn, Zarantonello, Niemann,
+  Bautista-Salvador, and Ospelkaus]{RN260}
+Dubielzig T, Halama S, Hahn H, et~al.
+\newblock Ultra-low-vibration closed-cycle cryogenic surface-electrode ion trap
+  apparatus: volume~92\allowbreak[Z].
+\newblock 2021: 043201.
+
+\bibitem[Ekin(2006)]{RN93}
+Ekin J.
+\newblock Experimental techniques for low-temperature measurements: cryostat
+  design, material properties and superconductor critical-current
+  testing\allowbreak[M].
+\newblock Oxford university press, 2006.
+
+\bibitem[Aikyo et~al.(2020)Aikyo, Vrijsen, Noel, Kato, Ivory, and Kim]{RN134}
+Aikyo Y, Vrijsen G, Noel T~W, et~al.
+\newblock Vacuum characterization of a compact room-temperature trapped ion
+  system: volume 117\allowbreak[Z].
+\newblock 2020: 234002.
+
+\bibitem[Kaplan(2019)]{RN84}
+Kaplan H.
+\newblock Many-body dephasing in a trapped ion quantum simulator with a
+  cryogenic apparatus\allowbreak[D].
+\newblock 2019.
+
+\bibitem[Leopold et~al.(2019)Leopold, King, Micke, Bautista-Salvador, Heip,
+  Ospelkaus, Crespo López-Urrutia, and Schmidt]{RN283}
+Leopold T, King S~A, Micke P, et~al.
+\newblock A cryogenic radio-frequency ion trap for quantum logic spectroscopy
+  of highly charged ions: volume~90\allowbreak[Z].
+\newblock 2019: 073201.
+
+\bibitem[Micke et~al.(2019)Micke, Stark, King, Leopold, Pfeifer, Schmoeger,
+  Schwarz, Spieß, Schmidt, and Crespo López-Urrutia]{RN284}
+Micke P, Stark J, King S, et~al.
+\newblock Closed-cycle, low-vibration 4 k cryostat for ion traps and other
+  applications: volume~90\allowbreak[Z].
+\newblock 2019: 065104.
+
+\bibitem[Miossec et~al.(2022)Miossec, Hejduk, Pandey, Coughlan, and
+  Heazlewood]{RN285}
+Miossec C, Hejduk M, Pandey R, et~al.
+\newblock Design and characterization of a cryogenic linear paul ion trap for
+  ion–neutral reaction studies: volume~93\allowbreak[Z].
+\newblock 2022: 033201.
+
+\bibitem[Pagano et~al.(2017)Pagano, Kaplan, Tan, Hess, Zhang, Birckelbaw,
+  Hernandez, and Monroe]{RN39}
+Pagano G, Kaplan H, Tan W~L, et~al.
+\newblock Cryogenic trapped-ion system for large scale quantum
+  simulation\allowbreak[J].
+\newblock Bulletin of the American Physical Society, 2017, 62.
+
+\bibitem[Schwarz et~al.(2012)Schwarz, Versolato, Windberger, Brunner, Ballance,
+  Eberle, Ullrich, Schmidt, Hansen, and Gingell]{RN282}
+Schwarz M, Versolato O, Windberger A, et~al.
+\newblock Cryogenic linear paul trap for cold highly charged ion experiments:
+  volume~83\allowbreak[Z].
+\newblock 2012: 083115.
+
+\bibitem[Spivey et~al.(2021)Spivey, Inlek, Jia, Crain, Sun, Kim, Vrijsen, Fang,
+  Fitzgerald, and Kross]{RN206}
+Spivey R~F, Inlek I~V, Jia Z, et~al.
+\newblock High stability cryogenic system for quantum computing with compact
+  packaged ion traps\allowbreak[Z].
+\newblock 2021.
+
+\bibitem[Stark et~al.(2021)Stark, Warnecke, Bogen, Chen, Dijck, Kühn, Rosner,
+  Graf, Nauta, and Oelmann]{RN120}
+Stark J, Warnecke C, Bogen S, et~al.
+\newblock An ultralow-noise superconducting radio-frequency ion trap for
+  frequency metrology with highly charged ions\allowbreak[A].
+\newblock 2021.
+
+\bibitem[Tan et~al.(2021)Tan, Becker, Liu, Pagano, Collins, De, Feng, Kaplan,
+  Kyprianidis, and Lundgren]{RN121}
+Tan W, Becker P, Liu F, et~al.
+\newblock Domain-wall confinement and dynamics in a quantum
+  simulator\allowbreak[J].
+\newblock Nature Physics, 2021, 17\allowbreak (6): 742-747.
+
+\bibitem[Tan(2021)]{RN133}
+Tan W~L.
+\newblock Cryogenic trapped-ion system for large scale quantum
+  simulation\allowbreak[D].
+\newblock 2021.
+
+\bibitem[Li et~al.(2021)Li, Wolf, Klein, Budker, Düllmann, and
+  Schmidt-Kaler]{RN205}
+Li W, Wolf S, Klein L, et~al.
+\newblock Robust polarization gradient cooling of trapped ions\allowbreak[Z].
+\newblock 2021.
+
+\bibitem[Mao et~al.(2021)Mao, Xu, Mei, Zhao, Jiang, Wang, Chang, He, Yao, and
+  Zhou]{RN230}
+Mao Z~C, Xu Y~Z, Mei Q~X, et~al.
+\newblock Experimental realization of multi-ion sympathetic cooling on a
+  trapped ion crystal\allowbreak[J].
+\newblock Physical Review Letters, 2021, 127\allowbreak (14): 143201.
+
+\bibitem[Miao et~al.(2022)Miao, Zhang, Zheng, Qin, Xin, Chen, Han, and
+  Wang]{RN277}
+Miao S, Zhang J, Zheng Y, et~al.
+\newblock Second-order doppler frequency shifts of trapped ions in a linear
+  paul trap\allowbreak[A].
+\newblock 2022.
+
+\bibitem[Mollow(1969)]{RN144}
+Mollow B.
+\newblock Power spectrum of light scattered by two-level systems\allowbreak[J].
+\newblock Physical Review, 1969, 188\allowbreak (5).
+
+\bibitem[Sikorsky et~al.(2017)Sikorsky, Meir, Akerman, Ben-Shlomi, and
+  Ozeri]{RN141}
+Sikorsky T, Meir Z, Akerman N, et~al.
+\newblock Doppler cooling thermometry of a multilevel ion in the presence of
+  micromotion\allowbreak[J].
+\newblock Physical Review A, 2017, 96\allowbreak (1): 012519.
+
+\bibitem[Evers et~al.(2004)Evers and Keitel]{RN155}
+Evers J, Keitel C~H.
+\newblock Double-eit ground-state laser cooling without blue-sideband
+  heating\allowbreak[J].
+\newblock EPL (Europhysics Letters), 2004, 68\allowbreak (3): 370.
+
+\bibitem[Feng et~al.(2020)Feng, Tan, De, Menon, Chu, Pagano, and Monroe]{RN7}
+Feng L, Tan W, De A, et~al.
+\newblock Efficient ground-state cooling of large trapped-ion chains with an
+  eit tripod scheme\allowbreak[A].
+\newblock 2020.
+
+\bibitem[Lounis et~al.(1992)Lounis and Cohen-Tannoudji]{RN35}
+Lounis B, Cohen-Tannoudji C.
+\newblock Coherent population trapping and fano profiles\allowbreak[J].
+\newblock Journal de Physique II, 1992, 2\allowbreak (4): 579-592.
+
+\bibitem[Qiao et~al.(2020)Qiao, Wang, Cai, Du, Wang, Luan, Chen, Noh, and
+  Kim]{RN54}
+Qiao M, Wang Y, Cai Z, et~al.
+\newblock Double-eit ground-state cooling of stationary two-dimensional ion
+  lattices\allowbreak[A].
+\newblock 2020.
+
+\bibitem[Yao et~al.(2022)Yao, Lian, Wu, Wang, Li, Mei, Qi, Yao, Zhou, and
+  He]{RN357}
+Yao R, Lian W~Q, Wu Y~K, et~al.
+\newblock Experimental realization of a multiqubit quantum memory in a 218-ion
+  chain\allowbreak[J].
+\newblock Physical Review A, 2022, 106\allowbreak (6): 062617.
+
+\bibitem[Zhang et~al.(2017)Zhang, Pagano, Hess, Kyprianidis, Becker, Kaplan,
+  Gorshkov, Gong, and Monroe]{RN126}
+Zhang J, Pagano G, Hess P~W, et~al.
+\newblock Observation of a many-body dynamical phase transition with a 53-qubit
+  quantum simulator\allowbreak[J].
+\newblock Nature, 2017, 551\allowbreak (7682): 601-604.
+
+\bibitem[Ekin(2006)]{RN261}
+Ekin J.
+\newblock Experimental techniques for low-temperature measurements: cryostat
+  design, material properties and superconductor critical-current
+  testing\allowbreak[M].
+\newblock Oxford university press, 2006.
+
+\bibitem[冯新星\ 等(2012)冯新星, 张丽艳, 叶南, and
+  杨博文]{RN119}
+冯新星, 张丽艳, 叶南, 等.
+\newblock 二维高斯分布光斑中心快速提取算法研究\allowbreak[J].
+\newblock 光学学报, 2012, 5.
+
+\bibitem[孙慧涛\ 等(2017)孙慧涛 and 李木国]{RN117}
+孙慧涛, 李木国.
+\newblock 多尺度光斑中心的快速检测\allowbreak[J].
+\newblock 光学精密工程, 2017, 5.
+
+\bibitem[Hoang et~al.(2020)Hoang, Jau, Overstreet, and Schwindt]{RN228}
+Hoang T~M, Jau Y~Y, Overstreet R, et~al.
+\newblock Ybh+ formation in an ytterbium ion trap\allowbreak[J].
+\newblock Physical Review A, 2020, 101\allowbreak (2): 022705.
+
+\bibitem[Jau et~al.(2015)Jau, Hunker, and Schwindt]{RN226}
+Jau Y~Y, Hunker J, Schwindt P.
+\newblock F-state quenching with ch4 for buffer-gas cooled 171y b+ frequency
+  standard\allowbreak[J].
+\newblock AIP Advances, 2015, 5\allowbreak (11): 117209.
+
+\bibitem[Ratschbacher et~al.(2012)Ratschbacher, Zipkes, Sias, and Köhl]{RN229}
+Ratschbacher L, Zipkes C, Sias C, et~al.
+\newblock Controlling chemical reactions of a single particle\allowbreak[J].
+\newblock Nature Physics, 2012, 8\allowbreak (9): 649-652.
+
+\bibitem[Schauer et~al.(2009)Schauer, Danielson, Nguyen, Wang, Zhao, and
+  Torgerson]{RN227}
+Schauer M, Danielson J, Nguyen A~T, et~al.
+\newblock Collisional population transfer in trapped yb+ ions\allowbreak[J].
+\newblock Physical Review A, 2009, 79\allowbreak (6): 062705.
+
+\bibitem[Stenholm(1986)]{RN217}
+Stenholm S.
+\newblock The semiclassical theory of laser cooling\allowbreak[J].
+\newblock Reviews of modern physics, 1986, 58\allowbreak (3): 699.
+
+\bibitem[Wesenberg et~al.(2007)Wesenberg, Epstein, Leibfried, Blakestad,
+  Britton, Home, Itano, Jost, Knill, and Langer]{RN106}
+Wesenberg J, Epstein R, Leibfried D, et~al.
+\newblock Fluorescence during doppler cooling of a single trapped
+  atom\allowbreak[J].
+\newblock Physical Review A, 2007, 76\allowbreak (5): 053416.
+
+\bibitem[Bando et~al.(2012)Bando, Ichikawa, Kondo, and Nakahara]{RN274}
+Bando M, Ichikawa T, Kondo Y, et~al.
+\newblock Concatenated composite pulses compensating simultaneous systematic
+  errors\allowbreak[J].
+\newblock Journal of the Physical Society of Japan, 2012, 82\allowbreak (1):
+  014004.
+
+\bibitem[Gevorgyan et~al.(2021)Gevorgyan and Vitanov]{RN275}
+Gevorgyan H~L, Vitanov N~V.
+\newblock Ultrahigh-fidelity composite rotational quantum gates\allowbreak[J].
+\newblock Physical Review A, 2021, 104\allowbreak (1): 012609.
+
+\bibitem[Torosov et~al.(2011)Torosov and Vitanov]{RN272}
+Torosov B~T, Vitanov N~V.
+\newblock Smooth composite pulses for high-fidelity quantum information
+  processing\allowbreak[J].
+\newblock Physical Review A, 2011, 83\allowbreak (5): 053420.
+
+\bibitem[Torosov et~al.(2022)Torosov and Vitanov]{RN273}
+Torosov B~T, Vitanov N~V.
+\newblock Experimental demonstration of composite pulses on ibm's quantum
+  computer\allowbreak[A].
+\newblock 2022.
+
 \bibitem[Brown et~al.(2004)Brown, Harrow, and Chuang]{brown2004arbitrarily}
 Brown K~R, Harrow A~W, Chuang I~L.
 \newblock Arbitrarily accurate composite pulse sequences\allowbreak[J].
@@ -261,5 +609,11 @@ Home J~P, McDonnell M, Szwer D, et~al.
 \newblock Memory coherence of a sympathetically cooled trapped-ion
   qubit\allowbreak[J].
 \newblock Physical Review A, 2009, 79\allowbreak (5): 050305.
+
+\bibitem[Singh et~al.(2022)Singh, Anand, Pocklington, Kemp, and Bernien]{RN247}
+Singh K, Anand S, Pocklington A, et~al.
+\newblock Dual-element, two-dimensional atom array with continuous-mode
+  operation\allowbreak[J].
+\newblock Physical Review X, 2022, 12\allowbreak (1): 011040.
 
 \end{thebibliography}
