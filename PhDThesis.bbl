@@ -1,0 +1,265 @@
+\begin{thebibliography}{38}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Paul(1990)]{RevModPhys.62.531}
+Paul W.
+\newblock Electromagnetic traps for charged and neutral
+  particles\allowbreak[J/OL].
+\newblock Rev. Mod. Phys., 1990, 62: 531-540.
+\newblock \url{https://link.aps.org/doi/10.1103/RevModPhys.62.531}.
+
+\bibitem[Benioff(1980)]{Benioff1980}
+Benioff P.
+\newblock The computer as a physical system: A microscopic quantum mechanical
+  hamiltonian model of computers as represented by turing
+  machines\allowbreak[J/OL].
+\newblock Journal of Statistical Physics, 1980, 22\allowbreak (5): 563-591.
+\newblock \url{https://doi.org/10.1007/BF01011339}.
+
+\bibitem[Feynman(1982)]{Feynman1982}
+Feynman R~P.
+\newblock Simulating physics with computers\allowbreak[J/OL].
+\newblock International Journal of Theoretical Physics, 1982, 21\allowbreak
+  (6): 467-488.
+\newblock \url{https://doi.org/10.1007/BF02650179}.
+
+\bibitem[Ladd et~al.(2010)Ladd, Jelezko, Laflamme, Nakamura, Monroe, and
+  O'Brien]{Ladd2010}
+Ladd T~D, Jelezko F, Laflamme R, et~al.
+\newblock Quantum computers\allowbreak[J/OL].
+\newblock Nature, 2010, 464\allowbreak (7285): 45-53.
+\newblock \url{https://doi.org/10.1038/nature08812}.
+
+\bibitem[Lvovsky et~al.(2009)Lvovsky, Sanders, and Tittel]{lvovsky2009optical}
+Lvovsky A~I, Sanders B~C, Tittel W.
+\newblock Optical quantum memory\allowbreak[J].
+\newblock Nature photonics, 2009, 3\allowbreak (12): 706-714.
+
+\bibitem[Duan et~al.(2001)Duan, Lukin, Cirac, and Zoller]{duan2001long}
+Duan L~M, Lukin M~D, Cirac J~I, et~al.
+\newblock Long-distance quantum communication with atomic ensembles and linear
+  optics\allowbreak[J].
+\newblock Nature, 2001, 414\allowbreak (6862): 413-418.
+
+\bibitem[Sangouard et~al.(2011)Sangouard, Simon, De~Riedmatten, and
+  Gisin]{sangouard2011quantum}
+Sangouard N, Simon C, De~Riedmatten H, et~al.
+\newblock Quantum repeaters based on atomic ensembles and linear
+  optics\allowbreak[J].
+\newblock Reviews of Modern Physics, 2011, 83\allowbreak (1): 33.
+
+\bibitem[Gottesman(1998)]{gottesman1998theory}
+Gottesman D.
+\newblock Theory of fault-tolerant quantum computation\allowbreak[J].
+\newblock Physical Review A, 1998, 57\allowbreak (1): 127.
+
+\bibitem[Campbell et~al.(2017)Campbell, Terhal, and Vuillot]{campbell2017roads}
+Campbell E~T, Terhal B~M, Vuillot C.
+\newblock Roads towards fault-tolerant universal quantum
+  computation\allowbreak[J].
+\newblock Nature, 2017, 549\allowbreak (7671): 172-179.
+
+\bibitem[Huang et~al.(2020)Huang, Wu, Fan, and Zhu]{huang2020superconducting}
+Huang H~L, Wu D, Fan D, et~al.
+\newblock Superconducting quantum computing: a review\allowbreak[J].
+\newblock Science China Information Sciences, 2020, 63: 1-32.
+
+\bibitem[Yang et~al.(2016)Yang, Wang, Bao, and Pan]{yang2016efficient}
+Yang S~J, Wang X~J, Bao X~H, et~al.
+\newblock An efficient quantum light--matter interface with sub-second
+  lifetime\allowbreak[J].
+\newblock Nature Photonics, 2016, 10\allowbreak (6): 381-384.
+
+\bibitem[Wang et~al.(2019)Wang, Li, Zhang, Su, Zhou, Liao, Du, Yan, and
+  Zhu]{wang2019efficient}
+Wang Y, Li J, Zhang S, et~al.
+\newblock Efficient quantum memory for single-photon polarization
+  qubits\allowbreak[J].
+\newblock Nature Photonics, 2019, 13\allowbreak (5): 346-351.
+
+\bibitem[Ortu et~al.(2022)Ortu, Holz{\"a}pfel, Etesse, and
+  Afzelius]{ortu2022storage}
+Ortu A, Holz{\"a}pfel A, Etesse J, et~al.
+\newblock Storage of photonic time-bin qubits for up to 20 ms in a rare-earth
+  doped crystal\allowbreak[J].
+\newblock npj Quantum Information, 2022, 8\allowbreak (1): 29.
+
+\bibitem[Lago-Rivera et~al.(2021)Lago-Rivera, Grandi, Rakonjac, Seri, and
+  de~Riedmatten]{lago2021telecom}
+Lago-Rivera D, Grandi S, Rakonjac J~V, et~al.
+\newblock Telecom-heralded entanglement between multimode solid-state quantum
+  memories\allowbreak[J].
+\newblock Nature, 2021, 594\allowbreak (7861): 37-40.
+
+\bibitem[Zhong et~al.(2015)Zhong, Hedges, Ahlefeldt, Bartholomew, Beavan,
+  Wittig, Longdell, and Sellars]{zhong2015optically}
+Zhong M, Hedges M~P, Ahlefeldt R~L, et~al.
+\newblock Optically addressable nuclear spins in a solid with a six-hour
+  coherence time\allowbreak[J].
+\newblock Nature, 2015, 517\allowbreak (7533): 177-180.
+
+\bibitem[Bradley et~al.(2019)Bradley, Randall, Abobeih, Berrevoets, Degen,
+  Bakker, Markham, Twitchen, and Taminiau]{bradley2019ten}
+Bradley C~E, Randall J, Abobeih M~H, et~al.
+\newblock A ten-qubit solid-state spin register with quantum memory up to one
+  minute\allowbreak[J].
+\newblock Physical Review X, 2019, 9\allowbreak (3): 031045.
+
+\bibitem[Wang et~al.(2021)Wang, Luan, Qiao, Um, Zhang, Wang, Yuan, Gu, Zhang,
+  and Kim]{wang2021single}
+Wang P, Luan C~Y, Qiao M, et~al.
+\newblock Single ion qubit with estimated coherence time exceeding one
+  hour\allowbreak[J].
+\newblock Nature communications, 2021, 12\allowbreak (1): 233.
+
+\bibitem[Blinov et~al.(2004)Blinov, Moehring, Duan, and
+  Monroe]{blinov2004observation}
+Blinov B~B, Moehring D~L, Duan L~M, et~al.
+\newblock Observation of entanglement between a single trapped atom and a
+  single photon\allowbreak[J].
+\newblock Nature, 2004, 428\allowbreak (6979): 153-157.
+
+\bibitem[Stute et~al.(2012)Stute, Casabone, Schindler, Monz, Schmidt,
+  Brandst{\"a}tter, Northup, and Blatt]{stute2012tunable}
+Stute A, Casabone B, Schindler P, et~al.
+\newblock Tunable ion--photon entanglement in an optical cavity\allowbreak[J].
+\newblock Nature, 2012, 485\allowbreak (7399): 482-485.
+
+\bibitem[Hucul et~al.(2015)Hucul, Inlek, Vittorini, Crocker, Debnath, Clark,
+  and Monroe]{hucul2015modular}
+Hucul D, Inlek I~V, Vittorini G, et~al.
+\newblock Modular entanglement of atomic qubits using photons and
+  phonons\allowbreak[J].
+\newblock Nature Physics, 2015, 11\allowbreak (1): 37-42.
+
+\bibitem[Bock et~al.(2018)Bock, Eich, Kucera, Kreis, Lenhard, Becher, and
+  Eschner]{bock2018high}
+Bock M, Eich P, Kucera S, et~al.
+\newblock High-fidelity entanglement between a trapped ion and a telecom photon
+  via quantum frequency conversion\allowbreak[J].
+\newblock Nature communications, 2018, 9\allowbreak (1): 1998.
+
+\bibitem[Krutyanskiy et~al.(2019)Krutyanskiy, Meraner, Schupp, Krcmarsky,
+  Hainzer, and Lanyon]{krutyanskiy2019light}
+Krutyanskiy V, Meraner M, Schupp J, et~al.
+\newblock Light-matter entanglement over 50 km of optical fibre\allowbreak[J].
+\newblock npj Quantum Information, 2019, 5\allowbreak (1): 72.
+
+\bibitem[Duan et~al.(2010)Duan and Monroe]{duan2010colloquium}
+Duan L~M, Monroe C.
+\newblock Colloquium: Quantum networks with trapped ions\allowbreak[J].
+\newblock Reviews of Modern Physics, 2010, 82\allowbreak (2): 1209.
+
+\bibitem[Pagano et~al.(2018)Pagano, Hess, Kaplan, Tan, Richerme, Becker,
+  Kyprianidis, Zhang, Birckelbaw, Hernandez, et~al.]{pagano2018cryogenic}
+Pagano G, Hess P, Kaplan H, et~al.
+\newblock Cryogenic trapped-ion system for large scale quantum
+  simulation\allowbreak[J].
+\newblock Quantum Science and Technology, 2018, 4\allowbreak (1): 014004.
+
+\bibitem[Li et~al.(2023)Li, Wu, Mei, Yao, Lian, Cai, Wang, Qi, Yao, He,
+  et~al.]{li2023probing}
+Li B~W, Wu Y~K, Mei Q~X, et~al.
+\newblock Probing critical behavior of long-range transverse-field ising model
+  through quantum kibble-zurek mechanism\allowbreak[J].
+\newblock PRX Quantum, 2023, 4\allowbreak (1): 010302.
+
+\bibitem[Egan et~al.(2021)Egan, Debroy, Noel, Risinger, Zhu, Biswas, Newman,
+  Li, Brown, Cetina, et~al.]{egan2021fault}
+Egan L, Debroy D~M, Noel C, et~al.
+\newblock Fault-tolerant control of an error-corrected qubit\allowbreak[J].
+\newblock Nature, 2021, 598\allowbreak (7880): 281-286.
+
+\bibitem[Postler et~al.(2022)Postler, Heu$\beta$en, Pogorelov, Rispler,
+  Feldker, Meth, Marciniak, Stricker, Ringbauer, Blatt,
+  et~al.]{postler2022demonstration}
+Postler L, Heu$\beta$en S, Pogorelov I, et~al.
+\newblock Demonstration of fault-tolerant universal quantum gate
+  operations\allowbreak[J].
+\newblock Nature, 2022, 605\allowbreak (7911): 675-680.
+
+\bibitem[Leibfried et~al.(2003)Leibfried, Blatt, Monroe, and
+  Wineland]{leibfried2003quantum}
+Leibfried D, Blatt R, Monroe C, et~al.
+\newblock Quantum dynamics of single trapped ions\allowbreak[J].
+\newblock Reviews of Modern Physics, 2003, 75\allowbreak (1): 281.
+
+\bibitem[Qiao et~al.(2021)Qiao, Wang, Cai, Du, Wang, Luan, Chen, Noh, and
+  Kim]{qiao2021double}
+Qiao M, Wang Y, Cai Z, et~al.
+\newblock Double-electromagnetically-induced-transparency ground-state cooling
+  of stationary two-dimensional ion crystals\allowbreak[J].
+\newblock Physical Review Letters, 2021, 126\allowbreak (2): 023604.
+
+\bibitem[Feng et~al.(2020)Feng, Tan, De, Menon, Chu, Pagano, and
+  Monroe]{feng2020efficient}
+Feng L, Tan W, De A, et~al.
+\newblock Efficient ground-state cooling of large trapped-ion chains with an
+  electromagnetically-induced-transparency tripod scheme\allowbreak[J].
+\newblock Physical Review Letters, 2020, 125\allowbreak (5): 053001.
+
+\bibitem[Joshi et~al.(2020)Joshi, Fabre, Maier, Brydges, Kiesenhofer, Hainzer,
+  Blatt, and Roos]{joshi2020polarization}
+Joshi M, Fabre A, Maier C, et~al.
+\newblock Polarization-gradient cooling of 1d and 2d ion coulomb
+  crystals\allowbreak[J].
+\newblock New Journal of Physics, 2020, 22\allowbreak (10): 103013.
+
+\bibitem[Chen et~al.(2017)Chen, Brewer, Chou, Wineland, Leibrandt, and
+  Hume]{chen2017sympathetic}
+Chen J~S, Brewer S~M, Chou C, et~al.
+\newblock Sympathetic ground state cooling and time-dilation shifts in an al
+  27+ optical clock\allowbreak[J].
+\newblock Physical Review Letters, 2017, 118\allowbreak (5): 053002.
+
+\bibitem[Blinov et~al.(2002)Blinov, Deslauriers, Lee, Madsen, Miller, and
+  Monroe]{blinov2002sympathetic}
+Blinov B, Deslauriers L, Lee P, et~al.
+\newblock Sympathetic cooling of trapped cd+ isotopes\allowbreak[J].
+\newblock Physical Review A, 2002, 65\allowbreak (4): 040304.
+
+\bibitem[DeMarco et~al.(2003)DeMarco, Schaetz, Meyer, Leibfried, Britton,
+  Chiaverini, Itano, Jelenkovi{\'c}, Jost, et~al.]{barrett2003sympathetic}
+DeMarco B, Schaetz T, Meyer V, et~al.
+\newblock Sympathetic cooling of 9 be+ and 24 mg+ for quantum
+  logic\allowbreak[J].
+\newblock Physical Review A, 2003, 68\allowbreak (4): 042302.
+
+\bibitem[Mao et~al.(2021)Mao, Xu, Mei, Zhao, Jiang, Wang, Chang, He, Yao, Zhou,
+  et~al.]{mao2021experimental}
+Mao Z~C, Xu Y~Z, Mei Q~X, et~al.
+\newblock Experimental realization of multi-ion sympathetic cooling on a
+  trapped ion crystal\allowbreak[J].
+\newblock Physical Review Letters, 2021, 127\allowbreak (14): 143201.
+
+\bibitem[Brown et~al.(2004)Brown, Harrow, and Chuang]{brown2004arbitrarily}
+Brown K~R, Harrow A~W, Chuang I~L.
+\newblock Arbitrarily accurate composite pulse sequences\allowbreak[J].
+\newblock Physical Review A, 2004, 70\allowbreak (5): 052318.
+
+\bibitem[Bando et~al.(2012)Bando, Ichikawa, Kondo, and
+  Nakahara]{bando2012concatenated}
+Bando M, Ichikawa T, Kondo Y, et~al.
+\newblock Concatenated composite pulses compensating simultaneous systematic
+  errors\allowbreak[J].
+\newblock Journal of the Physical Society of Japan, 2012, 82\allowbreak (1):
+  014004.
+
+\bibitem[Home et~al.(2009)Home, McDonnell, Szwer, Keitch, Lucas, Stacey, and
+  Steane]{home2009memory}
+Home J~P, McDonnell M, Szwer D, et~al.
+\newblock Memory coherence of a sympathetically cooled trapped-ion
+  qubit\allowbreak[J].
+\newblock Physical Review A, 2009, 79\allowbreak (5): 050305.
+
+\end{thebibliography}

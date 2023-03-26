@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  26 MAR 2023 13:30
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  26 MAR 2023 14:20
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1227,24 +1227,30 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 9.03276pt on input line 25.
  [3
 
-] [4
+] (./data/committee.tex [4
 
 
 
 
 ]
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 9.03471pt on input line 34.
+(Font)              scaled to size 9.03471pt on input line 43.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.22777pt on input line 34.
+(Font)              scaled to size 7.22777pt on input line 43.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 9.03278pt on input line 34.
+(Font)              scaled to size 9.03278pt on input line 43.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 7.22623pt on input line 34.
+(Font)              scaled to size 7.22623pt on input line 43.
  [5
 
 
-] [6
+]) [6
+
+
+] [7
+
+
+] [8
 
 ] (./data/abstract.tex [1
 
@@ -1252,11 +1258,27 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 ] [2
 
 
-]) [3] [4
+]) [3] (./PhDThesis.lof [4
 
-] (./data/chap01.tex
+
+])
+\tf@lof=\write4
+\openout4 = `PhDThesis.lof'.
+
+ [5] (./PhDThesis.lot)
+\tf@lot=\write5
+\openout5 = `PhDThesis.lot'.
+
+ (./data/denotation.tex [6
+
+
+] [7
+
+
+]) [8] (./data/chap01.tex
 Chapter 1
 [1
+
 
 ] [2]) (./data/chap02.tex [3]
 Chapter 2
@@ -1550,21 +1572,40 @@ File: figures//fig_6_4_d.pdf Graphic file (type pdf)
 Chapter 7
 ) [86
 
-] [87
+] (./PhDThesis.bbl
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
+(Font)              scaled to size 7.00075pt on input line 19.
+LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 19.
+ [87
 
 
 
-] (./PhDThesis.aux)
+] [88]) (./data/acknowledgements.tex [89]) [90
+
+
+] (./data/resume.tex [91
+
+
+]) (./data/comments.tex [92
+
+
+] [93
+
+]) (./data/resolution.tex [94
+
+
+]) (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 6C4BFFA6EBFCF1A3DBEBE142EE264A46;13239.
+(rerunfilecheck)             Checksum: 86B1AADE75EB1D7825F9E17A8A113CB7;14796.
  ) 
 Here is how much of TeX's memory you used:
- 32227 strings out of 476688
- 721284 string characters out of 5807700
- 1875001 words of memory out of 5000000
- 51825 multiletter control sequences out of 15000+600000
- 523157 words of font info for 203 fonts, out of 8000000 for 9000
+ 32459 strings out of 476688
+ 728445 string characters out of 5807700
+ 1876001 words of memory out of 5000000
+ 52025 multiletter control sequences out of 15000+600000
+ 523465 words of font info for 213 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  102i,12n,129p,2693b,2766s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (97 pages, 1729300 bytes).
+Output written on PhDThesis.xdv (110 pages, 2019596 bytes).

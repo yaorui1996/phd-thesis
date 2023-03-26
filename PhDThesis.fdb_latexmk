@@ -1,13 +1,24 @@
 # Fdb version 4
-["xdvipdfmx"] 1679808630 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1679808631 0
-  "PhDThesis.xdv" 1679808630 1729300 a19b6424bb1cb156e1cfe0bc5f15a8b1 "xelatex"
+["bibtex PhDThesis"] 1679812109 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1679812109 0
+  "./ref/refs.bib" 1679812108 19734 07b698abbe5b05956c43259bcf119edc ""
+  "./thuthesis-numeric.bst" 1664959156 46116 cd3bc71ff82c01699bd493d2be7a78bd ""
+  "PhDThesis.aux" 1679811662 42355 7b9fded062efe46fef81e5cb63c92520 "xelatex"
+  (generated)
+  "PhDThesis.bbl"
+  "PhDThesis.blg"
+  (rewritten before read)
+["xdvipdfmx"] 1679811662 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1679812109 0
+  "PhDThesis.xdv" 1679811662 2019596 1b14fc714fd781735823eafd1b024ffb "xelatex"
   (generated)
   "PhDThesis.pdf"
   (rewritten before read)
-["xelatex"] 1679808627 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1679808631 0
-  "PhDThesis.aux" 1679808630 36133 87741068c2ab9acc77d4d4399671e21e "xelatex"
-  "PhDThesis.out" 1679808630 13239 6c4bffa6ebfcf1a3dbebe142ee264a46 "xelatex"
-  "PhDThesis.tex" 1679808622 2766 b0cc16ec905fd4dbd19c0effc467ddfb ""
+["xelatex"] 1679811658 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1679812109 0
+  "PhDThesis.aux" 1679811662 42355 7b9fded062efe46fef81e5cb63c92520 "xelatex"
+  "PhDThesis.bbl" 1679812109 11583 edd984c112ea9ac72320a73cd70b0c22 "bibtex PhDThesis"
+  "PhDThesis.lof" 1679811662 7075 3dba8a3477abb0dbc54b7ece25465a00 "xelatex"
+  "PhDThesis.lot" 1679811662 1312 b68860c45b023dcb0003f1737e372a8c "xelatex"
+  "PhDThesis.out" 1679811662 14796 86b1aade75eb1d7825f9e17a8a113cb7 "xelatex"
+  "PhDThesis.tex" 1679811067 2748 0db605baf5516a91c541787e5abeb81f ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1675865316 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1675867395 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1675864802 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -140,15 +151,21 @@
   "c:/texlive/2022/texmf-dist/web2c/texmf.cnf" 1675864318 40171 cdab547de63d26590bebb3baff566530 ""
   "c:/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt" 1675867503 10497105 d7d28ad1ea0e4658faf7aac11e95c342 ""
   "c:/texlive/2022/texmf.cnf" 1675867412 713 e69b156964470283e0530f5060668171 ""
-  "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" 1679808622 2766 b0cc16ec905fd4dbd19c0effc467ddfb ""
+  "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" 1679811067 2748 0db605baf5516a91c541787e5abeb81f ""
   "data/abstract.tex" 1679808152 5911 896b1dadf50b27938f5d234ad4e04852 ""
-  "data/chap01.tex" 1679410479 6972 92cf7aa18ed527ee98b50f9604c85c68 ""
+  "data/acknowledgements.tex" 1675954430 539 ee27e5873474b56db0f22949b8cf1367 ""
+  "data/chap01.tex" 1679811657 7884 77a7623c4afb7015ec02c160ba24242e ""
   "data/chap02.tex" 1679738197 53915 dcdae573ab15c731ae2bf80076690833 ""
   "data/chap03.tex" 1679754297 60470 1071ff70cd472de423cf4fb6c315db6e ""
   "data/chap04.tex" 1679808067 26266 6e7e51be76232d3d06e462ff95c018d6 ""
   "data/chap05.tex" 1679644551 26417 adbff96e9ded23a46e68a55fbac96112 ""
-  "data/chap06.tex" 1679738181 14484 dca15f5ce08de1d1c775d08b7dc7e497 ""
+  "data/chap06.tex" 1679810983 14759 ba372359e691cf6afa269b7f14e5a5f5 ""
   "data/chap07.tex" 1679755483 2398 32fba28786d2ac1a47c06787a86fa9f4 ""
+  "data/comments.tex" 1675954430 276 f199f94d4914a4e688b413c16104b1bf ""
+  "data/committee.tex" 1675954430 1631 99bc59fdcaaa3e60b7e5c117f0bcf5c5 ""
+  "data/denotation.tex" 1675954430 5429 b972dc834702dc10f103b4ca85a92de8 ""
+  "data/resolution.tex" 1675954430 453 a12d3f4543384669a32bc1a6e21c13a6 ""
+  "data/resume.tex" 1675954430 1443 fbeb965761182ca54c9271eae92e27fd ""
   "figures//fig_2_370_transitions_cooling.pdf" 1648209582 46910 ca59d6862fd552c052d8e4d9edb971d7 ""
   "figures//fig_2_370_transitions_pumping.pdf" 1648209538 46421 c2a99bcf5e2e23ffbdbc717b6b80377d ""
   "figures//fig_2_Raman.pdf" 1678937266 306196 49d92bbff48fd9713226cda7f2c07ef2 ""
@@ -246,11 +263,13 @@
   "figures//fig_6_3_d.pdf" 1669860245 12671 7f26ed7485a20d73893f82b604efee4a ""
   "figures//fig_6_4_abc.pdf" 1679449555 897093 b06d6ca11a1a5613b36a96803d839cd7 ""
   "figures//fig_6_4_d.pdf" 1669860716 15543 ae2c5a7f4778256e67db8ff77147053f ""
-  "thusetup.tex" 1679808468 4974 756a86316366d1c60f93782ab4786780 ""
-  "thuthesis.cls" 1679808623 112463 72705b84252c4f64a294fb60487d981d ""
+  "thusetup.tex" 1679809471 4974 756a86316366d1c60f93782ab4786780 ""
+  "thuthesis.cls" 1679812108 112463 72705b84252c4f64a294fb60487d981d ""
   (generated)
   "PhDThesis.aux"
+  "PhDThesis.lof"
   "PhDThesis.log"
+  "PhDThesis.lot"
   "PhDThesis.out"
   "PhDThesis.xdv"
   (rewritten before read)

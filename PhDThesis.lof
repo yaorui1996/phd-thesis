@@ -1,0 +1,55 @@
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Two-photon ionization scheme on ${ }^{171} \mathrm {Yb}^{+}$.\relax }}{5}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ${ }^{171} \mathrm {Yb}^{+}$ energy level diagram.\relax }}{6}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The relevant transitions for 369.52 nm laser\relax }}{8}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Parametric excitation approach for minimizing excess micromotion.\relax }}{18}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Level scheme of Raman transition.\relax }}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Exchange gas space.\relax }}{27}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The side section view of the Gilford-McMahon cryostat.\relax }}{28}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The design and related information of the cryostat.\relax }}{30}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The stablized temperature of the sample mount.\relax }}{31}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces The outline design of a helical resonator.\relax }}{33}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Circuit diagrams of the helical resonator and the blade trap.\relax }}{34}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Assembly of the helical resonator.\relax }}{35}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Assembly of the blade trap.\relax }}{38}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Assembly of the Yb oven.\relax }}{40}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Testing of the Yb oven.\relax }}{41}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Optical layout of the ion trap and the vacuum chamber.\relax }}{43}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Optical path of laser power allocation.\relax }}{44}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Illustration of simple frequency modulation for optical cavity.\relax }}{45}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Optical layout of laser frequency stabilization system.\relax }}{46}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Demodulated signal of the optical cavity photo diode.\relax }}{46}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Optical layout of laser modulation system.\relax }}{47}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces AOM modulation efficiency influenced by microwave signal.\relax }}{48}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Optical layout of the cryostat breadboard.\relax }}{49}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Design of the objective.\relax }}{50}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Detection error analysis.\relax }}{51}{figure.caption.50}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Observation of leakage in the exchange gas space.\relax }}{53}{figure.caption.52}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Cryostat temperature and pressure over time during a cool-down.\relax }}{54}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Cryostat temperature over time during a warm-up.\relax }}{55}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Optical layout of the Michelson interferometer.\relax }}{57}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Vibration in the horizontal plane of this cryostat.\relax }}{58}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The circuit diagram of the Michelson interferometer.\relax }}{59}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Interferometer with high stability and precision.\relax }}{60}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Voltage-to-displacement conversion of the piezo.\relax }}{61}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Vibration in the horizontal plane of the cryostat after optimization.\relax }}{62}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Circuit diagram of the helical resonator.\relax }}{64}{figure.caption.61}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Labview front-end program (Sequencer).\relax }}{67}{figure.caption.62}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Web front-end program (Lasers etc.).\relax }}{68}{figure.caption.63}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Usage of Mathematica's code to identify a typical ion chain image\relax }}{71}{figure.caption.64}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Usage of Python code to calculate 245 ions' position.\relax }}{72}{figure.caption.65}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Fitting results for various ion numbers.\relax }}{73}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Fitted trapping potential for diferrent ion number.\relax }}{74}{figure.caption.67}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Fitted trapping potential with dark ions.\relax }}{74}{figure.caption.68}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Fit trapping potential up to 42 ions.\relax }}{75}{figure.caption.69}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Fit the electrical potential coefficient for each electrode.\relax }}{76}{figure.caption.71}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Fit the electrical potential coefficient with a 126-ions quasi-1D chain.\relax }}{77}{figure.caption.72}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Schematic experimental setup.\relax }}{79}{figure.caption.73}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces The image of 218 ions in a zigzag structure.\relax }}{80}{figure.caption.74}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Experimental sequence.\relax }}{80}{figure.caption.75}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Usage of the SK1 composite pulse.\relax }}{81}{figure.caption.76}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces The measured storage fidelity vs. storage time.\relax }}{82}{figure.caption.77}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Compare the heating effect with or without sympathetic cooling.\relax }}{83}{figure.caption.78}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces The decay of photon counts.\relax }}{84}{figure.caption.79}%
+\let \contentsline \ttl@gobblecontents 
+\contentsfinish 
+\contentsfinish 
