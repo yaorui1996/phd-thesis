@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  26 MAR 2023 16:15
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  26 MAR 2023 17:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -782,61 +782,100 @@ LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `normal'
 (Font)                  TU/XITSMath-Regular(4)/m/n --> TU/XITSMath-Regular(4)/m/n on input line 123.
 LaTeX Font Info:    Overwriting symbol font `__um_fam1' in version `bold'
 (Font)                  TU/XITSMath-Regular(4)/m/n --> TU/XITSMath-Regular(4)/b/n on input line 123.
+ (c:/texlive/2022/texmf-dist/tex/latex/nomencl/nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+ (c:/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks36
+\XKV@tempa@toks=\toks37
+)
+\XKV@depth=\count343
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (c:/texlive/2022/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
+ (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
+ (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
+ (c:/texlive/2022/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+)
+\scr@dte@tocline@numberwidth=\skip84
+\scr@dte@tocline@numbox=\box70
+)
+Package tocbasic Info: omitting babel extension for `nlo'
+(tocbasic)             because of missing \bbl@set@language on input line 187.
+Package tocbasic Info: omitting babel extension for `nls'
+(tocbasic)             because of missing \bbl@set@language on input line 188.
+\nomlabelwidth=\dimen288
+\nom@tempdim=\dimen289
+\nomitemsep=\skip85
+)
+\@nomenclaturefile=\write3
+\openout3 = `PhDThesis.nlo'.
+
+Package nomencl Info: Writing nomenclature file PhDThesis.nlo on input line 127.
  (c:/texlive/2022/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box70
+\@tempboxb=\box71
 ) (c:/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip84
-\multirow@cntb=\count343
-\multirow@dima=\skip85
-\bigstrutjot=\dimen288
+\multirow@colwidth=\skip86
+\multirow@cntb=\count344
+\multirow@dima=\skip87
+\bigstrutjot=\dimen290
 ) (c:/texlive/2022/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip86
-\LTright=\skip87
-\LTpre=\skip88
-\LTpost=\skip89
-\LTchunksize=\count344
-\LTcapwidth=\dimen289
-\LT@head=\box71
-\LT@firsthead=\box72
-\LT@foot=\box73
-\LT@lastfoot=\box74
-\LT@gbox=\box75
-\LT@cols=\count345
-\LT@rows=\count346
-\c@LT@tables=\count347
-\c@LT@chunks=\count348
-\LT@p@ftn=\toks36
+\LTleft=\skip88
+\LTright=\skip89
+\LTpre=\skip90
+\LTpost=\skip91
+\LTchunksize=\count345
+\LTcapwidth=\dimen291
+\LT@head=\box72
+\LT@firsthead=\box73
+\LT@foot=\box74
+\LT@lastfoot=\box75
+\LT@gbox=\box76
+\LT@cols=\count346
+\LT@rows=\count347
+\c@LT@tables=\count348
+\c@LT@chunks=\count349
+\LT@p@ftn=\toks38
 ) (c:/texlive/2022/texmf-dist/tex/latex/algorithms/algorithm.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
  (c:/texlive/2022/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count349
-\float@exts=\toks37
-\float@box=\box76
-\@float@everytoks=\toks38
-\@floatcapt=\box77
+\c@float@type=\count350
+\float@exts=\toks39
+\float@box=\box77
+\@float@everytoks=\toks40
+\@floatcapt=\box78
 )
-\@float@every@algorithm=\toks39
-\c@algorithm=\count350
+\@float@every@algorithm=\toks41
+\c@algorithm=\count351
 ) (c:/texlive/2022/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count351
-\c@ALC@line=\count352
-\c@ALC@rem=\count353
-\c@ALC@depth=\count354
-\ALC@tlm=\skip90
-\algorithmicindent=\skip91
+\c@ALC@unique=\count352
+\c@ALC@line=\count353
+\c@ALC@rem=\count354
+\c@ALC@depth=\count355
+\ALC@tlm=\skip92
+\algorithmicindent=\skip93
 ) (c:/texlive/2022/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2023-01-03 v3.2.0 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen290
-\l__siunitx_angle_marker_box=\box78
-\l__siunitx_angle_unit_box=\box79
-\l__siunitx_compound_count_int=\count355
+\l__siunitx_angle_tmp_dim=\dimen292
+\l__siunitx_angle_marker_box=\box79
+\l__siunitx_angle_unit_box=\box80
+\l__siunitx_compound_count_int=\count356
  (c:/texlive/2022/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
  (c:/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
@@ -848,34 +887,34 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ))
-\l__siunitx_number_exponent_fixed_int=\count356
-\l__siunitx_number_min_decimal_int=\count357
-\l__siunitx_number_min_integer_int=\count358
-\l__siunitx_number_round_precision_int=\count359
-\l__siunitx_number_lower_threshold_int=\count360
-\l__siunitx_number_upper_threshold_int=\count361
-\l__siunitx_number_group_first_int=\count362
-\l__siunitx_number_group_size_int=\count363
-\l__siunitx_number_group_minimum_int=\count364
-\l__siunitx_table_tmp_box=\box80
-\l__siunitx_table_tmp_dim=\dimen291
-\l__siunitx_table_column_width_dim=\dimen292
-\l__siunitx_table_integer_box=\box81
-\l__siunitx_table_decimal_box=\box82
-\l__siunitx_table_uncert_box=\box83
-\l__siunitx_table_before_box=\box84
-\l__siunitx_table_after_box=\box85
-\l__siunitx_table_before_dim=\dimen293
-\l__siunitx_table_carry_dim=\dimen294
-\l__siunitx_unit_tmp_int=\count365
-\l__siunitx_unit_position_int=\count366
-\l__siunitx_unit_total_int=\count367
+\l__siunitx_number_exponent_fixed_int=\count357
+\l__siunitx_number_min_decimal_int=\count358
+\l__siunitx_number_min_integer_int=\count359
+\l__siunitx_number_round_precision_int=\count360
+\l__siunitx_number_lower_threshold_int=\count361
+\l__siunitx_number_upper_threshold_int=\count362
+\l__siunitx_number_group_first_int=\count363
+\l__siunitx_number_group_size_int=\count364
+\l__siunitx_number_group_minimum_int=\count365
+\l__siunitx_table_tmp_box=\box81
+\l__siunitx_table_tmp_dim=\dimen293
+\l__siunitx_table_column_width_dim=\dimen294
+\l__siunitx_table_integer_box=\box82
+\l__siunitx_table_decimal_box=\box83
+\l__siunitx_table_uncert_box=\box84
+\l__siunitx_table_before_box=\box85
+\l__siunitx_table_after_box=\box86
+\l__siunitx_table_before_dim=\dimen295
+\l__siunitx_table_carry_dim=\dimen296
+\l__siunitx_unit_tmp_int=\count366
+\l__siunitx_unit_position_int=\count367
+\l__siunitx_unit_total_int=\count368
 ) (c:/texlive/2022/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip92
-\bibsep=\skip93
+\bibhang=\skip94
+\bibsep=\skip95
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count368
+\c@NAT@ctr=\count369
 )) (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
  (c:/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
@@ -893,11 +932,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count369
+\c@section@level=\count370
 )
-\@linkdim=\dimen295
-\Hy@linkcounter=\count370
-\Hy@pagecounter=\count371
+\@linkdim=\dimen297
+\Hy@linkcounter=\count371
+\Hy@pagecounter=\count372
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
 ) (c:/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
@@ -905,7 +944,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 ) (c:/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count372
+\Hy@SavedSpaceFactor=\count373
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 )
@@ -917,17 +956,17 @@ Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4410.
-\c@Hy@tempcnt=\count373
+\c@Hy@tempcnt=\count374
 LaTeX Info: Redefining \url on input line 4748.
-\XeTeXLinkMargin=\dimen296
+\XeTeXLinkMargin=\dimen298
  (c:/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (c:/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count374
-\Field@Width=\dimen297
-\Fld@charsize=\dimen298
+\Fld@menulength=\count375
+\Field@Width=\dimen299
+\Fld@charsize=\dimen300
 Package hyperref Info: Hyper figures OFF on input line 6027.
 Package hyperref Info: Link nesting OFF on input line 6032.
 Package hyperref Info: Hyper index ON on input line 6035.
@@ -939,9 +978,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6057.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count375
-\c@Item=\count376
-\c@Hfootnote=\count377
+\Hy@abspage=\count376
+\c@Item=\count377
+\c@Hfootnote=\count378
 )
 Package hyperref Info: Driver (autodetected): hxetex.
  (c:/texlive/2022/texmf-dist/tex/latex/hyperref/hxetex.def
@@ -949,11 +988,11 @@ File: hxetex.def 2022-11-13 v7.00u Hyperref driver for XeTeX
  (c:/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\pdfm@box=\box86
-\c@Hy@AnnotLevel=\count378
-\HyField@AnnotCount=\count379
-\Fld@listcount=\count380
-\c@bookmark@seq@number=\count381
+\pdfm@box=\box87
+\c@Hy@AnnotLevel=\count379
+\HyField@AnnotCount=\count380
+\Fld@listcount=\count381
+\c@bookmark@seq@number=\count382
  (c:/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
  (c:/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
@@ -964,7 +1003,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip94
+\Hy@SectionHShift=\skip96
 )
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 18.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 18.
@@ -978,7 +1017,7 @@ File: psdextra.def 2022-11-13 v7.00u Hyperref: Additions to PDF string support
 Package hyperref Info: Option `breaklinks' set `true' on input line 18.
 Package hyperref Info: Option `plainpages' set `false' on input line 18.
 Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 18.
-\c@thu@bookmark=\count382
+\c@thu@bookmark=\count383
 Package translations Info: No language package found. I am going to use `english' as default language. on input line 21.
  (./PhDThesis.aux)
 \openout1 = `PhDThesis.aux'.
@@ -1076,8 +1115,8 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 21.
 Package hyperref Info: Link coloring OFF on input line 21.
  (./PhDThesis.out) (./PhDThesis.out)
-\@outlinefile=\write3
-\openout3 = `PhDThesis.out'.
+\@outlinefile=\write4
+\openout4 = `PhDThesis.out'.
 
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -1226,23 +1265,18 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 
 
 
-] (./data/committee.tex
+]
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 9.03471pt on input line 43.
+(Font)              scaled to size 9.03471pt on input line 34.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.22777pt on input line 43.
+(Font)              scaled to size 7.22777pt on input line 34.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 9.03278pt on input line 43.
+(Font)              scaled to size 9.03278pt on input line 34.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 7.22623pt on input line 43.
+(Font)              scaled to size 7.22623pt on input line 34.
  [3
 
 
-
-
-
-
-]) [4
 
 
 
@@ -1254,24 +1288,36 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 ] [2
 
 
-]) [3] (./PhDThesis.lof [4
+]) [3] (./PhDThesis.toc [4
+
+
+]
+Underfull \hbox (badness 5771) in paragraph at lines 56--56
+ []|[][]\TU/TimesNewRoman(0)/m/n/12.045 EXPERIMENTAL REALIZATION OF A 200-ION MULTI-QUBIT
+ []
+
+[5])
+\tf@toc=\write5
+\openout5 = `PhDThesis.toc'.
+
+ [6] (./PhDThesis.lof [7
 
 
 ])
-\tf@lof=\write4
-\openout4 = `PhDThesis.lof'.
+\tf@lof=\write6
+\openout6 = `PhDThesis.lof'.
 
- [5] (./PhDThesis.lot)
-\tf@lot=\write5
-\openout5 = `PhDThesis.lot'.
+ [8] (./PhDThesis.lot)
+\tf@lot=\write7
+\openout7 = `PhDThesis.lot'.
 
- (./data/denotation.tex [6
-
-
-] [7
+ (./data/denotation.tex (./PhDThesis.nls [9
 
 
-]) [8] (./data/chap01.tex
+] [10
+
+
+])) [11] (./data/chap01.tex
 Chapter 1
 [1
 
@@ -1583,25 +1629,20 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 ] (./data/resume.tex [97
 
 
-]) (./data/comments.tex [98
+]) [98
 
 
-] [99
-
-]) (./data/resolution.tex [100
-
-
-]) (./PhDThesis.aux)
+] (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 86B1AADE75EB1D7825F9E17A8A113CB7;14796.
+(rerunfilecheck)             Checksum: 86F89E68B5A3F4C25AFF7FF22BE63F93;14218.
  ) 
 Here is how much of TeX's memory you used:
- 32849 strings out of 476688
- 734731 string characters out of 5807700
+ 33905 strings out of 476688
+ 754983 string characters out of 5807700
  1876001 words of memory out of 5000000
- 52415 multiletter control sequences out of 15000+600000
- 523465 words of font info for 213 fonts, out of 8000000 for 9000
+ 53441 multiletter control sequences out of 15000+600000
+ 523457 words of font info for 212 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 102i,12n,129p,2742b,2928s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,12n,129p,2742b,2932s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (112 pages, 2227172 bytes).
+Output written on PhDThesis.xdv (112 pages, 2467212 bytes).
