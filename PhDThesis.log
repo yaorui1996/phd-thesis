@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  26 MAR 2023 16:08
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  26 MAR 2023 16:12
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1600,12 +1600,12 @@ Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
 (rerunfilecheck)             Checksum: 86B1AADE75EB1D7825F9E17A8A113CB7;14796.
  ) 
 Here is how much of TeX's memory you used:
- 32825 strings out of 476688
- 733137 string characters out of 5807700
+ 32849 strings out of 476688
+ 734731 string characters out of 5807700
  1876001 words of memory out of 5000000
- 52391 multiletter control sequences out of 15000+600000
+ 52415 multiletter control sequences out of 15000+600000
  523465 words of font info for 213 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  102i,12n,129p,2742b,2928s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (116 pages, 2229004 bytes).
+Output written on PhDThesis.xdv (116 pages, 2229528 bytes).
