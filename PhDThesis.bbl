@@ -1,4 +1,4 @@
-\begin{thebibliography}{135}
+\begin{thebibliography}{160}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -415,6 +415,122 @@ Srivathsan B, Fischer M, Alber L, et~al.
   imaging\allowbreak[J].
 \newblock New Journal of Physics, 2019, 21\allowbreak (11): 113014.
 
+\bibitem[Deng et~al.(2005)Deng, Porras, and Cirac]{RN57}
+Deng X~L, Porras D, Cirac J~I.
+\newblock Effective spin quantum phases in systems of trapped
+  ions\allowbreak[J].
+\newblock Physical Review A, 2005, 72\allowbreak (6): 063407.
+
+\bibitem[Islam(2012)]{RN27}
+Islam K~R.
+\newblock Quantum simulation of interacting spin models with trapped
+  ions\allowbreak[D].
+\newblock 2012.
+
+\bibitem[James(2000)]{RN55}
+James D~F.
+\newblock Quantum dynamics of cold trapped ions with application to quantum
+  computation\allowbreak[J].
+\newblock Quantum Computation and Quantum Information Theory: Reprint Volume
+  with Introductory Notes for ISI TMR Network School, 12-23 July , Villa
+  Gualino, Torino, Italy, 2000, 66: 345.
+
+\bibitem[Marquet et~al.(2003)Marquet, Schmidt-Kaler, and James]{RN60}
+Marquet C, Schmidt-Kaler F, James D~F.
+\newblock Phonon–phonon interactions due to non-linear effects in a linear
+  ion trap\allowbreak[J].
+\newblock Applied Physics B, 2003, 76\allowbreak (3): 199-208.
+
+\bibitem[Wu(2019)]{RN110}
+Wu Y.
+\newblock Quantum computation in large ion crystals\allowbreak[D].
+\newblock 2019.
+
+\bibitem[Zhu et~al.(2006)Zhu, Monroe, and Duan]{RN56}
+Zhu S~L, Monroe C, Duan L~M.
+\newblock Trapped ion quantum computation with transverse phonon
+  modes\allowbreak[J].
+\newblock Physical review letters, 2006, 97\allowbreak (5): 050505.
+
+\bibitem[Berkeland et~al.(1998)Berkeland, Miller, Bergquist, Itano, and
+  Wineland]{RN101}
+Berkeland D, Miller J, Bergquist J~C, et~al.
+\newblock Minimization of ion micromotion in a paul trap\allowbreak[J].
+\newblock Journal of applied physics, 1998, 83\allowbreak (10): 5025-5033.
+
+\bibitem[Chen et~al.(2020)Chen, Wu, Xie, Zhang, Ou, Wu, and Chen]{RN130}
+Chen T, Wu W, Xie Y, et~al.
+\newblock Controlling the rf phase error induced micromotion in paul
+  trap\allowbreak[J].
+\newblock Applied Physics B: Lasers Optics, 2020, 126\allowbreak (6).
+
+\bibitem[Goham et~al.(2021)Goham and Britton]{RN200}
+Goham C~J, Britton J~W.
+\newblock Resolved-sideband micromotion sensing in yb $^{+} $ on the 935 nm
+  repump transition\allowbreak[A].
+\newblock 2021.
+
+\bibitem[Higgins et~al.(2021)Higgins, Salim, Zhang, Parke, Pokorny, and
+  Hennrich]{RN122}
+Higgins G, Salim S, Zhang C, et~al.
+\newblock Micromotion minimization using ramsey interferometry\allowbreak[A].
+\newblock 2021.
+
+\bibitem[Ibaraki et~al.(2011)Ibaraki, Tanaka, and Urabe]{RN112}
+Ibaraki Y, Tanaka U, Urabe S.
+\newblock Detection of parametric resonance of trapped ions for micromotion
+  compensation\allowbreak[J].
+\newblock Applied Physics B, 2011, 105\allowbreak (2): 219-223.
+
+\bibitem[Keller et~al.(2015)Keller, Partner, Burgermeister, and
+  Mehlstäubler]{RN79}
+Keller J, Partner H, Burgermeister T, et~al.
+\newblock Precise determination of micromotion for trapped-ion optical
+  clocks\allowbreak[J].
+\newblock Journal of Applied Physics, 2015, 118\allowbreak (10): 104501.
+
+\bibitem[Nadlinger et~al.(2021)Nadlinger, Drmota, Main, Nichol, Araneda,
+  Srinivas, Stephenson, Ballance, and Lucas]{RN123}
+Nadlinger D, Drmota P, Main D, et~al.
+\newblock Micromotion minimisation by synchronous detection of parametrically
+  excited motion\allowbreak[A].
+\newblock 2021.
+
+\bibitem[Tanaka et~al.(2012)Tanaka, Masuda, Akimoto, Koda, Ibaraki, and
+  Urabe]{RN111}
+Tanaka U, Masuda K, Akimoto Y, et~al.
+\newblock Micromotion compensation in a surface electrode trap by parametric
+  excitation of trapped ions\allowbreak[J].
+\newblock Applied Physics B, 2012, 107\allowbreak (4): 907-912.
+
+\bibitem[Zhao et~al.(2002)Zhao, Ryjkov, and Schuessler]{RN113}
+Zhao X, Ryjkov V, Schuessler H.
+\newblock Parametric excitations of trapped ions in a linear rf ion
+  trap\allowbreak[J].
+\newblock Physical Review A, 2002, 66\allowbreak (6): 063414.
+
+\bibitem[Kaplan(2019)]{RN84}
+Kaplan H.
+\newblock Many-body dephasing in a trapped ion quantum simulator with a
+  cryogenic apparatus\allowbreak[D].
+\newblock 2019.
+
+\bibitem[Tan(2021)]{RN133}
+Tan W~L.
+\newblock Cryogenic trapped-ion system for large scale quantum
+  simulation\allowbreak[D].
+\newblock 2021.
+
+\bibitem[Cai()]{RN358}
+Cai M~L.
+\newblock Realizing quantum-optic experiments in quantum rabi model with
+  trapped-ion system\allowbreak[D].
+
+\bibitem[Quanxin()]{RN307}
+Quanxin M.
+\newblock Quantum simulation of rabi-hubbard model with a trapped-ion quantum
+  simulator\allowbreak[D].
+
 \bibitem[Araneda et~al.(2020)Araneda, Cerchiari, Higginbottom, Holz,
   Lakhmanskiy, Obšil, Colombe, and Blatt]{RN58}
 Araneda G, Cerchiari G, Higginbottom D~B, et~al.
@@ -452,12 +568,6 @@ Aikyo Y, Vrijsen G, Noel T~W, et~al.
 \newblock Vacuum characterization of a compact room-temperature trapped ion
   system: volume 117\allowbreak[Z].
 \newblock 2020: 234002.
-
-\bibitem[Kaplan(2019)]{RN84}
-Kaplan H.
-\newblock Many-body dephasing in a trapped ion quantum simulator with a
-  cryogenic apparatus\allowbreak[D].
-\newblock 2019.
 
 \bibitem[Leopold et~al.(2019)Leopold, King, Micke, Bautista-Salvador, Heip,
   Ospelkaus, Crespo López-Urrutia, and Schmidt]{RN283}
@@ -514,12 +624,6 @@ Tan W, Becker P, Liu F, et~al.
 \newblock Domain-wall confinement and dynamics in a quantum
   simulator\allowbreak[J].
 \newblock Nature Physics, 2021, 17\allowbreak (6): 742-747.
-
-\bibitem[Tan(2021)]{RN133}
-Tan W~L.
-\newblock Cryogenic trapped-ion system for large scale quantum
-  simulation\allowbreak[D].
-\newblock 2021.
 
 \bibitem[RN2()]{RN267}
 Development of an rf resonator for a double junction ion trap\allowbreak[Z].
@@ -598,6 +702,32 @@ Zhang M, Wang C, Cheng R, et~al.
 \newblock Monolithic ultra-high-q lithium niobate microring resonator:
   volume~4\allowbreak[Z].
 \newblock 2017: 1536-1537.
+
+\bibitem[Ayoub(1986)]{RN335}
+Ayoub F~E.
+\newblock Automated q-factor measurement via a network analyzer\allowbreak[Z].
+\newblock 1986.
+
+\bibitem[Bray et~al.(2004)Bray and Roy]{RN338}
+Bray J, Roy L.
+\newblock Measuring the unloaded, loaded, and external quality factors of
+  one-and two-port resonators using scattering-parameter magnitudes at
+  fractional power levels\allowbreak[J].
+\newblock IEE Proceedings-Microwaves, Antennas and Propagation, 2004,
+  151\allowbreak (4): 345-350.
+
+\bibitem[Chua et~al.(2003)Chua and Mirshekar-Syahkal]{RN333}
+Chua L~H, Mirshekar-Syahkal D.
+\newblock Accurate and direct characterization of high-q microwave resonators
+  using one-port measurement\allowbreak[J].
+\newblock IEEE transactions on microwave theory and techniques, 2003,
+  51\allowbreak (3): 978-985.
+
+\bibitem[Gregory(2021)]{RN337}
+Gregory A~P.
+\newblock Q-factor measurement by using a vector network
+  analyser\allowbreak[Z].
+\newblock 2021.
 
 \bibitem[Hou et~al.(2012)Hou, Wu, Ren, and Zhao]{RN137}
 Hou D, Wu J, Ren Q, et~al.
@@ -759,6 +889,30 @@ Turchette Q~A, King B, Leibfried D, et~al.
 \newblock Heating of trapped ions from the quantum ground state:
   volume~61\allowbreak[Z].
 \newblock 2000: 063418.
+
+\bibitem[Kajfez(1999)]{RN342}
+Kajfez D.
+\newblock Q factor measurements, analog and digital\allowbreak[J].
+\newblock University of Mississippi Dept. of Electrical Engineering, www. ee.
+  olemiss. eduldarko/rfqmeas2b. pdf, 1999.
+
+\bibitem[Kajfez et~al.(1984)Kajfez and Hwan]{RN340}
+Kajfez D, Hwan E~J.
+\newblock Q-factor measurement with network analyzer\allowbreak[J].
+\newblock IEEE transactions on microwave theory and techniques, 1984,
+  32\allowbreak (7): 666-670.
+
+\bibitem[Ma(2007)]{RN330}
+Ma Z.
+\newblock Liga cavity resonators and filters for microwave and millimetre-wave
+  applications\allowbreak[D].
+\newblock 2007.
+
+\bibitem[Zhang et~al.(2012)Zhang, Zeng, Ao, and Zhang]{RN332}
+Zhang H, Zeng B~Q, Ao L, et~al.
+\newblock A novel dual-loop coupler for one-port cylindrical cavity
+  permittivity measurement\allowbreak[J].
+\newblock Progress In Electromagnetics Research, 2012, 127: 537-552.
 
 \bibitem[Acton et~al.(2005)Acton, Brickman, Haljan, Lee, Deslauriers, and
   Monroe]{RN220}
