@@ -15,44 +15,50 @@ Reallocated global_strs (elt_size=200001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: ref/refs.bib
-You've used 94 entries,
+Warning--empty year in RN267
+Warning--empty year in RN267
+Warning--empty author and editor in RN267
+Warning--empty year in RN267
+Warning--empty year in RN267
+You've used 135 entries,
             5374 wiz_defined-function locations,
-            1594 strings with 25811 characters,
-and the built_in function-call counts, 944839 in all, are:
-= -- 17372
-> -- 111980
-< -- 139243
-+ -- 38625
-- -- 7902
-* -- 5047
-:= -- 130298
-add.period$ -- 286
-call.type$ -- 94
-change.case$ -- 262
-chr.to.int$ -- 34310
-cite$ -- 94
-duplicate$ -- 2434
-empty$ -- 6653
-format.name$ -- 3472
-if$ -- 245335
+            1814 strings with 33459 characters,
+and the built_in function-call counts, 1343282 in all, are:
+= -- 24148
+> -- 159242
+< -- 198550
++ -- 54965
+- -- 10869
+* -- 7011
+:= -- 184761
+add.period$ -- 407
+call.type$ -- 135
+change.case$ -- 364
+chr.to.int$ -- 49023
+cite$ -- 141
+duplicate$ -- 3565
+empty$ -- 9639
+format.name$ -- 4817
+if$ -- 349234
 int.to.chr$ -- 1
-int.to.str$ -- 95
+int.to.str$ -- 136
 missing$ -- 0
-newline$ -- 488
-num.names$ -- 282
-pop$ -- 47409
+newline$ -- 691
+num.names$ -- 402
+pop$ -- 68349
 preamble$ -- 1
-purify$ -- 94
+purify$ -- 135
 quote$ -- 0
-skip$ -- 101814
+skip$ -- 144221
 stack$ -- 0
-substring$ -- 43837
-swap$ -- 114
-text.length$ -- 2424
+substring$ -- 62013
+swap$ -- 179
+text.length$ -- 3423
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1026
-warning$ -- 0
-while$ -- 2513
+type$ -- 1473
+warning$ -- 5
+while$ -- 3531
 width$ -- 0
-write$ -- 1334
+write$ -- 1851
+(There were 5 warnings)

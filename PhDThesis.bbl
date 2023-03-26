@@ -1,4 +1,4 @@
-\begin{thebibliography}{94}
+\begin{thebibliography}{135}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -279,6 +279,37 @@ Heinrich D, Guggemos M, Guevara-Bertsch M, et~al.
   volume~21\allowbreak[Z].
 \newblock 2019: 073017.
 
+\bibitem[Halama et~al.(2022)Halama, Dubielzig, Orlowski, Torkzaban, and
+  Ospelkaus]{RN281}
+Halama S, Dubielzig T, Orlowski N, et~al.
+\newblock Real-time capable ccd-based individual trapped-ion qubit
+  measurement\allowbreak[Z].
+\newblock 2022.
+
+\bibitem[Chew(2008)]{RN74}
+Chew A.
+\newblock Doppler-free spectroscopy of iodine at 739nm\allowbreak[J].
+\newblock undergraduate thesis, University of Maryland, 2008.
+
+\bibitem[Roman(2021)]{RN132}
+Roman C.
+\newblock Expanding the 171yb+ toolbox: the 2f7/2 state as resource for quantum
+  information science\allowbreak[D].
+\newblock 2021.
+
+\bibitem[Senko(2014)]{RN85}
+Senko C.
+\newblock Dynamics and excited states of quantum many-body spin systems with
+  trapped ions\allowbreak[D].
+\newblock 2014.
+
+\bibitem[Hirsch et~al.(2013)Hirsch, Wareham, Martin-Fernandez, Hobson, and
+  Rolfe]{RN218}
+Hirsch M, Wareham R~J, Martin-Fernandez M~L, et~al.
+\newblock A stochastic model for electron multiplication charge-coupled
+  devices–from theory to practice\allowbreak[J].
+\newblock PloS one, 2013, 8\allowbreak (1): e53671.
+
 \bibitem[Berkeland et~al.(2002)Berkeland and Boshier]{RN124}
 Berkeland D, Boshier M.
 \newblock Destabilization of dark states and optical spectroscopy in
@@ -337,6 +368,52 @@ Knünz S, Herrmann M, Batteiger V, et~al.
 \newblock Sub-millikelvin spatial thermometry of a single doppler-cooled ion in
   a paul trap\allowbreak[J].
 \newblock Physical Review A, 2012, 85\allowbreak (2): 023427.
+
+\bibitem[Lee(2012)]{RN221}
+Lee A~C.
+\newblock Ytterbium ion qubit state detection on an iccd camera\allowbreak[J].
+\newblock undergraduate thesis, University of Maryland, 2012.
+
+\bibitem[Myerson et~al.(2008)Myerson, Szwer, Webster, Allcock, Curtis, Imreh,
+  Sherman, Stacey, Steane, and Lucas]{RN298}
+Myerson A, Szwer D, Webster S, et~al.
+\newblock High-fidelity readout of trapped-ion qubits: volume
+  100\allowbreak[Z].
+\newblock 2008: 200502.
+
+\bibitem[Noek et~al.(2013)Noek, Vrijsen, Gaultney, Mount, Kim, Maunz, and
+  Kim]{RN104}
+Noek R, Vrijsen G, Gaultney D, et~al.
+\newblock High speed, high fidelity detection of an atomic hyperfine
+  qubit\allowbreak[J].
+\newblock Optics letters, 2013, 38\allowbreak (22): 4735-4738.
+
+\bibitem[Olmschenk et~al.(2007)Olmschenk, Younge, Moehring, Matsukevich, Maunz,
+  and Monroe]{RN222}
+Olmschenk S, Younge K~C, Moehring D~L, et~al.
+\newblock Manipulation and detection of a trapped yb+ hyperfine
+  qubit\allowbreak[J].
+\newblock Physical Review A, 2007, 76\allowbreak (5): 052314.
+
+\bibitem[Reens et~al.(2022)Reens, Collins, Ciampi, Kharas, Aull, Donlon,
+  Bruzewicz, Felton, Stuart, and Niffenegger]{RN235}
+Reens D, Collins M, Ciampi J, et~al.
+\newblock High-fidelity ion state detection using trap-integrated avalanche
+  photodiodes\allowbreak[A].
+\newblock 2022.
+
+\bibitem[Shen et~al.(2012)Shen and Duan]{RN215}
+Shen C, Duan L~J~N~J~o~P.
+\newblock Correcting detection errors in quantum state engineering through data
+  processing: volume~14\allowbreak[Z].
+\newblock 2012: 053053.
+
+\bibitem[Srivathsan et~al.(2019)Srivathsan, Fischer, Alber, Weber, Sondermann,
+  and Leuchs]{RN128}
+Srivathsan B, Fischer M, Alber L, et~al.
+\newblock Measuring the temperature and heating rate of a single ion by
+  imaging\allowbreak[J].
+\newblock New Journal of Physics, 2019, 21\allowbreak (11): 113014.
 
 \bibitem[Araneda et~al.(2020)Araneda, Cerchiari, Higginbottom, Holz,
   Lakhmanskiy, Obšil, Colombe, and Blatt]{RN58}
@@ -444,6 +521,136 @@ Tan W~L.
   simulation\allowbreak[D].
 \newblock 2021.
 
+\bibitem[RN2()]{RN267}
+Development of an rf resonator for a double junction ion trap\allowbreak[Z].
+
+\bibitem[Brandl et~al.(2016)Brandl, Schindler, Monz, and Blatt]{RN262}
+Brandl M~F, Schindler P, Monz T, et~al.
+\newblock Cryogenic resonator design for trapped ion experiments in paul traps:
+  volume 122\allowbreak[Z].
+\newblock 2016: 1-9.
+
+\bibitem[Bruff(2020)]{RN263}
+Bruff M.
+\newblock Compact low-noise rf resonator for cryogenic trapped ion quantum
+  computer\allowbreak[Z].
+\newblock 2020.
+
+\bibitem[Deng et~al.(2014)Deng, Sun, Yuan, Xu, Zhang, Lu, and Luo]{RN308}
+Deng K, Sun Y, Yuan W, et~al.
+\newblock A modified model of helical resonator with predictable loaded
+  resonant frequency and q-factor: volume~85\allowbreak[Z].
+\newblock 2014: 104706.
+
+\bibitem[Gandolfi et~al.(2012)Gandolfi, Niedermayr, Kumph, Brownnutt, and
+  Blatt]{RN265}
+Gandolfi D, Niedermayr M, Kumph M, et~al.
+\newblock Compact radio-frequency resonator for cryogenic ion traps:
+  volume~83\allowbreak[Z].
+\newblock 2012: 084705.
+
+\bibitem[Macalpine et~al.(1959)Macalpine and Schildknecht]{RN92}
+Macalpine W, Schildknecht R.
+\newblock Coaxial resonators with helical inner conductor\allowbreak[J].
+\newblock Proceedings of the IRE, 1959, 47\allowbreak (12): 2099-2105.
+
+\bibitem[Medhurst(1947)]{RN258}
+Medhurst R~J~W~E.
+\newblock Hf resistance and self-capacitance of single-layer solenoids:
+  volume~24\allowbreak[Z].
+\newblock 1947.
+
+\bibitem[Moller(2016)]{RN286}
+Moller S~A.
+\newblock How to couple trapped ions to superconducting resonators: towards
+  hybrid quantum devices\allowbreak[M].
+\newblock University of California, Berkeley, 2016.
+
+\bibitem[Panja et~al.(2015)Panja, De, Yadav, and Sen~Gupta]{RN345}
+Panja S, De S, Yadav S, et~al.
+\newblock Note: Measuring capacitance and inductance of a helical resonator and
+  improving its quality factor by mutual inductance alteration\allowbreak[J].
+\newblock Review of Scientific Instruments, 2015, 86\allowbreak (5): 056104.
+
+\bibitem[Park et~al.(2021)Park, Jung, Seong, Lee, Cho, and Kim]{RN266}
+Park Y, Jung C, Seong M, et~al.
+\newblock A new measurement method for high voltages applied to an ion trap
+  generated by an rf resonator: volume~21\allowbreak[Z].
+\newblock 2021: 1143.
+
+\bibitem[Pedrosa-Rodriguez et~al.(2018)Pedrosa-Rodriguez, Outerelo,
+  Gomez-Alcala, de~Vicente, and Diaz-Otero]{RN264}
+Pedrosa-Rodriguez L, Outerelo D, Gomez-Alcala R, et~al.
+\newblock Design, development and testing of a helical resonator for trapping
+  sr+ ions for frequency standards and sensing applications: volume
+  125\allowbreak[Z].
+\newblock 2018: 156-162.
+
+\bibitem[Siverns et~al.(2012)Siverns, Simkins, Weidt, and Hensinger]{RN91}
+Siverns J, Simkins L, Weidt S, et~al.
+\newblock On the application of radio frequency voltages to ion traps via
+  helical resonators\allowbreak[J].
+\newblock Applied Physics B, 2012, 107\allowbreak (4): 921-934.
+
+\bibitem[Zhang et~al.(2017)Zhang, Wang, Cheng, Shams-Ansari, and
+  Lončar]{RN288}
+Zhang M, Wang C, Cheng R, et~al.
+\newblock Monolithic ultra-high-q lithium niobate microring resonator:
+  volume~4\allowbreak[Z].
+\newblock 2017: 1536-1537.
+
+\bibitem[Hou et~al.(2012)Hou, Wu, Ren, and Zhao]{RN137}
+Hou D, Wu J, Ren Q, et~al.
+\newblock Analysis of long-term phase-locking technique for mode-locked laser
+  with pid regulator\allowbreak[J].
+\newblock IEEE Journal of Quantum Electronics, 2012, 48\allowbreak (7):
+  839-846.
+
+\bibitem[Lee et~al.(2014)Lee, Jarratt, Marciniak, and Biercuk]{RN151}
+Lee M~W, Jarratt M~C, Marciniak C, et~al.
+\newblock Frequency stabilization of a 369 nm diode laser by nonlinear
+  spectroscopy of ytterbium ions in a discharge\allowbreak[J].
+\newblock Optics express, 2014, 22\allowbreak (6): 7210-7221.
+
+\bibitem[Shen et~al.(2020)Shen, Ding, Zhang, Zhu, Wang, Zhang, and Zhang]{RN76}
+Shen D, Ding L, Zhang Q, et~al.
+\newblock High-performance frequency stabilization of ultraviolet diode lasers
+  by using dichroic atomic vapor spectroscopy and transfer
+  cavity\allowbreak[Z].
+\newblock 2020.
+
+\bibitem[李相良(2017)]{RN78}
+李相良.
+\newblock 锶原子 698 nm
+  钟跃迁激光系统搭建及窄线宽激光技术研究\allowbreak[D].
+\newblock 2017.
+
+\bibitem[Wu et~al.(2022)Wu, Lu, Liu, Hu, Lao, Rao, Deng, Zhu, and Luo]{RN231}
+Wu H, Lu P, Liu Y, et~al.
+\newblock Frequency stabilization of a 739 nm laser to an $ i_2 $ spectrum for
+  trapped ytterbium ions\allowbreak[A].
+\newblock 2022.
+
+\bibitem[Hagel et~al.(2005)Hagel, Houssin, Knoop, Champenois, Vedel, and
+  Vedel]{RN147}
+Hagel G, Houssin M, Knoop M, et~al.
+\newblock Long-term stabilization of the length of an optical reference
+  cavity\allowbreak[J].
+\newblock Review of scientific instruments, 2005, 76\allowbreak (12): 123101.
+
+\bibitem[Hou(2019)]{RN149}
+Hou D.
+\newblock Improvement of bandwidth of phase-locked loop for mode-locked laser
+  with multiple-differentials-based loop filter\allowbreak[J].
+\newblock Optics express, 2019, 27\allowbreak (9): 13460-13468.
+
+\bibitem[Hou et~al.(2011)Hou, Ning, Li, Zhang, and Zhao]{RN146}
+Hou D, Ning B, Li P, et~al.
+\newblock Modeling analysis for phase-locking of mode-locked
+  laser\allowbreak[J].
+\newblock IEEE Journal of Quantum Electronics, 2011, 47\allowbreak (7):
+  891-898.
+
 \bibitem[Li et~al.(2021)Li, Wolf, Klein, Budker, Düllmann, and
   Schmidt-Kaler]{RN205}
 Li W, Wolf S, Klein L, et~al.
@@ -514,12 +721,64 @@ Zhang J, Pagano G, Hess P~W, et~al.
   quantum simulator\allowbreak[J].
 \newblock Nature, 2017, 551\allowbreak (7682): 601-604.
 
+\bibitem[Poli et~al.(2013)Poli, Oates, Gill, and Tino]{RN295}
+Poli N, Oates C, Gill P, et~al.
+\newblock Optical atomic clocks: volume~36\allowbreak[Z].
+\newblock 2013: 555-624.
+
 \bibitem[Ekin(2006)]{RN261}
 Ekin J.
 \newblock Experimental techniques for low-temperature measurements: cryostat
   design, material properties and superconductor critical-current
   testing\allowbreak[M].
 \newblock Oxford university press, 2006.
+
+\bibitem[Chiaverini et~al.(2014)Chiaverini and Sage]{RN360}
+Chiaverini J, Sage J.
+\newblock Insensitivity of the rate of ion motional heating to trap-electrode
+  material over a large temperature range\allowbreak[J].
+\newblock Physical Review A, 2014, 89\allowbreak (1): 012318.
+
+\bibitem[Epstein et~al.(2007)Epstein, Seidelin, Leibfried, Wesenberg,
+  Bollinger, Amini, Blakestad, Britton, Home, and Itano]{RN162}
+Epstein R, Seidelin S, Leibfried D, et~al.
+\newblock Simplified motional heating rate measurements of trapped ions:
+  volume~76\allowbreak[Z].
+\newblock 2007: 033411.
+
+\bibitem[Lauprêtre et~al.(2022)Lauprêtre, Achi, Groult, Kersalé, Delehaye,
+  Hafiz, and Lacroûte]{RN276}
+Lauprêtre T, Achi B, Groult L, et~al.
+\newblock Heating rate measurement and characterization of a prototype
+  surface-electrode trap for optical frequency metrology\allowbreak[A].
+\newblock 2022.
+
+\bibitem[Turchette et~al.(2000)Turchette, King, Leibfried, Meekhof, Myatt,
+  Rowe, Sackett, Wood, Itano, and Monroe]{RN135}
+Turchette Q~A, King B, Leibfried D, et~al.
+\newblock Heating of trapped ions from the quantum ground state:
+  volume~61\allowbreak[Z].
+\newblock 2000: 063418.
+
+\bibitem[Acton et~al.(2005)Acton, Brickman, Haljan, Lee, Deslauriers, and
+  Monroe]{RN220}
+Acton M, Brickman K~A, Haljan P, et~al.
+\newblock Near-perfect simultaneous measurement of a qubit
+  register\allowbreak[A].
+\newblock 2005.
+
+\bibitem[Nam et~al.(2020)Nam, Chen, Pisenti, Wright, Delaney, Maslov, Brown,
+  Allen, Amini, and Apisdorf]{RN150}
+Nam Y, Chen J~S, Pisenti N~C, et~al.
+\newblock Ground-state energy estimation of the water molecule on a trapped-ion
+  quantum computer\allowbreak[J].
+\newblock npj Quantum Information, 2020, 6\allowbreak (1): 1-6.
+
+\bibitem[Wang et~al.(2016)Wang and Duan]{RN223}
+Wang S~T, Duan L~M.
+\newblock Certification of boson sampling devices with coarse-grained
+  measurements\allowbreak[A].
+\newblock 2016.
 
 \bibitem[冯新星\ 等(2012)冯新星, 张丽艳, 叶南, and
   杨博文]{RN119}
