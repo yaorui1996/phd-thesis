@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  26 MAR 2023 16:12
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  26 MAR 2023 16:15
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1176,10 +1176,6 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 
 
 
-] [2
-
-
-
 ]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -1225,14 +1221,12 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 12.0437pt on input line 25.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 9.03276pt on input line 25.
- [3
-
-] (./data/committee.tex [4
+ [2
 
 
 
 
-]
+] (./data/committee.tex
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
 (Font)              scaled to size 9.03471pt on input line 43.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
@@ -1241,18 +1235,20 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 9.03278pt on input line 43.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 7.22623pt on input line 43.
- [5
+ [3
 
 
-]) [6
 
 
-] [7
 
 
-] [8
+]) [4
+
+
+
 
 ] (./data/abstract.tex [1
+
 
 
 ] [2
@@ -1608,4 +1604,4 @@ Here is how much of TeX's memory you used:
  1349 hyphenation exceptions out of 8191
  102i,12n,129p,2742b,2928s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (116 pages, 2229528 bytes).
+Output written on PhDThesis.xdv (112 pages, 2227172 bytes).
