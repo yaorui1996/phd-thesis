@@ -48,7 +48,7 @@ For a complex system, a restart operation is often an effective method. I will t
 
 \section{Calculate axial electrical potential with 1D ion chains}
 
-We can calculate the axial electrical potential with 1D ion chains. we can use a CCD to measure the position of each ion in the 1D ion chains. this measurement is usually subject to error, and the error is different for different positions of the ions. For a chain of ions, the aberration is smaller for ions near the centre of the field of view and larger for ions near the edge of the field of view. If the ion chain exceeds the edge length of the CCD sensor, we can also measure the position of the ions in sections by moving the objective. In addition to the measurement error, the algorithm used to calculate the ion position can also produce a corresponding error \cite{RN119,RN117,RN228,RN226,RN229,RN227}. Commonly used algorithms for measuring ion positions are linear algorithms based on computer vision, which have the advantage of being fast and able to give results within 10ms. The other algorithm is a fitting-based algorithm, which is less fast and less convergent and is very dependent on the signal-to-noise ratio, but can achieve high accuracy with the right parameters. We can then use the algorithm to find the equilibrium position of the ion chain for a given number of ions and the electrical potential parameter as a calculated value. The difference between the measured and calculated values can then be fed back to the electrical potential as a function of error, so that the parameter with the lowest error, i.e. the axial electrical potential at this point, can be iteratively found.
+We can calculate the axial electrical potential with 1D ion chains. We can use an EMCCD to measure the position of each ion in the 1D ion chains. This measurement is usually subject to error, and the error is different for different positions of the ions. For a chain of ions, the aberration is smaller for ions near the centre of the field of view and larger for ions near the edge of the field of view. If the ion chain exceeds the edge length of the CCD sensor, we can also measure the position of the ions in sections by moving the objective. In addition to the measurement error, the algorithm used to calculate the ion position can also produce a corresponding error \cite{RN119,RN117,RN228,RN226,RN229,RN227}. Commonly used algorithms for measuring ion positions are linear algorithms based on computer vision, which have the advantage of being fast and able to give results within 10ms. The other algorithm is a fitting-based algorithm, which is less fast and less convergent and is very dependent on the signal-to-noise ratio, but can achieve high accuracy with the right parameters. We can then use the algorithm to find the equilibrium position of the ion chain for a given number of ions and the electrical potential parameter as a calculated value. The difference between the measured and calculated values can then be fed back to the electrical potential as a function of error, so that the parameter with the lowest error, i.e. the axial electrical potential at this point, can be iteratively found.
 
 \begin{figure}
     \centering
@@ -123,7 +123,7 @@ all the ions are bright.
 
 \section{Fitting the electrical potential coefficient for each electrode}
 
-For a fixed electrical potential, we can capture different numbers of ions, as shown in Fig~\ref{fig:fit_electrical_potential_coefficient}, 2, 12, 24, 34, 42. For each image, we can calculate the position of the ion and fit it to the electrical potential at that time. Red circles and dots on the right-hand side indicate the calculated position of the ion and the equilibrium position of the ion at the fitted electrical potential, respectively. The black dots indicate the presence of dark ions. The electrical potential can be expressed as
+For a fixed electrical potential, we can capture different numbers of ions, as shown in Fig~\ref{fig:fit_electrical_potential_coefficient}. For each image, we can calculate the position of the ion and fit it to the electrical potential at that time. Red circles and dots on the right-hand side indicate the calculated position of the ion and the equilibrium position of the ion at the fitted electrical potential, respectively. The black dots indicate the presence of dark ions. The electrical potential can be expressed as
 
 \begin{equation}
     \phi_n(x)=\sum_{i=1}^n \alpha_i P_i(x), x=z / l_0,
@@ -142,7 +142,7 @@ Since the electrical potential has not changed, the fit should be consistent for
 
 \begin{table}
     \centering
-    \caption{Fitting the electrical potential coefficient}
+    \caption{Fitting the electrical potential coefficient.}
     \begin{tabular}{lllll}
         \toprule
         Ion number & $\alpha_1$ & $\alpha_2$ & $\alpha_3$ & $\alpha_4$ \\
@@ -160,10 +160,10 @@ Since the electrical potential has not changed, the fit should be consistent for
 If we were to use this algorithm directly to calculate the coefficients of the electrical potential at different voltages, we would end up with scattered results due to overfitting. So we need to assume that the coefficient of the electrical potential is fixed for each electrode and then decompose the electrical potential from the actual voltage into the sum of each electrode,
 
 \begin{equation}
-    \alpha_i=\sum_{s=1}^5 \alpha_i^s U_s
+    \alpha_i=\sum_{s=1}^5 \alpha_i^s U_s,
 \end{equation}
 
-where $\alpha_i^s$ the coefficient of the electrical potential generated by each pair of DC electrodes, $s$ is the order number of the electrodes, there are 5 pairs of electrodes in total. And $U_s$ is the voltage applied to the electrodes.
+where $\alpha_i^s$ is the coefficient of the electrical potential generated by each pair of DC electrodes, $s$ is the order number of the electrodes, there are 5 pairs of electrodes in total. And $U_s$ is the voltage applied to the electrodes.
 
 \begin{figure}
     \centering
