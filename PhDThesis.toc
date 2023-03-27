@@ -30,11 +30,11 @@
 \contentsline {subsection}{\numberline {3.3.2}Circuit diagrams of the helical resonator and the blade trap}{35}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Assembly of the helical resonator}{36}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Assembly of blade trap}{39}{subsection.3.3.4}%
-\contentsline {section}{\numberline {3.4}Yb oven}{41}{section.3.4}%
+\contentsline {section}{\numberline {3.4}ytterbium oven}{41}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Optical and imaging system}{44}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Laser sources and power allocation}{45}{subsection.3.5.1}%
 \contentsline {subsection}{\numberline {3.5.2}Laser frequency stabilization}{46}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Laser modulation}{48}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.3}Laser modulation}{49}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {3.5.4}Optical layout of the cryostat breadboard}{50}{subsection.3.5.4}%
 \contentsline {subsection}{\numberline {3.5.5}Imaging system}{53}{subsection.3.5.5}%
 \contentsline {section}{\numberline {3.6}Coherent microwaves}{54}{section.3.6}%
@@ -48,21 +48,21 @@
 \contentsline {subsection}{\numberline {4.2.2}High-precision long-term vibration measurement}{62}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Minimize vibration of the cryostat}{64}{subsection.4.2.3}%
 \contentsline {section}{\numberline {4.3}Obtain impedance match of helical resonator}{65}{section.4.3}%
-\contentsline {chapter}{\numberline {Chapter 5}Stable trapping of multiple ions}{68}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Semi-automatic experimental control system}{68}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Monitor axial electrical potential drift}{71}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Calculate axial electrical potential with 1D ion chains}{72}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Fitting the electrical potential coefficient for each electrode}{76}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Stabilization of axial electrical potential}{79}{section.5.5}%
-\contentsline {chapter}{\numberline {Chapter 6}Experimental realization of a 200-ion multi-qubit quantum memory}{81}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Quasi-1D ion crystal}{81}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Measure the storage time}{82}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Effect of the sympathetic cooling}{85}{section.6.3}%
-\contentsline {chapter}{\numberline {Chapter 7}Conclusion and outlook}{88}{chapter.7}%
+\contentsline {chapter}{\numberline {Chapter 5}Stable trapping of multiple ions}{69}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Semi-automatic experimental control system}{69}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Monitor axial electrical potential drift}{72}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Calculate axial electrical potential with 1D ion chains}{73}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Fitting the electrical potential coefficient for each electrode}{77}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Stabilization of axial electrical potential}{80}{section.5.5}%
+\contentsline {chapter}{\numberline {Chapter 6}Experimental realization of a 200-ion multi-qubit quantum memory}{82}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Quasi-1D ion crystal}{82}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Measure the storage time}{83}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Effect of the sympathetic cooling}{86}{section.6.3}%
+\contentsline {chapter}{\numberline {Chapter 7}Conclusion and outlook}{89}{chapter.7}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{References}{89}{section*.78}%
+\contentsline {chapter}{References}{90}{section*.79}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{Acknowledgements}{98}{section*.80}%
-\contentsline {chapter}{声\hspace {1em}明}{100}{section*.82}%
-\contentsline {chapter}{Resume}{101}{section*.84}%
+\contentsline {chapter}{Acknowledgements}{99}{section*.81}%
+\contentsline {chapter}{声\hspace {1em}明}{101}{section*.83}%
+\contentsline {chapter}{Resume}{102}{section*.85}%
 \contentsfinish 
