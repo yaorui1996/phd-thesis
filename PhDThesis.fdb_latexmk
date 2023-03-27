@@ -1,31 +1,31 @@
 # Fdb version 4
-["bibtex PhDThesis"] 1679901640 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1679902095 0
+["bibtex PhDThesis"] 1679908554 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1679908560 0
   "./ref/refs.bib" 1679818055 59280 e9cd253f3533811c10dc14a9519da989 ""
   "./thuthesis-numeric.bst" 1664959156 46116 cd3bc71ff82c01699bd493d2be7a78bd ""
-  "PhDThesis.aux" 1679902093 53772 0b3e92acc71f20707e9c506f0975b9d2 "xelatex"
+  "PhDThesis.aux" 1679908558 54095 874aad634146510010379487b97126bd "xelatex"
   (generated)
   "PhDThesis.bbl"
   "PhDThesis.blg"
   (rewritten before read)
-["cusdep nlo nls PhDThesis"] 1679900882 "PhDThesis.nlo" "PhDThesis.nls" "PhDThesis" 1679902095 0
-  "PhDThesis.nlo" 1679902093 3989 50209d41ed59924cf47dbd7dc415ee01 "xelatex"
+["cusdep nlo nls PhDThesis"] 1679907946 "PhDThesis.nlo" "PhDThesis.nls" "PhDThesis" 1679908560 0
+  "PhDThesis.nlo" 1679908558 3989 50209d41ed59924cf47dbd7dc415ee01 "xelatex"
   (generated)
   "PhDThesis.nls"
   (rewritten before read)
-["xdvipdfmx"] 1679902094 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1679902095 0
-  "PhDThesis.xdv" 1679902093 2507284 b12685f443cc6e1ea40f55399830be62 "xelatex"
+["xdvipdfmx"] 1679908559 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1679908560 0
+  "PhDThesis.xdv" 1679908558 2525184 cde6d8fa37eeb6416cad993c5fcc1764 "xelatex"
   (generated)
   "PhDThesis.pdf"
   (rewritten before read)
-["xelatex"] 1679902089 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1679902095 0
-  "PhDThesis.aux" 1679902093 53772 0b3e92acc71f20707e9c506f0975b9d2 "xelatex"
-  "PhDThesis.bbl" 1679901640 42138 2cca16b94c0100938c3b1d4fc129b921 "bibtex PhDThesis"
-  "PhDThesis.lof" 1679902093 7077 7d31aa36b498f32d021a7a4a7b51a1c3 "xelatex"
-  "PhDThesis.lot" 1679902093 1313 7cf7f2df8052b9a8881c0c7d26fb8a97 "xelatex"
-  "PhDThesis.nls" 1679900883 3318 070415d7597de5483d79350cf6a7e256 "cusdep nlo nls PhDThesis"
-  "PhDThesis.out" 1679902093 14218 86f89e68b5a3f4c25aff7ff22be63f93 "xelatex"
+["xelatex"] 1679908555 "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1679908560 0
+  "PhDThesis.aux" 1679908558 54095 874aad634146510010379487b97126bd "xelatex"
+  "PhDThesis.bbl" 1679908555 42138 2cca16b94c0100938c3b1d4fc129b921 "bibtex PhDThesis"
+  "PhDThesis.lof" 1679908558 7215 97226e2dfc96054e93bff1cbe20518ff "xelatex"
+  "PhDThesis.lot" 1679908558 1313 a41600e3beddc9f38a1b10cc05cbbba5 "xelatex"
+  "PhDThesis.nls" 1679907947 3318 070415d7597de5483d79350cf6a7e256 "cusdep nlo nls PhDThesis"
+  "PhDThesis.out" 1679908558 14369 6c252c93cf50b4a815d8574e197ebb37 "xelatex"
   "PhDThesis.tex" 1679839704 2752 4dbda654288e01156d1b41a3d8ba406d ""
-  "PhDThesis.toc" 1679902093 5706 a05006decca18d4acb6d4682c8fb2467 "xelatex"
+  "PhDThesis.toc" 1679908558 5783 6218071c2150bbc89cfaf432d1b5a636 "xelatex"
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1675865316 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1675867395 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1675864802 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -170,13 +170,13 @@
   "d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex" 1679839704 2752 4dbda654288e01156d1b41a3d8ba406d ""
   "data/abstract.tex" 1679882173 6015 e6c07547e0b3ec9b135984c865982619 ""
   "data/acknowledgements.tex" 1679880660 6415 92ba4a9514c7fc10d82e7c29c0936f01 ""
-  "data/chap01.tex" 1679886079 7923 5d13bf7c9644010d7934836695817871 ""
-  "data/chap02.tex" 1679902088 54892 64d0de2f955fbc7b25e5a5d33bebacd8 ""
-  "data/chap03.tex" 1679898701 61205 d473a22e7348cae0ddfa40ffded2198d ""
-  "data/chap04.tex" 1679845779 26391 cac54a58a7e7e7e9209ad23c4770c82d ""
-  "data/chap05.tex" 1679846016 26474 0673ab62359cc67ffd57caf683bdf950 ""
-  "data/chap06.tex" 1679899497 14826 b8c9a92574889eb451c7eab9bdb8069d ""
-  "data/chap07.tex" 1679755483 2398 32fba28786d2ac1a47c06787a86fa9f4 ""
+  "data/chap01.tex" 1679903439 9034 c1aeb93369a0c53e66e7e97a9da1235e ""
+  "data/chap02.tex" 1679902564 54918 2386540921c79f9db3e6a1e1f52ed7c7 ""
+  "data/chap03.tex" 1679908559 61336 e3baa14dd1f3004feec97a4dff324725 ""
+  "data/chap04.tex" 1679904916 26445 3326bc95a13f1af6906be2fe91a44eb8 ""
+  "data/chap05.tex" 1679902912 26520 27f5188d9be74a9f1c1e9ee543ca107c ""
+  "data/chap06.tex" 1679903027 14904 941320579f458c1cc045cf666edeaa4f ""
+  "data/chap07.tex" 1679903409 2434 86be0e92d2e0ff363536614286c6eedd ""
   "data/denotation.tex" 1679821672 2084 06cd94513896c2a9425a752aa7bc2e37 ""
   "data/resume.tex" 1679822935 858 ef87aa7280e12b043d60085ff7460c73 ""
   "figures//fig_2_370_transitions_cooling.pdf" 1648209582 46910 ca59d6862fd552c052d8e4d9edb971d7 ""
@@ -198,7 +198,7 @@
   "figures//fig_3_cryostat_a.pdf" 1679467444 642979 f0ff4ed10f88067255405d8053a525db ""
   "figures//fig_3_cryostat_b.pdf" 1679537469 467672 85cf225a0491f55547bf21f1da48158a ""
   "figures//fig_3_cryostat_c.pdf" 1679537579 207478 81359da93e05774352ab50f62a390dc8 ""
-  "figures//fig_3_cryostat_temperature.pdf" 1679474512 482065 ab9519957a92d441eda729459ff6efc1 ""
+  "figures//fig_3_cryostat_temperature.pdf" 1679907398 237518 6e1911ce62dea903f9c615c065799f21 ""
   "figures//fig_3_demodulated_signal.pdf" 1679644110 135038 e35d93ba9d27b23ff3456ebb6f2be450 ""
   "figures//fig_3_exchange_gas_space.pdf" 1679464410 70158 8fa951ac767133690f47797b1c7e3c14 ""
   "figures//fig_3_imaging_syetem_objective_design.pdf" 1679727544 141620 71165337acc2523a3fa9f5b6512a2be2 ""
@@ -277,7 +277,7 @@
   "figures//fig_6_4_abc.pdf" 1679449555 897093 b06d6ca11a1a5613b36a96803d839cd7 ""
   "figures//fig_6_4_d.pdf" 1669860716 15543 ae2c5a7f4778256e67db8ff77147053f ""
   "thusetup.tex" 1679820049 4917 fcda26ee401e4cb458120914f8f513a2 ""
-  "thuthesis.cls" 1679902089 112463 72705b84252c4f64a294fb60487d981d ""
+  "thuthesis.cls" 1679908550 112463 72705b84252c4f64a294fb60487d981d ""
   (generated)
   "PhDThesis.aux"
   "PhDThesis.lof"
