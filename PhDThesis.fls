@@ -1,8 +1,8 @@
-PWD d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis
+PWD c:/Users/yaorui/Documents/GitHub/phd-thesis
 INPUT c:/texlive/2022/texmf.cnf
 INPUT c:/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2022/texmf-var/web2c/xetex/xelatex.fmt
-INPUT d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex
+INPUT c:/Users/yaorui/Documents/GitHub/phd-thesis/PhDThesis.tex
 OUTPUT PhDThesis.log
 INPUT ./thuthesis.cls
 INPUT ./thuthesis.cls

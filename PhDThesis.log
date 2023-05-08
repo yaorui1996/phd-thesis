@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  27 MAR 2023 22:42
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  8 MAY 2023 15:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex"
-(d:/Seafile/Documents_Tsinghua/Personal Files/毕业论文/PhDThesis/PhDThesis.tex
+**c:/Users/yaorui/Documents/GitHub/phd-thesis/PhDThesis.tex
+(c:/Users/yaorui/Documents/GitHub/phd-thesis/PhDThesis.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-07> (./thuthesis.cls
 Document Class: thuthesis 2022/10/05 7.3.1 Tsinghua University Thesis Template
@@ -1640,11 +1640,11 @@ Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  33894 strings out of 476688
- 754318 string characters out of 5807700
+ 754270 string characters out of 5807700
  1881001 words of memory out of 5000000
  53430 multiletter control sequences out of 15000+600000
  523457 words of font info for 212 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 115i,12n,129p,2604b,2932s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 115i,12n,129p,2586b,2932s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (116 pages, 2529040 bytes).
+Output written on PhDThesis.xdv (116 pages, 2529000 bytes).
