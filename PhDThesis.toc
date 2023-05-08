@@ -1,14 +1,14 @@
 \contentsline {chapter}{摘\hskip 1em\relax 要}{I}{section*.4}%
-\contentsline {chapter}{Abstract}{II}{section*.6}%
-\contentsline {chapter}{Table of Contents}{IV}{section*.8}%
-\contentsline {chapter}{List of Figures}{VII}{section*.10}%
-\contentsline {chapter}{List of Tables}{IX}{section*.12}%
-\contentsline {chapter}{List of Symbols and Acronyms}{X}{section*.14}%
+\contentsline {chapter}{Abstract}{III}{section*.6}%
+\contentsline {chapter}{Table of Contents}{V}{section*.8}%
+\contentsline {chapter}{List of Figures}{VIII}{section*.10}%
+\contentsline {chapter}{List of Tables}{X}{section*.12}%
+\contentsline {chapter}{List of Symbols and Acronyms}{XI}{section*.14}%
 \contentsline {chapter}{\numberline {Chapter 1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Trapped-ion system}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Quantum computer}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Quantum computer}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Quantum memory}{2}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Thesis outline}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Thesis outline}{4}{section.1.4}%
 \contentsline {chapter}{\numberline {Chapter 2}Ion trapping}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}The ${ }^{171} \mathrm {Yb}^{+}$ qubit}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Two-photon ionization}{5}{subsection.2.1.1}%
