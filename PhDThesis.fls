@@ -1370,10 +1370,10 @@ INPUT ./figures//fig_2_370_transitions_pumping.pdf
 INPUT figures//fig_2_370_transitions_pumping.pdf
 INPUT ./figures//fig_2_pe_x.pdf
 INPUT figures//fig_2_pe_x.pdf
-INPUT ./figures//fig_2_pe_x.pdf
-INPUT figures//fig_2_pe_x.pdf
-INPUT ./figures//fig_2_pe_x.pdf
-INPUT figures//fig_2_pe_x.pdf
+INPUT ./figures//fig_2_pe_y.pdf
+INPUT figures//fig_2_pe_y.pdf
+INPUT ./figures//fig_2_pe_z.pdf
+INPUT figures//fig_2_pe_z.pdf
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT ./figures//fig_2_Raman.pdf
 INPUT figures//fig_2_Raman.pdf

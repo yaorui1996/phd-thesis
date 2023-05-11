@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  10 MAY 2023 10:28
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  11 MAY 2023 20:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1358,10 +1358,10 @@ File: figures//fig_2_370_transitions_pumping.pdf Graphic file (type pdf)
  [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
 File: figures//fig_2_pe_x.pdf Graphic file (type pdf)
 <use figures//fig_2_pe_x.pdf>
-File: figures//fig_2_pe_x.pdf Graphic file (type pdf)
-<use figures//fig_2_pe_x.pdf>
-File: figures//fig_2_pe_x.pdf Graphic file (type pdf)
-<use figures//fig_2_pe_x.pdf>
+File: figures//fig_2_pe_y.pdf Graphic file (type pdf)
+<use figures//fig_2_pe_y.pdf>
+File: figures//fig_2_pe_z.pdf Graphic file (type pdf)
+<use figures//fig_2_pe_z.pdf>
  [18] [19] [20]
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
 (Font)              scaled to size 6.00064pt on input line 346.
@@ -1639,10 +1639,10 @@ Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
 (rerunfilecheck)             Checksum: A9BEE65DB653D22C988C2B77B374757B;14404.
  ) 
 Here is how much of TeX's memory you used:
- 33894 strings out of 476688
- 754270 string characters out of 5807700
+ 33914 strings out of 476688
+ 754802 string characters out of 5807700
  1881001 words of memory out of 5000000
- 53430 multiletter control sequences out of 15000+600000
+ 53448 multiletter control sequences out of 15000+600000
  523457 words of font info for 212 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  115i,12n,129p,2586b,2932s stack positions out of 10000i,1000n,20000p,200000b,200000s

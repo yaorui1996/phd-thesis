@@ -1,31 +1,31 @@
 # Fdb version 4
-["bibtex PhDThesis"] 1683685681 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1683685687 0
+["bibtex PhDThesis"] 1683685681 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1683808188 0
   "./ref/refs.bib" 1683684950 60967 e9cd253f3533811c10dc14a9519da989 ""
   "./thuthesis-numeric.bst" 1683684950 48567 cd3bc71ff82c01699bd493d2be7a78bd ""
-  "PhDThesis.aux" 1683685685 54251 2f5a3298f5342a4e546f518af39109e9 "xelatex"
+  "PhDThesis.aux" 1683808186 54251 2f5a3298f5342a4e546f518af39109e9 "xelatex"
   (generated)
   "PhDThesis.bbl"
   "PhDThesis.blg"
   (rewritten before read)
-["cusdep nlo nls PhDThesis"] 1683685681 "PhDThesis.nlo" "PhDThesis.nls" "PhDThesis" 1683685687 0
-  "PhDThesis.nlo" 1683685685 4031 7a824007a7bb31316959e88fd2532fd7 "xelatex"
+["cusdep nlo nls PhDThesis"] 1683685681 "PhDThesis.nlo" "PhDThesis.nls" "PhDThesis" 1683808188 0
+  "PhDThesis.nlo" 1683808186 4031 7a824007a7bb31316959e88fd2532fd7 "xelatex"
   (generated)
   "PhDThesis.nls"
   (rewritten before read)
-["xdvipdfmx"] 1683685686 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1683685687 0
-  "PhDThesis.xdv" 1683685685 2547392 290c335fa14e5af2ce989e2340267859 "xelatex"
+["xdvipdfmx"] 1683808187 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1683808188 0
+  "PhDThesis.xdv" 1683808186 2547392 6d5b4ca399bfcfb76798d5f013a74eec "xelatex"
   (generated)
   "PhDThesis.pdf"
   (rewritten before read)
-["xelatex"] 1683685681 "c:/Users/yaorui/Documents/GitHub/phd-thesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1683685687 0
-  "PhDThesis.aux" 1683685685 54251 2f5a3298f5342a4e546f518af39109e9 "xelatex"
+["xelatex"] 1683808182 "c:/Users/yaorui/Documents/GitHub/phd-thesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1683808188 0
+  "PhDThesis.aux" 1683808186 54251 2f5a3298f5342a4e546f518af39109e9 "xelatex"
   "PhDThesis.bbl" 1683685681 42138 2cca16b94c0100938c3b1d4fc129b921 "bibtex PhDThesis"
-  "PhDThesis.lof" 1683685685 7365 7a4b1ca32df081c566af27d6106e1a5a "xelatex"
-  "PhDThesis.lot" 1683685685 1320 672e19a010fe9a43c462ac8f1feb14cc "xelatex"
+  "PhDThesis.lof" 1683808186 7365 7a4b1ca32df081c566af27d6106e1a5a "xelatex"
+  "PhDThesis.lot" 1683808186 1320 672e19a010fe9a43c462ac8f1feb14cc "xelatex"
   "PhDThesis.nls" 1683685681 3360 931c18d5670e33cc0e4a8ed6dfab6dbe "cusdep nlo nls PhDThesis"
-  "PhDThesis.out" 1683685685 14404 a9bee65db653d22c988c2b77b374757b "xelatex"
+  "PhDThesis.out" 1683808186 14404 a9bee65db653d22c988c2b77b374757b "xelatex"
   "PhDThesis.tex" 1683684949 2752 4dbda654288e01156d1b41a3d8ba406d ""
-  "PhDThesis.toc" 1683685685 5791 f02c17bc43397430d3e536f9de42165e "xelatex"
+  "PhDThesis.toc" 1683808186 5791 f02c17bc43397430d3e536f9de42165e "xelatex"
   "c:/Users/yaorui/Documents/GitHub/phd-thesis/PhDThesis.tex" 1683684949 2752 4dbda654288e01156d1b41a3d8ba406d ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1675865316 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1675867395 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -171,7 +171,7 @@
   "data/abstract.tex" 1683685673 7164 5526fc2a4089756530521b714408386d ""
   "data/acknowledgements.tex" 1683684949 6432 92ba4a9514c7fc10d82e7c29c0936f01 ""
   "data/chap01.tex" 1683685339 9945 6022a474b0cf7ca5c5c1526197884dc7 ""
-  "data/chap02.tex" 1683685339 55389 465824071032c2b6b839d867b470ba95 ""
+  "data/chap02.tex" 1683808180 55389 dbb0643219a10cdd2e2fbe680c9cc7ce ""
   "data/chap03.tex" 1683685339 61875 c4bdfd32c26d37915e2b0aaf571e8cf0 ""
   "data/chap04.tex" 1683685339 26727 0b34ce09db39a3ba4d339bed55ba423c ""
   "data/chap05.tex" 1683685339 26722 9c40618a33edb90739ac0eca0d88e77e ""
@@ -184,6 +184,8 @@
   "figures//fig_2_Raman.pdf" 1683684949 306196 49d92bbff48fd9713226cda7f2c07ef2 ""
   "figures//fig_2_energy_level.pdf" 1683684949 116784 db8503cdc38872f929218faf63a07592 ""
   "figures//fig_2_pe_x.pdf" 1683684949 53514 3ab4efe81a12ba8e0e33af3834240b39 ""
+  "figures//fig_2_pe_y.pdf" 1683684949 54408 617e82f036fbc968841c1959c242c059 ""
+  "figures//fig_2_pe_z.pdf" 1683684949 55801 0e05614da851a5eeb8686562fa75c2a5 ""
   "figures//fig_2_photo_ionization.pdf" 1683684949 76830 fc5ad8282f012a6667ae17c1356e6944 ""
   "figures//fig_3_assembly_of_helical_resonator_antenna.pdf" 1683684949 194324 957af63f3331578d3ac41dff3057f8be ""
   "figures//fig_3_assembly_of_helical_resonator_copper.pdf" 1683684949 254736 3093066e5b58c7612952dc0312750b7a ""
@@ -277,7 +279,7 @@
   "figures//fig_6_4_abc.pdf" 1683684950 897093 b06d6ca11a1a5613b36a96803d839cd7 ""
   "figures//fig_6_4_d.pdf" 1683684950 15543 ae2c5a7f4778256e67db8ff77147053f ""
   "thusetup.tex" 1683684950 4917 fcda26ee401e4cb458120914f8f513a2 ""
-  "thuthesis.cls" 1683685673 112463 72705b84252c4f64a294fb60487d981d ""
+  "thuthesis.cls" 1683808181 112463 72705b84252c4f64a294fb60487d981d ""
   (generated)
   "PhDThesis.aux"
   "PhDThesis.lof"
