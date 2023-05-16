@@ -1308,6 +1308,13 @@ OUTPUT PhDThesis.xdv
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT ./data/committee.tex
+INPUT ./data/committee.tex
+INPUT ./data/committee.tex
+INPUT data/committee.tex
+INPUT ./data/committee.tex
+INPUT ./data/committee.tex
+INPUT data/committee.tex
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
 INPUT ./data/abstract.tex

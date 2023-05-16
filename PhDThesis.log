@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  11 MAY 2023 20:29
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  15 MAY 2023 19:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1215,6 +1215,10 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 
 
 
+] [2
+
+
+
 ]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
@@ -1260,29 +1264,34 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 12.0437pt on input line 25.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 (Font)              scaled to size 9.03276pt on input line 25.
- [2
+ [3
+
+] (./data/committee.tex [4
 
 
 
 
 ]
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 9.03471pt on input line 34.
+(Font)              scaled to size 9.03471pt on input line 41.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(2)/m/n' will be
-(Font)              scaled to size 7.22777pt on input line 34.
+(Font)              scaled to size 7.22777pt on input line 41.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 9.03278pt on input line 34.
+(Font)              scaled to size 9.03278pt on input line 41.
 LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
-(Font)              scaled to size 7.22623pt on input line 34.
- [3
+(Font)              scaled to size 7.22623pt on input line 41.
+ [5
 
 
+]) [6
 
 
+] [7
 
+
+] [8
 
 ] (./data/abstract.tex [1
-
 
 
 ] [2] [3
@@ -1636,15 +1645,15 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 
 ] (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: A9BEE65DB653D22C988C2B77B374757B;14404.
+(rerunfilecheck)             Checksum: 8582A35612E55969A932223D6FB8E21D;14644.
  ) 
 Here is how much of TeX's memory you used:
- 33914 strings out of 476688
- 754802 string characters out of 5807700
+ 33937 strings out of 476688
+ 755771 string characters out of 5807700
  1881001 words of memory out of 5000000
- 53448 multiletter control sequences out of 15000+600000
+ 53469 multiletter control sequences out of 15000+600000
  523457 words of font info for 212 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  115i,12n,129p,2586b,2932s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (117 pages, 2547392 bytes).
+Output written on PhDThesis.xdv (122 pages, 2551400 bytes).

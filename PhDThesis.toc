@@ -1,9 +1,9 @@
-\contentsline {chapter}{摘\hskip 1em\relax 要}{I}{section*.4}%
-\contentsline {chapter}{Abstract}{III}{section*.6}%
-\contentsline {chapter}{Table of Contents}{V}{section*.8}%
-\contentsline {chapter}{List of Figures}{VIII}{section*.10}%
-\contentsline {chapter}{List of Tables}{X}{section*.12}%
-\contentsline {chapter}{List of Symbols and Acronyms}{XI}{section*.14}%
+\contentsline {chapter}{摘\hskip 1em\relax 要}{I}{section*.7}%
+\contentsline {chapter}{Abstract}{III}{section*.9}%
+\contentsline {chapter}{Table of Contents}{V}{section*.11}%
+\contentsline {chapter}{List of Figures}{VIII}{section*.13}%
+\contentsline {chapter}{List of Tables}{X}{section*.15}%
+\contentsline {chapter}{List of Symbols and Acronyms}{XI}{section*.17}%
 \contentsline {chapter}{\numberline {Chapter 1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Trapped-ion system}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Quantum computer}{2}{section.1.2}%
@@ -60,9 +60,9 @@
 \contentsline {section}{\numberline {6.3}Effect of the sympathetic cooling}{86}{section.6.3}%
 \contentsline {chapter}{\numberline {Chapter 7}Conclusion and outlook}{89}{chapter.7}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{References}{90}{section*.79}%
+\contentsline {chapter}{References}{90}{section*.82}%
 \setcounter {tocdepth}{0}
-\contentsline {chapter}{Acknowledgements}{99}{section*.81}%
-\contentsline {chapter}{声\hspace {1em}明}{101}{section*.83}%
-\contentsline {chapter}{Resume}{102}{section*.85}%
+\contentsline {chapter}{Acknowledgements}{99}{section*.84}%
+\contentsline {chapter}{声\hspace {1em}明}{101}{section*.86}%
+\contentsline {chapter}{Resume}{102}{section*.88}%
 \contentsfinish 
