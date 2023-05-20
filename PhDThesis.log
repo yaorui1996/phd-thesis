@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  15 MAY 2023 19:50
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.8)  20 MAY 2023 21:55
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1640,20 +1640,25 @@ LaTeX Font Info:    Font shape `TU/XITSMath-Regular(3)/m/n' will be
 ]) [100] (./data/resume.tex [101
 
 
-]) [102
+]) (./data/comments.tex [102
 
 
-] (./PhDThesis.aux)
+] [103
+
+]) (./data/resolution.tex [104
+
+
+]) (./PhDThesis.aux)
 Package rerunfilecheck Info: File `PhDThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8582A35612E55969A932223D6FB8E21D;14644.
+(rerunfilecheck)             Checksum: 0D0D4541FCAD943669DFDE96CAA54DE3;15132.
  ) 
 Here is how much of TeX's memory you used:
- 33937 strings out of 476688
- 755771 string characters out of 5807700
+ 33951 strings out of 476688
+ 756085 string characters out of 5807700
  1881001 words of memory out of 5000000
- 53469 multiletter control sequences out of 15000+600000
+ 53479 multiletter control sequences out of 15000+600000
  523457 words of font info for 212 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  115i,12n,129p,2586b,2932s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on PhDThesis.xdv (122 pages, 2551400 bytes).
+Output written on PhDThesis.xdv (124 pages, 2570880 bytes).

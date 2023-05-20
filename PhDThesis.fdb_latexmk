@@ -1,32 +1,32 @@
 # Fdb version 4
-["bibtex PhDThesis"] 1684151240 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1684151419 0
+["bibtex PhDThesis"] 1684590885 "PhDThesis.aux" "PhDThesis.bbl" "PhDThesis" 1684590916 0
   "./ref/refs.bib" 1683684950 60967 e9cd253f3533811c10dc14a9519da989 ""
   "./thuthesis-numeric.bst" 1683684950 48567 cd3bc71ff82c01699bd493d2be7a78bd ""
-  "PhDThesis.aux" 1684151417 54253 8d178718c7222ea744bb863c6b51de21 "xelatex"
+  "PhDThesis.aux" 1684590915 54496 f8eadb4eb3b4d117bea44985713c7063 "xelatex"
   (generated)
   "PhDThesis.bbl"
   "PhDThesis.blg"
   (rewritten before read)
-["cusdep nlo nls PhDThesis"] 1683685681 "PhDThesis.nlo" "PhDThesis.nls" "PhDThesis" 1684151419 0
-  "PhDThesis.nlo" 1684151417 4031 7a824007a7bb31316959e88fd2532fd7 "xelatex"
+["cusdep nlo nls PhDThesis"] 1683685681 "PhDThesis.nlo" "PhDThesis.nls" "PhDThesis" 1684590916 0
+  "PhDThesis.nlo" 1684590915 4031 7a824007a7bb31316959e88fd2532fd7 "xelatex"
   (generated)
   "PhDThesis.nls"
   (rewritten before read)
-["xdvipdfmx"] 1684151418 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1684151419 0
-  "PhDThesis.xdv" 1684151417 2551400 c53eb528a1d737563523bba4d371a717 "xelatex"
+["xdvipdfmx"] 1684590915 "PhDThesis.xdv" "PhDThesis.pdf" "PhDThesis" 1684590916 0
+  "PhDThesis.xdv" 1684590915 2570880 b8113e98be2af0f84894711226aec0fe "xelatex"
   (generated)
   "PhDThesis.pdf"
   (rewritten before read)
-["xelatex"] 1684151413 "c:/Users/yaorui/Documents/GitHub/phd-thesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1684151419 0
-  "PhDThesis.aux" 1684151417 54253 8d178718c7222ea744bb863c6b51de21 "xelatex"
-  "PhDThesis.bbl" 1684151241 42138 2cca16b94c0100938c3b1d4fc129b921 "bibtex PhDThesis"
-  "PhDThesis.lof" 1684151417 7365 b3578caeb496792720ecd522fab74427 "xelatex"
-  "PhDThesis.lot" 1684151417 1320 f9fdaffb60aaa1d217d203afd9824b95 "xelatex"
+["xelatex"] 1684590911 "c:/Users/yaorui/Documents/GitHub/phd-thesis/PhDThesis.tex" "PhDThesis.xdv" "PhDThesis" 1684590916 0
+  "PhDThesis.aux" 1684590915 54496 f8eadb4eb3b4d117bea44985713c7063 "xelatex"
+  "PhDThesis.bbl" 1684590886 42138 2cca16b94c0100938c3b1d4fc129b921 "bibtex PhDThesis"
+  "PhDThesis.lof" 1684590915 7365 b3578caeb496792720ecd522fab74427 "xelatex"
+  "PhDThesis.lot" 1684590915 1320 f9fdaffb60aaa1d217d203afd9824b95 "xelatex"
   "PhDThesis.nls" 1683685681 3360 931c18d5670e33cc0e4a8ed6dfab6dbe "cusdep nlo nls PhDThesis"
-  "PhDThesis.out" 1684151417 14644 8582a35612e55969a932223d6fb8e21d "xelatex"
-  "PhDThesis.tex" 1684151232 2750 a666ad153817118c43922a791de50054 ""
-  "PhDThesis.toc" 1684151417 5792 ea883045c43e2992e9f87e3b617a1ba6 "xelatex"
-  "c:/Users/yaorui/Documents/GitHub/phd-thesis/PhDThesis.tex" 1684151232 2750 a666ad153817118c43922a791de50054 ""
+  "PhDThesis.out" 1684590915 15132 0d0d4541fcad943669dfde96caa54de3 "xelatex"
+  "PhDThesis.tex" 1684590350 2746 aa0182329ecfe776e0e4bf7030430eb1 ""
+  "PhDThesis.toc" 1684590915 5953 e17f2c746c9de50d83f9b594a6163007 "xelatex"
+  "c:/Users/yaorui/Documents/GitHub/phd-thesis/PhDThesis.tex" 1684590350 2746 aa0182329ecfe776e0e4bf7030430eb1 ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1675865316 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1675867395 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1675864802 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -177,8 +177,10 @@
   "data/chap05.tex" 1683685339 26722 9c40618a33edb90739ac0eca0d88e77e ""
   "data/chap06.tex" 1683684949 15016 737334e04c7bc6cab1f5761f86f589d6 ""
   "data/chap07.tex" 1683684949 2444 86be0e92d2e0ff363536614286c6eedd ""
+  "data/comments.tex" 1684590196 847 b6edc655b76daa513a201140bec95e68 ""
   "data/committee.tex" 1684151417 1559 6d7ea04413648e85b305712c4d97dbfb ""
   "data/denotation.tex" 1683684949 2140 06cd94513896c2a9425a752aa7bc2e37 ""
+  "data/resolution.tex" 1684590910 1367 024830c166be5d39ea74f066942fe073 ""
   "data/resume.tex" 1683684949 881 ef87aa7280e12b043d60085ff7460c73 ""
   "figures//fig_2_370_transitions_cooling.pdf" 1683684949 46910 ca59d6862fd552c052d8e4d9edb971d7 ""
   "figures//fig_2_370_transitions_pumping.pdf" 1683684949 46421 c2a99bcf5e2e23ffbdbc717b6b80377d ""
@@ -280,7 +282,7 @@
   "figures//fig_6_4_abc.pdf" 1683684950 897093 b06d6ca11a1a5613b36a96803d839cd7 ""
   "figures//fig_6_4_d.pdf" 1683684950 15543 ae2c5a7f4778256e67db8ff77147053f ""
   "thusetup.tex" 1684148538 4912 8ee42d6dd48f3b1c0942ac787c7f4ed8 ""
-  "thuthesis.cls" 1684151404 112463 72705b84252c4f64a294fb60487d981d ""
+  "thuthesis.cls" 1684590896 112463 72705b84252c4f64a294fb60487d981d ""
   (generated)
   "PhDThesis.aux"
   "PhDThesis.lof"
