@@ -31,43 +31,43 @@ Warning--empty year in RN267
 Warning--empty year in RN267
 You've used 160 entries,
             5374 wiz_defined-function locations,
-            1945 strings with 37263 characters,
-and the built_in function-call counts, 1520486 in all, are:
-= -- 27600
-> -- 179759
+            1937 strings with 37030 characters,
+and the built_in function-call counts, 1518326 in all, are:
+= -- 27340
+> -- 179683
 < -- 224322
 + -- 62186
-- -- 12161
-* -- 8019
-:= -- 209125
-add.period$ -- 480
+- -- 12089
+* -- 7927
+:= -- 208757
+add.period$ -- 476
 call.type$ -- 160
 change.case$ -- 432
 chr.to.int$ -- 55307
 cite$ -- 174
-duplicate$ -- 4157
-empty$ -- 11293
+duplicate$ -- 4149
+empty$ -- 11109
 format.name$ -- 5484
-if$ -- 395586
+if$ -- 395066
 int.to.chr$ -- 1
 int.to.str$ -- 161
 missing$ -- 0
-newline$ -- 814
+newline$ -- 810
 num.names$ -- 477
-pop$ -- 77423
+pop$ -- 77419
 preamble$ -- 1
 purify$ -- 160
 quote$ -- 0
-skip$ -- 163083
+skip$ -- 162859
 stack$ -- 0
-substring$ -- 69990
+substring$ -- 69670
 swap$ -- 204
-text.length$ -- 3926
+text.length$ -- 3918
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1748
 warning$ -- 13
-while$ -- 4064
+while$ -- 4056
 width$ -- 0
-write$ -- 2176
+write$ -- 2168
 (There were 13 warnings)
